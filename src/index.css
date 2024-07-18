@@ -385,8 +385,10 @@ border-radius: 20px;
 /* MacBook Pro 16" - 2 */
 
 
+background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, rgba(0, 26, 112, 0.98) 141.92%);
 
-background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, rgba(89, 23, 132, 0.96) 141.92%);
+
+/* background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, rgba(89, 23, 132, 0.96) 141.92%); */
 
   }
 
