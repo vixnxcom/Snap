@@ -26,7 +26,7 @@ const Hero = () => {
        </div>    
           </div> 
 
-      <button className=' w-[320px] arrow  rounded-[12px] bg-arrow mt-8 text-white' >
+      <button className=' w-[320px]  arrow  rounded-[12px] bg-arrow mt-8 text-white' >
        <Link to ='/about' className='flex flex-row text-center md:mt-4  w-[300px] h-[140px]'>
        <p className='text-[24px] mx-8  mt-5 neue-thin  text-shadow'>Book a Service</p>
         <img src={arrow} alt="" className='object contain w-[54px] h-[51px] mx-4 mt-4'/>

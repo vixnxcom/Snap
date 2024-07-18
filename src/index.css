@@ -324,7 +324,7 @@ border-radius: 20px;
 
 }
 .arrow{
-  height: 120px;
+  height: auto;
 }
 
 @media (max-width: 480px) {
