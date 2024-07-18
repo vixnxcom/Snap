@@ -326,7 +326,8 @@ color: #001a70;
   background-repeat: no-repeat;
   top: 0;
   height: 105vh;
-  
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
   
 }
 
@@ -338,7 +339,8 @@ color: #001a70;
   background-size: contain;
   background-repeat: no-repeat;
   top: 0;
-  
+  height: 1200px;
+
   
   }
   }
@@ -430,7 +432,7 @@ background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, rgba(0, 26, 112
 
   .bg-purple{
     background-color: #591784;
-    border-radius: 60px;
+   
   }
   .bg-intro{
 
