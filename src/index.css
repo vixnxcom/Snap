@@ -317,7 +317,7 @@ color: #001a70;
 
 
 
-
+@media (min-width: 480px) {
 .bg-hero{
   background: fixed;
   background-image: url(assets/man.jpg);
@@ -329,16 +329,19 @@ color: #001a70;
   border-bottom-left-radius: 48px;
   border-bottom-right-radius: 48px;
   
-}
+}}
 
 @media (max-width: 480px) {
-  .bg-hero{
-    
+  .bg-heroo{
+   background: fixed;
+
   background-image: url(assets/man.jpg);
-  background-position: 70;
+  background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
   top: 0;
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
  
 
   
