@@ -130,7 +130,13 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(177.11deg, #FFFF00 8.51%, #FFC000 84.78%, #FFC000 87.03%);
+   /* iPhone 14 & 15 Pro Max - 1 */
+
+
+
+background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
+
+
     letter-spacing: 4px;
     padding: 200px 20px; /* Add padding for spacing */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -321,7 +327,7 @@ letter-spacing: 0.02em;
 .bg-arrow{
 
 background: linear-gradient(168.58deg, rgba(255, 192, 0, 0.1) 36.8%, rgba(89, 23, 132, 0.1) 91.6%);
-border: 2px solid #FFFFFF;
+border: 1px solid #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 backdrop-filter: blur(5px);
 /* Note: backdrop-filter has minimal browser support */
