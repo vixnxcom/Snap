@@ -255,7 +255,7 @@ background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
 }
 
 .border-logo{
-  padding: 4px 8px;
+  padding: 4px 10px;
 
 /* Rectangle 2 */
 
@@ -479,7 +479,7 @@ rgba(89, 23, 132, 0.96) 141.92%); */
 }
 
 .arrow:hover {
-    background-color: #591784;
+    background-color: #001a70;
 }
 
 
