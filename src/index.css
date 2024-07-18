@@ -331,40 +331,25 @@ color: #001a70;
   
 }}
 
-@media (max-width: 480px) {
-  /* .bg-heroo{
-   background: fixed;
 
-  background-image: url(assets/man.jpg);
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
-  top: 0;
-  border-bottom-left-radius: 48px;
-  border-bottom-right-radius: 48px;
- 
-
-  
-  } */
-  }
-  
-  .bg-heroo {
-    background-attachment: scroll; /* Using scroll for better performance on mobile */
-    background-image: url('assets/man.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 48px;
-    border-bottom-right-radius: 48px;
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-  }
   
   @media (max-width: 480px) {
     .bg-heroo {
+  
+      background-image: url('assets/man.jpg');
+      
+    
+      background-repeat: no-repeat;
+     
+
       background-attachment: scroll; /* Ensure it's not fixed for better performance */
       background-position: right;
       background-size: contain;
+      width: 100vw; /* Full viewport width */
+      height: 105vh; /* Full viewport height */
+      border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+  overflow: hidden;
     }
   }
   
