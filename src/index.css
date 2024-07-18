@@ -117,6 +117,10 @@ body{
   /* .navbar {
     background: #fff; 
   } */
+/* iPhone 14 & 15 Pro Max - 1 */
+
+
+
 
   .navbar ul {
     flex-direction: column;
@@ -126,7 +130,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background: yellow;
+    background: linear-gradient(177.11deg, #FFFF00 8.51%, #FFC000 84.78%, #FFC000 87.03%);
     letter-spacing: 4px;
     padding: 200px 20px; /* Add padding for spacing */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -283,7 +287,8 @@ letter-spacing: 0.02em;
 .bg-start{
 
   background: fixed;
-  background-image: url(assets/pexels-elsimage-2997636.jpg);
+  /* background-image: url(assets/pexels-elsimage-2997636.jpg); */
+  background-color: #000;
   background-position: 90%;
   background-size: cover;
   background-repeat: no-repeat;
