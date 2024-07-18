@@ -6,7 +6,7 @@ import SecoPara from './SecoPara'
 
 const Home = () => {
   return (
-    <div className='bg-purple' >
+    <div className='w-full overflow-hidden' >
     <div className='bg-hero' >
       <Welcome />
     </div>

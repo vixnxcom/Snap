@@ -321,7 +321,7 @@ color: #001a70;
 .bg-hero{
   background: fixed;
   background-image: url(assets/man.jpg);
-  background-position: 90;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
@@ -334,7 +334,7 @@ color: #001a70;
   .bg-hero{
     background: fixed;
   background-image: url(assets/man.jpg);
-  background-position: 50;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   top: 0;
