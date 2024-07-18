@@ -460,3 +460,24 @@ rgba(89, 23, 132, 0.96) 141.92%); */
     height: auto;
   } */
   /* welcome section/////////////////////////////////////////////////////// */
+
+
+  /* carousel */
+ 
+.arrow {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    color: #333;
+    font-size: 1.5em;
+    padding: 10px;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+  /* carousel */

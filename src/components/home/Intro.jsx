@@ -8,7 +8,7 @@ const Intro = () => {
       <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
 
         {/* header */}
-        <h2 className={`${styles.flexStart} galgo text-6xl tracking-wide mt-20` }>
+        <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide mt-20` }>
         Welcome to Champions Global-Consulting,
         </h2>
         {/* header */}

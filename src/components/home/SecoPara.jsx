@@ -8,7 +8,7 @@ const SecoPara = () => {
       <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
 
         {/* header */}
-        <h2 className={`${styles.flexStart} galgo text-6xl tracking-wide text-start mt-10` }>
+        <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10` }>
         we are committed to delivering tailored
         </h2>
         {/* header */}

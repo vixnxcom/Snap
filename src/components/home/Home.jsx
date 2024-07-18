@@ -4,6 +4,10 @@ import Hero from './Hero'
 import Intro from './Intro'
 import SecoPara from './SecoPara'
 
+import Carousel from './Carousel'
+import CarouselCard from './CarouselCard'
+
+
 const Home = () => {
   return (
     <div className='w-full overflow-hidden bg-purple' >
