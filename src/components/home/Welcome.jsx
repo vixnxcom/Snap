@@ -48,7 +48,7 @@ return () => ctx.revert()
          mr-4 mt-2' /></span>
         <p className='mt-2'>Champions Global Consulting</p>
         </h1>  
-       <h1 id='title-2' className='text-4xl mx-8 mt-20 text-white neue-thin'>Unleashing Potential</h1>  
+       <h1 id='title-2' className='text-4xl mx-8 mt-16 text-white neue-thin'>Unleashing Potential</h1>  
        <h1 id='title-3' className='text-4xl mt-10 mx-8 text-white neue-thin'>Achieving Greatness</h1>  
     </div>
     <div className='h-screen flex p-8 '>

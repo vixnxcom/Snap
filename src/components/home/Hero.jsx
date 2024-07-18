@@ -29,7 +29,7 @@ const Hero = () => {
       <button className=' w-[320px]  arrow  rounded-[12px] bg-arrow mt-8 text-white' >
        <Link to ='/about' className='flex flex-row text-center md:mt-4  w-[300px] h-[140px]'>
        <p className='text-[24px] mx-8  mt-8 neue-thin  text-shadow'>Book a Service</p>
-        <img src={arrow} alt="" className='object contain w-[54.73] h-[53.75] mx-4 mt-5'/>
+        <img src={arrow} alt="" className='object contain w-[54.73px] h-[53.75px] mx-4 mt-5'/>
        </Link>    
           </button> 
 
