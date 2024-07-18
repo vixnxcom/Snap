@@ -1,0 +1,349 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: neue-thin;
+    src: url(./fonts/neue/NeueHaasDisplay-Thin.ttf);
+  }
+
+@font-face {
+    font-family: neue-medium;
+    src: url(./fonts/neue/NeueHaasDisplay-Mediu.ttf);
+  }
+
+@font-face {
+    font-family: neue-medium;
+    src: url(./fonts/neue/NeueHaasDisplay-Light.ttf);
+  }
+
+@font-face {
+    font-family: proxima;
+    src: url(./fonts/proxima/Proxima\ Nova\ Font.otf);
+  }
+@font-face {
+    font-family: galgo;
+    src: url(./fonts/galgo/Galgo.ttf);
+  }
+
+  body{
+    background:none;
+  }
+  
+.galgo{
+  font-family: galgo;
+}
+.neue-thin{
+  font-family: neue-thin;
+}
+.neue-medium{
+  font-family: neue-medium;
+}
+
+  /* navbar/////////////////////////// */
+
+
+  
+/* src/AnimatedNav.css */
+/* src/Navbar.css */
+
+
+
+
+
+body{
+  background:none;
+}
+
+.nav-section {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-bottom: 24px;
+
+}
+
+/* src/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.nav-item {
+  list-style: none;
+  margin: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 60px;
+}
+
+@media (min-width: 769px) {
+  .navbar ul {
+    display: flex;
+  }
+
+  .nav-item {
+    margin: 0 10px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .nav-item a {
+    color: #fff; /* Customize the color for desktop */
+    letter-spacing: 4px;
+    border: 2px solid white;
+    padding-left: 20px;
+    border-radius: 8px;
+    font-size: 60px; /* Customize the font size for desktop */
+  }
+  .nav-item a:hover {
+    color: #591784; /* Customize the color for desktop */
+    letter-spacing: 8px;
+    transition: 0.2s ease-in-out; /* Customize the font size for desktop */
+  }
+
+  .navbar .menu-icon {
+    display: none; /* Hide the menu icon on desktop */
+  }
+}
+
+@media (max-width: 768px) {
+  /* .navbar {
+    background: #fff; 
+  } */
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    position: fixed; /* Fix the menu to the viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: yellow;
+    letter-spacing: 4px;
+    padding: 200px 20px; /* Add padding for spacing */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    font-family: galgo;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-100%); /* Start from the top */
+    -webkit-transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+
+  .navbar ul.open {
+    
+    max-height: 100vh; /* Full viewport height */
+    opacity: 1;
+    transform: translateY(0); /* Swipe into view */
+    -webkit-animation: swipeIn 0.3s ease-out;
+    animation: swipeIn 0.3s ease-out;
+  }
+
+  @-webkit-keyframes swipeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%); /* Start off-screen at the top */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End in view */
+    }
+  }
+
+  @keyframes swipeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%); /* Start off-screen at the top */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End in view */
+    }
+  }
+
+  .nav-item {
+    margin: 15px 0;
+    
+    opacity: 0;
+    transform: translateY(20px);
+    -webkit-animation: slideUp 0.3s ease forwards;
+    animation: slideUp 0.3s ease forwards;
+  }
+
+  .nav-item:nth-child(1) {
+    -webkit-animation-delay: 0.2s; /* Delay for staggered animation */
+    animation-delay: 0.2s;
+  }
+
+  .nav-item:nth-child(2) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+
+  .nav-item:nth-child(3) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+
+  @-webkit-keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .nav-item a {
+    color: #000; /* Customize the color for mobile */
+    font-size: 60px; /* Customize the font size for mobile */
+    padding: 15px 100px; /* Customize the padding for mobile */
+    
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    border-bottom: .4px solid #000;
+  }
+
+  .nav-item a:hover {
+    letter-spacing: 8px;
+   color: #591784;
+   cursor: pointer;
+   transition: 0.3s ease-in-out;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+
+.navbarr{
+  background: none;
+}
+
+.border-logo{
+  padding: 4px 8px;
+
+/* Rectangle 2 */
+
+
+/* Rectangle 2 */
+
+
+background: linear-gradient(124.61deg, rgba(89, 23, 132, 0.25)   8.63%,  rgba(255, 255, 255, 0.2)  122.96%);
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 12px;
+
+
+
+
+
+}
+
+/* Champions */
+.text-shadow{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* Champions */
+letter-spacing: 0.02em;
+}
+.purple{
+  color: #591784;
+}
+
+
+
+  /* navbar/////////////////////////// */
+
+  /* hero scetion////////********** */
+.bg-start{
+
+  background: fixed;
+  background-image: url(assets/pexels-elsimage-2997636.jpg);
+  background-position: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+}
+
+
+
+
+
+
+
+.bg-hero{
+  background: fixed;
+  background-image: url(assets/man.jpg);
+  background-position: 90%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  
+}
+.content-inner{
+  padding: 20px auto;
+}
+.bg-book{
+  background: linear-gradient(227.76deg, #DAD7DF 27.82%, #F5F6FC 42.3%);
+  
+}
+
+.bg-arrow{
+
+background: linear-gradient(168.58deg, rgba(255, 192, 0, 0.1) 36.8%, rgba(89, 23, 132, 0.1) 91.6%);
+border: 2px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(5px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 20px;
+
+}
+
+.bg-video{
+  background-image: url(assets/book.gif);
+  background-position: center;
+  background-size: contain;
+  width: 320px;
+ 
+  background-repeat: no-repeat;
+
+  /* Rectangle 3 */
+
+  
+
+/* Group 1 */
+
+
+
+  /* Group 1 */
+
+
+}
+/* hero text//////////'''''''''''''''''''''''''''main text- area
+ */
+  /* hero scetion////////********** */
