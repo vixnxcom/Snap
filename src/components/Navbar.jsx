@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className='flex flex-row border-logo mx-4  '>
         <img src={logo} alt="Logo" className='w-[61.2px] h-[58.7px] ' />
          {/* text */}
-         <div className='mx-2 text-white text-shadow '>
+         <div className='mx-2 text-white text-shadoww '>
           <h1 className='text-[24px] neue-medium' >Champions Global</h1>
           <h1 className='neue-thin'>Consulting</h1>
          </div>
