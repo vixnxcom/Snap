@@ -380,8 +380,15 @@ border-radius: 20px;
   background-repeat: no-repeat;
 
   /* Rectangle 3 */
+}
+  .bg-welcome{
+/* MacBook Pro 16" - 2 */
 
-  
+
+
+background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, rgba(89, 23, 132, 0.96) 141.92%);
+
+  }
 
 /* Group 1 */
 
@@ -390,7 +397,7 @@ border-radius: 20px;
   /* Group 1 */
 
 
-}
+
 /* hero text//////////'''''''''''''''''''''''''''main text- area
  */
   /* hero scetion////////********** */
