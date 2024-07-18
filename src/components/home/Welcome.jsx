@@ -42,7 +42,7 @@ return () => ctx.revert()
 
   return (
     <section className=' relative   ' ref={comp}>
-    <div id='intro-slider' className='z-[999] absolute left-0 w-full h-screen  top-0 flex flex-col gap-10 tracking-wide bg-welcome'>
+    <div id='intro-slider' className='z-[920] absolute left-0 w-full h-screen  top-0 flex flex-col gap-10 tracking-wide bg-welcome'>
        <h1 id='title-1' className='text-9xl text-white flex  mt-10 galgo '> 
         <span className='mr-4 '> <img src={logo} className='md:w-[153px] md:h-[146.75px] sm:w-[153px] sm:h-[146.75px]  xs:w-[61.2px] xs:h-[58.7px] 
          mr-4 mt-2' /></span>
@@ -52,7 +52,7 @@ return () => ctx.revert()
        <h1 id='title-3' className='text-4xl mt-10 mx-8 text-white neue-thin'>Achieving Greatness</h1>  
     </div>
     <div className='h-screen flex p-8 '>
-<h1 id='welcome'>
+<h1 id='welcome' className='z-[900]'>
    <Hero />
 </h1>
     </div>

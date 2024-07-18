@@ -349,7 +349,7 @@ color: #001a70;
       height: 90vh; /* Full viewport height */
       border-bottom-left-radius: 40px;
   border-bottom-right-radius: 400px;
-  overflow: hidden;
+  /* overflow: hidden; */
     }
   }
   
