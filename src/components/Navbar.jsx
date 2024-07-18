@@ -43,7 +43,7 @@ const Navbar = () => {
          <img
             src={toggle ? close : menu}
             alt="menu"
-            className='w-[100px] h-[80px] object-contain'
+            className='w-[90px] h-[70px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
          </div>
