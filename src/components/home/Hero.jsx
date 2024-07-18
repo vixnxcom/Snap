@@ -26,10 +26,10 @@ const Hero = () => {
        </div>    
           </div> 
 
-      <button className=' w-[320px]  arrow  rounded-[12px] bg-arrow mt-8 text-white ' >
+      <button className=' w-[320px]  arrow  rounded-[12px] bg-arrow mt-8  ' >
        <Link to ='/about' className='flex flex-row text-center md:mt-4  w-[300px] h-[140px]'>
-       <p className='text-[24px] mx-8  mt-8 neue-thin  text-shadoww'>Book a Service</p>
-        <img src={arrow} alt="" className='object contain w-[54.73px] h-[53.75px] mx-4 mt-5'/>
+       <p className='text-[24px] mx-6 text-white  mt-8 neue-medium  text-arrow'>Book a Service</p>
+        <img src={arrow} alt="" className='object contain w-[54.73px] h-[53.75px] mx-2 mt-5'/>
        </Link>    
           </button> 
 

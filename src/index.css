@@ -286,6 +286,11 @@ letter-spacing: 0.02em;
   /* Champions */
 letter-spacing: 0.02em;
 }
+.text-arrow{
+  text-shadow: 0px 1px 1px rgba(3, 3, 3, 0.25);
+  /* Champions */
+letter-spacing: 0.02em;
+}
 
 .purple{
   color: #591784;
@@ -370,7 +375,7 @@ color: #001a70;
 
 
 background: linear-gradient(278.72deg, rgba(89, 23, 132, 0.1) 38.38%,
- rgba(255, 255, 255, 0.04) 89.16%), linear-gradient(112.04deg, rgba(255, 192, 0, 0.1) 
+ rgba(255, 255, 255, 0.04) 89.16%), linear-gradient(112.04deg, rgba(173, 177, 235, 0.1) 
  21.11%, rgba(255, 255, 255, 0.6) 76.09%);
 border: 1px solid #FFFFFF;
 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
@@ -467,9 +472,7 @@ rgba(89, 23, 132, 0.96) 141.92%); */
 .arrow {
     background-color: rgba(255, 255, 255, 0.7);
     border: none;
-    color: #333;
-    font-size: 1.5em;
-    padding: 10px;
+    
     cursor: pointer;
     pointer-events: auto;
     transition: background-color 0.3s ease;
