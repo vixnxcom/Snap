@@ -6,6 +6,8 @@ import SecoPara from './SecoPara'
 
 import Carousel from './Carousel'
 import CarouselCard from './CarouselCard'
+import Goals from './Goals'
+import GoalList from './GoalList'
 
 
 const Home = () => {
@@ -27,7 +29,16 @@ const Home = () => {
   <SecoPara />
 </div> 
     </div>
-   
+  
+
+ <div className='bg-white mt-10 mb-10'>
+ <Goals />
+ </div>
+
+ <div className='h-[400px]'>
+  <GoalList />
+ </div>
+
     </div>
   )
 }

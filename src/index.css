@@ -484,3 +484,13 @@ rgba(89, 23, 132, 0.96) 141.92%); */
 
 
   /* carousel */
+
+  /* image */
+  .images{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+  }
+  /* image */
