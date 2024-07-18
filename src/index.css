@@ -343,13 +343,20 @@ letter-spacing: 0.02em;
 }
 
 .bg-arrow{
+/* Rectangle 6 */
 
-background: linear-gradient(168.58deg, rgba(255, 192, 0, 0.1) 36.8%, rgba(89, 23, 132, 0.1) 91.6%);
-border: 1px solid #FFFFFF;
+
+
+/* Rectangle 6 */
+
+
+background: linear-gradient(278.72deg, rgba(89, 23, 132, 0.1) 38.38%, rgba(255, 255, 255, 0.04) 89.16%), linear-gradient(112.04deg, rgba(255, 192, 0, 0.1) 21.11%, rgba(255, 255, 255, 0.6) 76.09%);
+border: 2px solid #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-backdrop-filter: blur(5px);
+backdrop-filter: blur(15px);
 /* Note: backdrop-filter has minimal browser support */
 border-radius: 20px;
+
 
 }
 .arrow{
