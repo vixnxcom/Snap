@@ -11,7 +11,7 @@ const Home = () => {
       <Welcome />
     </div>
     
-    <div className=' '>
+    <div className=' mt-5'>
     {/* <div className='bg-curve p-2 z-[999]'>
 
     </div> */}

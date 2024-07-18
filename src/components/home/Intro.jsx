@@ -16,7 +16,7 @@ const Intro = () => {
         where excellence meets empowerment. As a
 premier consulting firm, we specialize in unlocking the full potential of individuals and
 organizations, guiding them towards becoming champions in their respective fields. With a
-dedicated team of seasoned coaches, mentors, consultants, and speakers.eatness.
+dedicated team of seasoned coaches, mentors, consultants, and speakers,
         </p>
   
       </div>
