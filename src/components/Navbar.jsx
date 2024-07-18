@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className='nav-section xl:w-[40%] md:w-[80%] sm:w-[88%] ss:w-[100%] z-[999] '>
-      <div className='w-full flex py-6 justify-between items-center navbar navbarr bg-transparent'>
+      <div className='w-full flex py-4 justify-between items-center navbar navbarr bg-transparent'>
         {/* logo */}
         <div className='flex flex-row border-logo mx-4  '>
         <img src={logo} alt="Logo" className='w-[61.2px] h-[58.7px] ' />
@@ -43,7 +43,7 @@ const Navbar = () => {
          <img
             src={toggle ? close : menu}
             alt="menu"
-            className='w-[80px] h-[60px] object-contain mt-1'
+            className='w-[80px] h-[64px] object-contain '
             onClick={() => setToggle(!toggle)}
           />
          </div>
