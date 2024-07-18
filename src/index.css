@@ -332,7 +332,7 @@ color: #001a70;
 }}
 
 @media (max-width: 480px) {
-  .bg-heroo{
+  /* .bg-heroo{
    background: fixed;
 
   background-image: url(assets/man.jpg);
@@ -345,9 +345,29 @@ color: #001a70;
  
 
   
+  } */
   }
+  
+  .bg-heroo {
+    background-attachment: scroll; /* Using scroll for better performance on mobile */
+    background-image: url('assets/man.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
   }
-
+  
+  @media (max-width: 480px) {
+    .bg-heroo {
+      background-attachment: scroll; /* Ensure it's not fixed for better performance */
+      background-position: right;
+      background-size: contain;
+    }
+  }
+  
 .content-inner{
   padding: 20px auto;
 }
