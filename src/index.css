@@ -316,6 +316,19 @@ letter-spacing: 0.02em;
   top: 0;
   
 }
+
+@media (max-width: 480px) {
+  .bg-hero{
+    background: fixed;
+  background-image: url(assets/man.jpg);
+  background-position: 50;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  
+  }
+  }
+
 .content-inner{
   padding: 20px auto;
 }
