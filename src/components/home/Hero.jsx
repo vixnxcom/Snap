@@ -17,7 +17,7 @@ const Hero = () => {
       </h1>
 
 {/* central div */}
-<div className='md:flex md:flex-row md:gap-16'>
+<div className='md:flex md:flex-row md:gap-16 '>
       <div className='bg-book w-[320px] h-[auto] rounded-[12px]  mt-5' >
        <div className='flex flex-row text-center mt-10 bg-video w-[300px] h-[140px]'>
        <div className='text-[24px] mx-8  mt-5 neue-thin '>
@@ -26,7 +26,7 @@ const Hero = () => {
        </div>    
           </div> 
 
-      <button className=' w-[320px]  arrow  rounded-[12px] bg-arrow mt-8 text-white' >
+      <button className=' w-[320px]  arrow  rounded-[12px] bg-arrow mt-8 text-white ' >
        <Link to ='/about' className='flex flex-row text-center md:mt-4  w-[300px] h-[140px]'>
        <p className='text-[24px] mx-8  mt-8 neue-thin  text-shadoww'>Book a Service</p>
         <img src={arrow} alt="" className='object contain w-[54.73px] h-[53.75px] mx-4 mt-5'/>

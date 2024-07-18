@@ -286,10 +286,16 @@ letter-spacing: 0.02em;
   /* Champions */
 letter-spacing: 0.02em;
 }
+
 .purple{
   color: #591784;
 }
-
+.yellow{
+  color: #FFC000;
+}
+.blue{
+color: #001a70;
+}
 
 
   /* navbar/////////////////////////// */
@@ -315,11 +321,12 @@ letter-spacing: 0.02em;
 .bg-hero{
   background: fixed;
   background-image: url(assets/man.jpg);
-  background-position: 90%;
+  background-position: 94%;
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
   height: 105vh;
+  
   
 }
 
@@ -404,4 +411,38 @@ background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, rgba(0, 26, 112
 
 /* hero text//////////'''''''''''''''''''''''''''main text- area
  */
+
+ 
   /* hero scetion////////********** */
+
+
+  /* welcome section/////////////////////////////////////////////////////// */
+  .bg-curve{
+    top: -20;
+    background-color: #fff;
+    border-radius: 48px;
+  
+
+    height: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .bg-purple{
+    background-color: #591784;
+    border-radius: 60px;
+  }
+  .bg-intro{
+
+    background-color: #fff;
+    border-radius: 48px;
+    height: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  /* .pbox{
+    margin: auto;
+    width: 400px;
+    height: auto;
+  } */
+  /* welcome section/////////////////////////////////////////////////////// */
