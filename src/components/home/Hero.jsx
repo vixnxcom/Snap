@@ -17,7 +17,7 @@ const Hero = () => {
       </h1>
 
 {/* central div */}
-<div className='md:flex md:flex-row md:gap-16 '>
+<div className='md:flex md:flex-row md:gap-16 z-[999]'>
       <div className='bg-book w-[320px] h-[auto] rounded-[12px]  mt-5' >
        <div className='flex flex-row text-center mt-10 bg-video w-[300px] h-[140px]'>
        <div className='text-[24px] mx-8  mt-5 neue-thin '>

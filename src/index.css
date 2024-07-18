@@ -346,9 +346,9 @@ color: #001a70;
       background-position: right;
       background-size: contain;
       width: 100vw; /* Full viewport width */
-      height: 105vh; /* Full viewport height */
-      border-bottom-left-radius: 48px;
-  border-bottom-right-radius: 48px;
+      height: 90vh; /* Full viewport height */
+      border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 400px;
   overflow: hidden;
     }
   }
@@ -369,7 +369,9 @@ color: #001a70;
 /* Rectangle 6 */
 
 
-background: linear-gradient(278.72deg, rgba(89, 23, 132, 0.1) 38.38%, rgba(255, 255, 255, 0.04) 89.16%), linear-gradient(112.04deg, rgba(255, 192, 0, 0.1) 21.11%, rgba(255, 255, 255, 0.6) 76.09%);
+background: linear-gradient(278.72deg, rgba(89, 23, 132, 0.1) 38.38%,
+ rgba(255, 255, 255, 0.04) 89.16%), linear-gradient(112.04deg, rgba(255, 192, 0, 0.1) 
+ 21.11%, rgba(255, 255, 255, 0.6) 76.09%);
 border: 1px solid #FFFFFF;
 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 backdrop-filter: blur(15px);
@@ -404,10 +406,12 @@ border-radius: 20px;
 /* MacBook Pro 16" - 2 */
 
 
-background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, rgba(0, 26, 112, 0.98) 141.92%);
+background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%,
+ rgba(0, 26, 112, 0.98) 141.92%);
 
 
-/* background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, rgba(89, 23, 132, 0.96) 141.92%); */
+/* background: linear-gradient(281.7deg, rgba(0, 0, 0, 0.9) 51.35%, 
+rgba(89, 23, 132, 0.96) 141.92%); */
 
   }
 
