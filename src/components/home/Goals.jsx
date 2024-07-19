@@ -8,8 +8,8 @@ const Goals = () => {
     
      <div className='images'>
      
-      <h2 className={`${styles.flexCenter} galgo text-7xl text-shadoww tracking-wide mt-5 w-[200px] mb-5 mx-auto ` }>
-        We Believe in the Importance of Communication and Collaboration
+      <h2 className={`${styles.flexCenter} galgo text-7xl text-shadoww text-white tracking-wide mt-5 w-[200px] mb-5 mx-auto ` }>
+        We Believe in the Importance of  <span className='purple'>Communication and Collaboration</span>
         </h2>
      </div>
    </section>
