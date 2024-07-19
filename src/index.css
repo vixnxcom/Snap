@@ -557,4 +557,98 @@ filter: drop-shadow(0px 0px 40px #FFC000);
   .textt{
     opacity: 0;
   }
+
   /* water edits */
+
+
+  /* goals //////////////////////////////////////////////////*/
+  .goals{
+    background-color: #591784;
+    border-radius: 20px;
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/IMG_9483.jpeg);
+    background-size: contain;
+
+  }
+  @media (min-width: 1024px) {
+    .goals{
+      background-size: cover;
+      height: 400px;
+      width: 30vw;
+    }
+  }
+  .clients{
+    background-color: #591784;
+    border-radius: 20px;
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/IMG_9548.JPG);
+    background-size: cover;
+
+
+  }
+  @media (min-width: 1024px) {
+    .clients{
+      background-size: cover;
+      height: 400px;
+      width: 30vw;
+    }
+  }
+  .teams{
+    background-color: #591784;
+    border-radius: 20px;
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/plates.JPG);
+    background-size: contain;
+
+  }
+  @media (min-width: 1024px) {
+    .teams{
+      background-size: cover;
+      height: 400px;
+      width: 30vw;
+    }
+  }
+  .tots{
+    background-color: #591784;
+    border-radius: 20px;
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/IMG_9543.JPG);
+    background-size: contain;
+   
+
+  }
+  @media (min-width: 1024px) {
+    .tots{
+      background-size: cover;
+      height: 400px;
+      width: 30vw;
+    }
+  }
+
+  .borderr{
+    border-bottom: 2px solid #fff;
+    margin-top: 20px;
+  }
+.toggle-button{
+  font-family: neue-medium;
+  border: 1px solid white;
+  padding: 4px 120px;
+  font-size: 28px;
+}
+
+.bg-toggle{
+  background: #001a70;
+}
+  /* goals */

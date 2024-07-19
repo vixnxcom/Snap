@@ -7,17 +7,17 @@ import Goals from './Goals';
 
 
 const Parralaximg = () => {
-//   const containerStyle = {
-//     height: '60vh',
-//      width: '400px',
-//     display: 'flex',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//     marginRight: 'auto',
-//     marginLeft: 'auto',
-//    zIndex: 1,
-//    overflow: 'visible'
-// };
+  const containerStyle = {
+    height: '60vh',
+     width: '400px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 'auto',
+    marginLeft: 'auto',
+   zIndex: 1,
+   overflow: 'visible'
+};
 
  const imageStyle = {
   // position: 'relative',
@@ -38,14 +38,14 @@ borderRadius: '24px',
 
   
   return (
-    <div style={{textAlign: 'center', height:'60vh'}}>
+    <div style={{textAlign: 'center', height:'65vh'}}>
 <div>
 
     <Parallax strength={600} 
     bgImage={pic}
     style={{
       position: 'relative',
-      height: '60vh',
+      height: '65vh',
       width: '360px',
      display: 'flex',
      alignItems: 'center',
