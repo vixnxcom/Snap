@@ -41,7 +41,7 @@ const GoalList = () => {
         </div>
         {/* text area */}
         <div className={`${styles.marginX}`}>
-        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '> Continuous Improvement </h1>
+        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '> Continuous Improvement: </h1>
         <p className='neue-thin text-[24px] text-white mb-10'>Strive for excellence in all aspects of our services, constantly 
         refining our methodologies, staying abreast of industry trends, and enhancing our expertise.</p>
         {/* text area */}
@@ -60,7 +60,7 @@ const GoalList = () => {
         </div>
         {/* text area */}
         <div className={`${styles.marginX}`}>
-        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '> Global Reach </h1>
+        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '> Global Reach: </h1>
         <p className='neue-thin text-[24px] text-white mb-10'>Expand our presence internationally, reaching new markets and diverse 
         audiences, while maintaining a commitment to cultural sensitivity and inclusivity.</p>
         {/* text area */}
@@ -86,7 +86,7 @@ const GoalList = () => {
 
         {/* text area */}
         <div className={`${styles.marginX}`}>
-        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '>Thought Leadership  </h1>
+        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '>Thought Leadership: </h1>
         <p className='neue-thin text-[24px] text-white mb-10'>Position ourselve as industry leaders through innovative thought 
         leadership initiatives, publications, and speaking engagements.</p>
         {/* text area */}
@@ -104,7 +104,7 @@ const GoalList = () => {
         </div>
         {/* text area */}
         <div className={`${styles.marginX}`}>
-        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '>Teamwork </h1>
+        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '>Teamwork: </h1>
         <p className='neue-thin text-[24px] text-white mb-10'>Cultivate a diverse and inclusive team of experts who are passionate about 
         making a difference and are dedicated to continuous learning and development.</p>
         {/* text area */}
@@ -122,7 +122,7 @@ const GoalList = () => {
         </div>
         {/* text area */}
         <div className={`${styles.marginX}`}>
-        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '>  Community Impact </h1>
+        <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '>  Community Impact: </h1>
         <p className='neue-thin text-[24px] text-white mb-10'>Give back to the community through pro bono work, charitable 
         contributions, and initiatives that promote social responsibility and sustainability.</p>
         <div className='h-[20px] w-[100vw] bg-toggle'></div>
