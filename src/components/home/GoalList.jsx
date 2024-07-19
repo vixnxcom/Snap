@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { arrow } from '../../assets';
+import { arrow, client, community, globe, improve, success, thought } from '../../assets';
 import styles from '../../style';
 
 const GoalList = () => {
@@ -15,9 +15,9 @@ const GoalList = () => {
           {/* card 1 */}
           <div className='  mt-5 mb-5'>
         <div className='goals  '>
-          <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
+          <div className={` ${styles.flexCenter} w-[128px] h-[128px]   rounded-full mt-20  mx-10  `}>
      
-         <img src={arrow} alt="" className=' w-[100px] h-[100px] mx-auto mt-20' />
+         <img src={success} alt="" className=' w-[128px] h-[128px] mx-auto mt-20' />
         </div>
         
         </div>
@@ -33,9 +33,9 @@ const GoalList = () => {
         {/* card 2 */}
         <div className='  mt-5 mb-5'>
         <div className='teams  '>
-          <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
+          <div className={` ${styles.flexCenter} w-[128px] h-[128px]   rounded-full mt-20  mx-10  `}>
      
-         <img src={arrow} alt="" className=' w-[100px] h-[100px] mx-auto mt-20' />
+         <img src={improve} alt="" className=' w-[128px] h-[128px] mx-auto mt-20' />
         </div> 
         
         </div>
@@ -52,9 +52,9 @@ const GoalList = () => {
       
         <div className=' mt-5 mb-5'>
         <div className='clients  '>
-          <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
+          <div className={` ${styles.flexCenter} w-[128px] h-[128px]  rounded-full mt-20  mx-10  `}>
      
-         <img src={arrow} alt="" className=' w-[100px] h-[100px] mx-auto mt-20' />
+         <img src={globe} alt="" className='w-[128px] h-[128px] mx-auto mt-20' />
         </div> 
         
         </div>
@@ -78,9 +78,9 @@ const GoalList = () => {
       
         <div className='leads   '>
         
-          <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
+          <div className={` ${styles.flexCenter} w-[128px] h-[128px]  rounded-full mt-20  mx-10  `}>
      
-         <img src={arrow} alt="" className=' w-[100px] h-[100px] mx-auto mt-20' />
+         <img src={thought} alt="" className=' w-[128px] h-[128px] mx-auto mt-20' />
         </div> 
         </div> 
 
@@ -96,9 +96,9 @@ const GoalList = () => {
           {/* card 5*/}
         <div className='  mt-5 mb-5'>
         <div className='tots  '>
-          <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
+          <div className={` ${styles.flexCenter} w-[128px] h-[128px]  rounded-full mt-20  mx-10  `}>
      
-         <img src={arrow} alt="" className=' w-[100px] h-[100px] mx-auto mt-20' />
+         <img src={client} alt="" className='w-[128px] h-[128px] mx-auto mt-20' />
         </div> 
         
         </div>
@@ -114,9 +114,9 @@ const GoalList = () => {
           {/* card 6*/}
         <div className='  mt-5 mb-5'>
         <div className='impacts '>
-          <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
+          <div className={` ${styles.flexCenter} w-[128px] h-[128px]   rounded-full mt-20  mx-10  `}>
      
-         <img src={arrow} alt="" className=' w-[100px] h-[100px] mx-auto mt-20' />
+         <img src={community} alt="" className=' w-[128px] h-[128px] mx-auto mt-20' />
         </div> 
         
         </div>
