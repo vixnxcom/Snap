@@ -8,6 +8,7 @@ import Carousel from './Carousel'
 import CarouselCard from './CarouselCard'
 import Goals from './Goals'
 import GoalList from './GoalList'
+import Parallaximg from './Parralaximg'
 
 
 const Home = () => {
@@ -32,10 +33,10 @@ const Home = () => {
   
 
  <div className='bg-white mt-10 mb-10'>
- <Goals />
+ <Parallaximg />
  </div>
 
- <div className='h-[400px]'>
+ <div className='h-[100vh]'>
   <GoalList />
  </div>
 

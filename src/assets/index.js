@@ -3,9 +3,11 @@ import menu from './menu.png'
 import logo from './logo.png'
 import arrow from './arrow.png'
 import ppl from './ppl1.png'
+import pic from './pic1.png'
 
 
 export {
+    pic,
     ppl,
     arrow,
     close,
