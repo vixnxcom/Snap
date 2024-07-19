@@ -493,3 +493,31 @@ backdrop-filter: blur(20px);
 
   }
   /* image */
+
+  /* water edits */
+  
+  .water{
+    background-image: url(assets/water.JPG);
+    background-position: scroll;
+    background-size: contain;
+    /* width: 100vw; */
+    height: 200px;
+    overflow: hidden;
+    border-radius: 24px;
+    /* background-repeat: no-repeat; */
+  }
+  .plates{
+    background-color: #001a70;
+    background-image: url(assets/trans.PNG);
+    background-position: scroll;
+    background-size: contain;
+    /* width: 100vw; */
+    height: 160px;
+    overflow: hidden;
+    border-radius: 24px;
+     background-repeat: no-repeat; 
+  }
+  .textt{
+    opacity: 0;
+  }
+  /* water edits */

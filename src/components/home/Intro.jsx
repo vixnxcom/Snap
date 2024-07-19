@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../../style'
 
+
 const Intro = () => {
   return (
     <section className={`${styles.flexStart} text-start `}>
@@ -15,7 +16,15 @@ const Intro = () => {
         <p className='text-[24px] neue-thin mt-5 p-2'>
         where excellence meets empowerment. As a
 premier consulting firm, we specialize in unlocking the full potential of individuals and
-organizations, guiding them towards becoming champions in their respective fields. With a
+organizations, guiding them towards becoming champions in their respective fields. 
+
+        </p>
+        <div className='water'>
+       <p className='textt'>crazy</p>
+        </div>
+        <p className='text-[24px] neue-thin mt-5 p-2'>
+    
+With a
 dedicated team of seasoned coaches, mentors, consultants, and speakers,
         </p>
   

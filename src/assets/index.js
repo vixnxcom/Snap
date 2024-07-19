@@ -7,6 +7,7 @@ import pic from './pic1.png'
 
 
 export {
+
     pic,
     ppl,
     arrow,
