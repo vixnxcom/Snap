@@ -500,10 +500,11 @@ backdrop-filter: blur(20px);
   .water{
     background-image: url(assets/IMG_9546.jpg);
     background-position: scroll;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 174px;
     overflow: hidden;
+    background-position: 95%;
 
     /* trans 1 */
      /* Rectangle 15 */
