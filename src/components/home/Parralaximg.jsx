@@ -38,14 +38,14 @@ borderRadius: '24px',
 
   
   return (
-    <div style={{textAlign: 'center', height:'90vh'}}>
+    <div style={{textAlign: 'center', height:'70vh'}}>
 <div>
 
     <Parallax strength={600} 
     bgImage={pic}
     style={{
       position: 'relative',
-      height: '90vh',
+      height: '70vh',
       width: '360px',
      display: 'flex',
      alignItems: 'center',
