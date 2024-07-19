@@ -571,6 +571,7 @@ filter: drop-shadow(0px 0px 40px #FFC000);
     margin-right: auto;
     background-image: url(assets/IMG_9483.jpeg);
     background-size: contain;
+    background-position: 90%;
 
   }
   @media (min-width: 1024px) {
@@ -589,6 +590,7 @@ filter: drop-shadow(0px 0px 40px #FFC000);
     margin-right: auto;
     background-image: url(assets/IMG_9548.JPG);
     background-size: cover;
+    background-position: 80%;
 
 
   }
@@ -607,8 +609,8 @@ filter: drop-shadow(0px 0px 40px #FFC000);
     margin-left: auto;
     margin-right: auto;
     background-image: url(assets/plates.JPG);
-    background-size: contain;
-
+    background-size: cover;
+      background-position: 80%;
   }
   @media (min-width: 1024px) {
     .teams{
@@ -631,6 +633,45 @@ filter: drop-shadow(0px 0px 40px #FFC000);
   }
   @media (min-width: 1024px) {
     .tots{
+      background-size: cover;
+      height: 400px;
+      width: 30vw;
+    }
+  }
+  .leads{
+    background-color: #591784;
+    border-radius: 20px;
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/IMG_9554.JPG);
+    background-size: cover;
+    background-position: 90%;
+   
+
+  }
+  @media (min-width: 1024px) {
+    .leads{
+      background-size: cover;
+      height: 400px;
+      width: 30vw;
+    }
+  }
+  .impacts{
+    background-color: #591784;
+    border-radius: 20px;
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/euro.jpg);
+    background-size: contain;
+   
+
+  }
+  @media (min-width: 1024px) {
+    .impacts{
       background-size: cover;
       height: 400px;
       width: 30vw;

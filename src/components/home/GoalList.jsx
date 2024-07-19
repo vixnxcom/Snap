@@ -76,7 +76,7 @@ const GoalList = () => {
           {/* card 4*/}
         <div className='  mt-5 mb-5 '>
       
-        <div className='tots   '>
+        <div className='leads   '>
         
           <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
      
@@ -95,7 +95,7 @@ const GoalList = () => {
         {/* card 4 */}
           {/* card 5*/}
         <div className='  mt-5 mb-5'>
-        <div className='goals  '>
+        <div className='tots  '>
           <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
      
          <img src={arrow} alt="" className=' w-[100px] h-[100px] mx-auto mt-20' />
@@ -113,7 +113,7 @@ const GoalList = () => {
         {/* card 5*/}
           {/* card 6*/}
         <div className='  mt-5 mb-5'>
-        <div className='goals  '>
+        <div className='impacts '>
           <div className={` ${styles.flexCenter} w-[120px] h-[120px]   rounded-full mt-20  mx-10  `}>
      
          <img src={arrow} alt="" className=' w-[100px] h-[100px] mx-auto mt-20' />
