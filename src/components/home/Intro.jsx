@@ -13,16 +13,16 @@ const Intro = () => {
         Welcome to Champions Global-Consulting,
         </h2>
         {/* header */}
-        <p className='text-[24px] neue-thin mt-5 p-2'>
+        <p className='text-[24px] neue-thin mt-5 p-2 '>
         where excellence meets empowerment. As a
 premier consulting firm, we specialize in unlocking the full potential of individuals and
 organizations, guiding them towards becoming champions in their respective fields. 
 
         </p>
-        <div className='water'>
+        <div className='water mt-10 mb-10'>
        <p className='textt'>crazy</p>
         </div>
-        <p className='text-[24px] neue-thin mt-5 p-2'>
+        <p className='text-[24px] neue-thin mt-5 p-2 '>
     
 With a
 dedicated team of seasoned coaches, mentors, consultants, and speakers,

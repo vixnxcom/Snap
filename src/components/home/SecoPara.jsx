@@ -14,15 +14,17 @@ const SecoPara = () => {
         we are committed to delivering tailored
         </h2>
         {/* header */}
+        <div className='plates'>
+       <p className='textt'>crazy</p>
+        </div>
+
         <p className='text-[24px] neue-thin mt-5 p-2'>
        
  solutions that inspire growth, drive success, and foster sustainable change.
 Our mission is to empower you to surpass your goals, conquer challenges, and lead with
 confidence. Together, let's embark on a transformative journey towards greatness.
         </p>
-        <div className='plates'>
-       <p className='textt'>crazy</p>
-        </div>
+      
       </div>
       </div>
     
