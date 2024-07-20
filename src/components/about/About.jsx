@@ -42,7 +42,7 @@ const About = () => {
       <div className='bg-purple h-[40px] '></div>
 
       <div className='bg-white p-2 '>
-        <img src={emp} alt="" className='max-w-[80%] mx-auto'/>
+        <img src={emp} alt="" className=' mx-auto'/>
        </div>
        {/* image */}
 
