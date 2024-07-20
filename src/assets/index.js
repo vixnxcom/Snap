@@ -12,9 +12,11 @@ import success from './success.png'
 import thought from './thought.png'
 import less from './less.png'
 import more from './more.png'
+import emp from './emp.png'
 
 
 export {
+    emp,
     less,
     more,
     thought,

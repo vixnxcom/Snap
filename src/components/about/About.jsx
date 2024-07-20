@@ -4,6 +4,7 @@ import Secondp from './Secondp'
 import { Box } from './Box'
 import styles from '../../style'
 import Guiding from './Guiding'
+import { emp } from '../../assets'
 
 const About = () => {
   return (
@@ -34,9 +35,16 @@ const About = () => {
         <div className='bg-curve'>
        <Guiding />
        </div>
+    
         </div>
    
-   
+      {/* image */}
+      <div className='bg-purple h-[40px] '></div>
+
+      <div className='bg-white p-2 '>
+        <img src={emp} alt="" className='max-w-[80%] mx-auto'/>
+       </div>
+       {/* image */}
 
 
 

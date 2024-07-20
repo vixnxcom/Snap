@@ -62,7 +62,7 @@ developing a tailored plan.
     We believe in the importance of open communication and collaboration.
         </h2>        
     </div>
-    <p className='text-[24px] neue-thin mt-2 p-2 '>
+    <p className='text-[24px] neue-thin mt-2 p-2  '>
     We will 
    work closely with our clients to ensure that they are involved in the planning and 
    execution of their plan, and that they have the information and support they need to 
@@ -73,6 +73,8 @@ developing a tailored plan.
     </div> 
     {/* card 3  ///////////////////////////////////////////    */}
     </div>
+
+      
 </section>
   )
 }
