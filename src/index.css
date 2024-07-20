@@ -710,3 +710,25 @@ filter: drop-shadow(0px 0px 40px #FFC000);
 }
 
   /* goals */
+
+  /* about//////////////////**********about page*************** */
+  .bg-about{
+    background: fixed;
+    background-image: url(assets/IMG_9588.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    height: 600px;
+    /* border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px; */
+    
+  }
+.bg-png{
+  background-image: url(assets/IMG_9541.PNG);
+  background-size: contain;
+  /* background-position: 40%; */
+  background-repeat: no-repeat;
+}
+
+  /* about//////////////////************************* */
