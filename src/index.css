@@ -666,9 +666,9 @@ filter: drop-shadow(0px 0px 40px #FFC000);
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(assets/euro.jpg);
-    background-size: cover;
-    background-position: 90%;
+    background-image: url(assets/IMG_9589.JPG);
+    background-size: contain;
+     background-position: 50%; 
    
 
   }
