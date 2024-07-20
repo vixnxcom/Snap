@@ -747,28 +747,28 @@ filter: drop-shadow(0px 0px 40px #FFC000);
   .scroll-container{
   
   position: relative;
-  width: 94vw;
-  height: 100px;
+  width: 98vw;
+  height: 120px;
   overflow: hidden;
   
   }
   
   .scroll-box{
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     top: 0; 
     left: 0;
+
     width: 100%;
     height: 100%;
     display: flex;
-    color: white;
+    color: #fff;
     align-items: center;
     justify-content: center;
     font-family: neue-medium;
     animation: rotateText 10s linear infinite;
   
   }
-  
   
   .scroll-box:nth-child(2) {
     animation-delay: 2s;
@@ -799,6 +799,4 @@ filter: drop-shadow(0px 0px 40px #FFC000);
     100% { transform: translateY(-500%);
     }
    }
-  
-
   /* about//////////////////************************* */
