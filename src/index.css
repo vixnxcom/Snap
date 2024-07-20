@@ -736,7 +736,7 @@ filter: drop-shadow(0px 0px 40px #FFC000);
 
 
 .bg-box{
-  background-image: url(assets/office.jpg);
+  background-image: url(assets/office.png);
   display: flex;
   background-size: cover;
   height: 400px;
@@ -764,7 +764,7 @@ filter: drop-shadow(0px 0px 40px #FFC000);
     color: white;
     align-items: center;
     justify-content: center;
-    
+    font-family: neue-medium;
     animation: rotateText 10s linear infinite;
   
   }
