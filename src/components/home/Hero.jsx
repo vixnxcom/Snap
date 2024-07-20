@@ -12,7 +12,7 @@ const Hero = () => {
  
        <h1 className=' mt-20 text-shadow text-start text-white' >
          <div className='mb-5 galgo tracking-wide text-7xl'>Stimulating the  <span className='purple'>Mind</span> </div>
-         <div className='mb-5 galgo tracking-wide text-7xl '>and <span className='purple'> Unraveling difficult</span> </div>
+         <div className='mb-5 galgo tracking-wide text-7xl '>and <span className='purple'> Unravelling difficult</span> </div>
          <div className='mb-5 galgo tracking-wide text-7xl'>Thought Processes </div>
       </h1>
 

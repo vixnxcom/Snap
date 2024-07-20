@@ -36,7 +36,7 @@ const Home = () => {
 </div> 
     </div>
 
-    <div className='bg-toggle mt-10 '>
+    <div className='bg-purple mt-10 '>
  <Parallaximg />
  </div>
     </div>
