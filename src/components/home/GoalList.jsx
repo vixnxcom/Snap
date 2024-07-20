@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { arrow, client, community, globe, improve, success, thought } from '../../assets';
+import { arrow, client, community, globe, improve, less, more, success, thought } from '../../assets';
 import styles from '../../style';
 
 const GoalList = () => {
@@ -134,8 +134,10 @@ const GoalList = () => {
           </>
         )}
       </div>
-      <button onClick={handleToggle} className={`${styles.marginX} toggle-button text-white`}>
+      <button onClick={handleToggle} className={`  toggle-button text-white flex flex-row mx-auto `}>
+        
         {showAll ? 'Read Less' : 'Read More '}
+        <img src={showAll ? less : more} alt="arrow" className='w-[50%] mx-2 ' />
       </button>
     </section>
   );

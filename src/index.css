@@ -687,12 +687,25 @@ filter: drop-shadow(0px 0px 40px #FFC000);
 .toggle-button{
   font-family: neue-medium;
   border: 1px solid white;
-  padding: 4px 120px;
-  font-size: 28px;
+  padding: 4px 64px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px; /* Space between text and image */
+}
+
+
+@media (min-width: 768px) {
+  .toggle-button{
+   padding: 8px 200px;
+
+  }
 }
 
 .bg-toggle{
-  background: #001a70;
+  background: #591784;
 
 }
+
   /* goals */

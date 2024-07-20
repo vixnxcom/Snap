@@ -10,9 +10,13 @@ import globe from './globe.png'
 import improve from './improve.png'
 import success from './success.png'
 import thought from './thought.png'
+import less from './less.png'
+import more from './more.png'
 
 
 export {
+    less,
+    more,
     thought,
     success,
     improve,
