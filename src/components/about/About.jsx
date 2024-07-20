@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from './Head'
 import Secondp from './Secondp'
+import { Box } from './Box'
 
 const About = () => {
   return (
@@ -12,8 +13,10 @@ const About = () => {
       <Secondp />
     </div>
 
-     <div>
-     
+     <div className='bg-white h-[500px] '>
+     <div className='bg-box'>
+      <Box />
+     </div>
      </div>
 
      </div>
