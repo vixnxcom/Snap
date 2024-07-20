@@ -5,9 +5,12 @@ import { Box } from './Box'
 import styles from '../../style'
 import Guiding from './Guiding'
 import { emp } from '../../assets'
+import Guidingtwo from './Guidingtwo'
+import Cardtwo from './Cardtwo'
 
 const About = () => {
   return (
+    <section>
     <div className='w-full overflow-hidden bg-black' >
 
       <div className='bg-black h-[400px]' >
@@ -42,14 +45,23 @@ const About = () => {
       <div className='bg-purple h-[40px] '></div>
 
       <div className='bg-white p-2 '>
-        <img src={emp} alt="" className=' mx-auto'/>
+        <img src={emp} alt="" className='md:w-[50%] w-[96%] mx-auto'/>
        </div>
        {/* image */}
 
+       <div className='bg-white'>
+       <Guidingtwo />
+       </div>
 
-
+    
 
      </div>
+    
+     <div className='bg-curvee  '>
+      
+        <Cardtwo />
+       </div>
+     </section>
   )
 }
 
