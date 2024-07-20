@@ -752,7 +752,9 @@ filter: drop-shadow(0px 0px 40px #FFC000);
   overflow: hidden;
   
   }
-  
+  .bg-yellow{
+    background-color: #FFC000;
+  }
   .scroll-box{
     font-size: 40px;
     position: absolute;
