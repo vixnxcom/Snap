@@ -67,7 +67,7 @@ const Home = () => {
 <div className='bg-white h-[20px] '></div>
    <div className=''>
     <h2 className={`${styles.flexStart} galgo text-8xl blue our tracking-wide mt-16 ` }>
-    <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
+    <span className='rounded-[16px] h-[16px] w-[16px] bg-toggle mr-4 '></span>
         Our Team
      </h2>
     </div>

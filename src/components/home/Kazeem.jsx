@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { arroww, ppl } from '../../assets';
+import { arroww, emp, ppl } from '../../assets';
 
 
 function Kazeem() {
@@ -22,9 +22,9 @@ function Kazeem() {
         }`}
       >
         <div className="max-w-sm  rounded overflow-hidden shadow-lg bg-toggle mb-5 mt-5  z-[60]">
-          <img className="w-full" src={ppl} alt="Card image" />
+          <img className="w-full h-[full] " src={ppl} alt="Card image" />
           <div className="px-6 py-4">
-            <div className="font-bold text-2xl mb-2 text-white">Dr Ahmed <br /> Abdulkareem</div>
+            <div className=" text-2xl neue-medium tracking-wide mb-2 text-white">Dr Ahmed <br /> Abdulkareem</div>
             <p className="text-gray-700 text-base">
               Card 
             </p>
