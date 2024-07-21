@@ -10,6 +10,9 @@ import Goals from './Goals'
 import GoalList from './GoalList'
 import Parallaximg from './Parralaximg'
 import styles from '../../style'
+import Team from './Team'
+import Ahmed from './Ahmed'
+import Kazeem from './Kazeem'
 
 
 const Home = () => {
@@ -57,6 +60,40 @@ const Home = () => {
   <GoalList />
  </div>
  </div>
+ 
+{/* third bg */}
+ <div className='bg-white mx-auto'>
+
+<div className='bg-white h-[20px] '></div>
+   <div className=''>
+    <h2 className={`${styles.flexStart} galgo text-8xl blue our tracking-wide mt-16 ` }>
+    <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
+        Our Team
+     </h2>
+    </div>
+
+<div className={`${styles.flexCenter} flex flex-row gap-2 `}>
+<div className=''>
+ <Kazeem/>
+ </div>
+ <div className=''>
+ <Kazeem />
+ </div> 
+</div>
+
+
+
+
+</div> 
+{/* third bg */}
+
+
+
+
+
+
+
+
 
     </div>
   )
