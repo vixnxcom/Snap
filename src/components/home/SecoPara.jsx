@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../style'
+import Button from '../Button'
 
 const SecoPara = () => {
   return (
@@ -18,13 +19,16 @@ const SecoPara = () => {
        <p className='textt'>crazy</p>
         </div>
 
-        <p className='text-[24px] neue-thin mt-5 mb-5 p-2'>
+        <p className='text-[24px] neue-thin mt-5 p-2'>
        
- solutions that inspire growth, drive success, and foster sustainable change.
+      solutions that inspire growth, drive success, and foster sustainable change.
 
         </p>
       
       </div>
+     <div className=' mb-5'>
+      <Button />
+     </div>
       </div>
     
     </section>
