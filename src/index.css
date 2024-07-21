@@ -251,6 +251,12 @@ background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
   }
 }
 
+.fixed-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000; /* Ensure it is above other content */
+}
 
 .navbarr{
   background: none;

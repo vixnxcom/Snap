@@ -37,7 +37,7 @@ const Navbar = () => {
         </ul>
 
         {/* toggle */}
-        <div className='md:hidden menu-icon z-[800] flex flex-col'>
+        <div className='md:hidden menu-icon z-[800] flex flex-col fixed-icon '>
       
          <div>
          <img
