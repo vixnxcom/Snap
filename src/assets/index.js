@@ -2,6 +2,7 @@ import close from './close.png'
 import menu from './menu.png'
 import logo from './logo.png'
 import arrow from './arrow.png'
+import arroww from './arroww.png'
 import ppl from './ppl1.png'
 import pic from './pic1.png'
 import client from './client.png'
@@ -16,6 +17,7 @@ import emp from './emp.png'
 
 
 export {
+    arroww,
     emp,
     less,
     more,
