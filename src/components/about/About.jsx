@@ -4,7 +4,7 @@ import Secondp from './Secondp'
 import { Box } from './Box'
 import styles from '../../style'
 import Guiding from './Guiding'
-import { emp } from '../../assets'
+import { brand, emp } from '../../assets'
 import Guidingtwo from './Guidingtwo'
 import Cardtwo from './Cardtwo'
 
@@ -60,6 +60,12 @@ const About = () => {
      <div className='bg-curvee  '>
       
         <Cardtwo />
+       </div>
+
+       <div className={`${styles.flexCenter} mt-5 mb-5`}>
+        <div className='p-2 max-w-sm'>
+          <img src={brand} alt="" />
+        </div>
        </div>
      </section>
   )

@@ -71,8 +71,8 @@ const GoalList = () => {
         <li>Item 2</li> */}
         {showAll && (
           <>
-              <div className='bg-toggle '>
-         <div className='h-[20px] w-[100vw] bg-toggle'></div>
+              <div className='bg-black '>
+         <div className='h-[20px] w-[100vw] bg-black'></div>
           {/* card 4*/}
         <div className='  mt-5 mb-5 '>
       
@@ -125,7 +125,7 @@ const GoalList = () => {
         <h1 className='neue-medium font-semibold mt-2 mb-2 text-[32px] text-white tracking-wide borderr '>  Community Impact: </h1>
         <p className='neue-thin text-[24px] text-white mb-10'>Give back to the community through pro bono work, charitable 
         contributions, and initiatives that promote social responsibility and sustainability.</p>
-        <div className='h-[20px] w-[100vw] bg-toggle'></div>
+        <div className='h-[20px] w-[100vw] bg-black'></div>
         {/* text area */}
         </div>
         </div>

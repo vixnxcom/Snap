@@ -3,6 +3,7 @@ import menu from './menu.png'
 import logo from './logo.png'
 import arrow from './arrow.png'
 import arroww from './arroww.png'
+import white from './arrowwhite.png'
 import ppl from './ppl1.png'
 import pic from './pic1.png'
 import client from './client.png'
@@ -15,9 +16,12 @@ import less from './less.png'
 import more from './more.png'
 import emp from './emp.png'
 import ahmed from './ahmed.jpg'
+import brand from './brand.png'
 
 
 export {
+    brand,
+    white,
     ahmed,
     arroww,
     emp,
