@@ -62,24 +62,22 @@ const Home = () => {
  </div>
  
 {/* third bg */}
- <div className='bg-white mx-auto'>
+ <div className='bg-toggle mx-auto'>
 
-<div className='bg-white h-[20px] '></div>
+<div className='bg-toggle h-[20px] '></div>
    <div className=''>
-    <h2 className={`${styles.flexStart} galgo text-8xl blue our tracking-wide mt-16 ` }>
-    <span className='rounded-[16px] h-[16px] w-[16px] bg-toggle mr-4 '></span>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-16 ` }>
+    <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
         Our Team
      </h2>
     </div>
 
-<div className={`${styles.flexCenter} flex flex-row gap-2 `}>
-<div className=''>
+
+<div className={`${styles.flexCenter}`}>
  <Kazeem/>
  </div>
- <div className=''>
- <Kazeem />
- </div> 
-</div>
+
+
 
 
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { arroww, emp, ppl } from '../../assets';
+import { ahmed, arroww, emp, ppl } from '../../assets';
 
 
 function Kazeem() {
@@ -22,18 +22,19 @@ function Kazeem() {
         }`}
       >
         <div className="max-w-sm  rounded overflow-hidden shadow-lg bg-toggle mb-5 mt-5  z-[60]">
-          <img className="w-full h-[full] " src={ppl} alt="Card image" />
+          <img className="w-full h-[full] " src={ahmed} alt="Card image" />
           <div className="px-6 py-4">
-            <div className=" text-2xl neue-medium tracking-wide mb-2 text-white">Dr Ahmed <br /> Abdulkareem</div>
-            <p className="text-gray-700 text-base">
-              Card 
+            <div className=" text-7xl galgo tracking-wide mb-2 text-white">Dr Ahmed <br /> Abdulkareem</div>
+            <p className="text-white neue-medium text-[28px] ">
+              Principal Patner
             </p>
           </div>
           <div className="px-6 py-4">
             <button
-              className="bg-white hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-white hover:bg-blue-700 text-white text-[24px] gap-4  py-2 px-2 rounded neue-thin flex flex-row"
               onClick={handleViewMore}
             >
+              <p className='purple'>View More</p>
               <img src={arroww} alt=""  className='w-[43.43px] h-[41.55px]' />
             </button>
           </div>
@@ -49,7 +50,7 @@ function Kazeem() {
           >
             <img className="w-full mb-4" src={ppl} alt="Card image" />
             <div className="font-bold text-4xl mb-2 glago tracking-wide">Dr Ahmed Abdulkareem</div>
-            <p className="text-gray-700 text-base mb-4 h-[50vh]">
+            <p className="text-gray-700 text-base mb-4 h-[]">
               Expanded card content goes here. This is the full screen view with more text.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna,
               vel scelerisque nisl consectetur et.

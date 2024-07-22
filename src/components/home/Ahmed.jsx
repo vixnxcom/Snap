@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { arroww, ppl } from '../../assets';
+import { ahmed, arroww, ppl } from '../../assets';
 
 
 function Ahmed() {
@@ -22,7 +22,7 @@ function Ahmed() {
         }`}
       >
         <div className="max-w-sm  rounded overflow-hidden   mb-20 mt-20 p-4 z-[60]">
-          <img className="w-full" src={ppl} alt="Card image" />
+          <img className="w-full" src={ahmed} alt="Card image" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Card Title</div>
             <p className="text-gray-700 text-base">

@@ -14,9 +14,11 @@ import thought from './thought.png'
 import less from './less.png'
 import more from './more.png'
 import emp from './emp.png'
+import ahmed from './ahmed.jpg'
 
 
 export {
+    ahmed,
     arroww,
     emp,
     less,
