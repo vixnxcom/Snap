@@ -7,6 +7,7 @@ import Guiding from './Guiding'
 import { brand, emp } from '../../assets'
 import Guidingtwo from './Guidingtwo'
 import Cardtwo from './Cardtwo'
+import Guidingthree from './Guidingthree'
 
 const About = () => {
   return (
@@ -66,6 +67,10 @@ const About = () => {
         <div className='p-2 max-w-sm'>
           <img src={brand} alt="" />
         </div>
+       </div>
+
+       <div>
+        <Guidingthree />
        </div>
      </section>
   )
