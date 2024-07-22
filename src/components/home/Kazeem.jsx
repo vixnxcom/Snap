@@ -26,7 +26,7 @@ function Kazeem() {
           <div className="px-6 py-4">
             <div className=" text-7xl galgo tracking-wide mb-2 text-white">Dr Ahmed <br /> Abdulkareem</div>
             <p className="text-white neue-medium text-[28px] ">
-              Principal Patner
+              Principal Partner
             </p>
           </div>
           <div className="px-6 py-4">
@@ -41,19 +41,25 @@ function Kazeem() {
         </div>
       </div>
 
-      {/* Fullscreen Card */}
+            {/* Fullscreen Card */}
       {isExpandedd && (
-        <div className="fixed top-0 left-0 w-full h-[screen] z-[900] flex justify-center items-center bg-toggle bg-opacity-75">
+        <div className="fixed top-0 left-0 w-full h-full z-50 flex justify-center items-center bg-gray-800 bg-opacity-75">
           <div
-            className="bg-toggle p-8 rounded shadow-lg max-w-lg w-full h-[screen] transform transition-transform duration-500 scale-100"
+            className="bg-white p-8 rounded shadow-lg max-w-lg w-full h-full overflow-y-auto transform transition-transform duration-500 scale-100"
             style={{ transition: 'transform 0.5s' }}
           >
-            <img className="w-full mb-4" src={ppl} alt="Card image" />
-            <div className="font-bold text-4xl mb-2 glago tracking-wide">Dr Ahmed Abdulkareem</div>
-            <p className="text-gray-700 text-base mb-4 h-[]">
+            <img className="w-full mb-4" src="https://via.placeholder.com/300" alt="Card image" />
+            <div className="font-bold text-2xl mb-2">Card Title</div>
+            <p className="text-gray-700 text-base mb-4">
               Expanded card content goes here. This is the full screen view with more text.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur et.
+              vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel 
+              scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
             </p>
             <button
               className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
