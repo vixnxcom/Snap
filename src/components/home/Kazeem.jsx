@@ -48,21 +48,36 @@ function Kazeem() {
             className="bg-white p-8 rounded shadow-lg max-w-lg w-full h-full overflow-y-auto transform transition-transform duration-500 scale-100"
             style={{ transition: 'transform 0.5s' }}
           >
-            <img className="w-full mb-4" src="https://via.placeholder.com/300" alt="Card image" />
-            <div className="font-bold text-2xl mb-2">Card Title</div>
-            <p className="text-gray-700 text-base mb-4">
-              Expanded card content goes here. This is the full screen view with more text.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel 
-              scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+            <img className="w-full mb-4" src={ahmed} alt="Card image" />
+            <div className=" text-2xl galgo mb-2">Principal Partner Champions Global Consulting</div>
+            <p className="text-gray-900 neue-thin text-base mb-4">
+              
+Meet our Principal, Ahmedcine: Leading with Excellence and Empowerment
+Dr. Ahmed Abdulkareem, affectionately known as Ahmedcine, stands at the helm of 
+Champions Global-Consulting, guiding our mission to empower individuals and 
+organizations worldwide. With over a decade of experience as a mentor, coach, and public 
+speaker, Ahmedcine brings a wealth of expertise and passion to his role.
+<br  className='mt-2'/>
+Ahmedcine's journey towards excellence began with his medical training, earning him 
+certification from the Educational Commission for Foreign Medical Graduates (ECFMG). 
+His dedication to mentorship and leadership led him to pursue additional qualifications, 
+including recognition as a Fellow of the Institute of Management Consultants (IMC-Nigeria) 
+and certification as a Management Consultant by IMC-Nigeria. He further honed his skills as 
+a Certified Management Specialist through the London Graduate School.
+<br />
+Driven by a commitment to lifelong learning, Ahmedcine has undertaken numerous courses 
+to enhance his communication, mentorship, and leadership capabilities. From prestigious 
+institutions such as the University of Pennsylvania and the University of Washington, 
+Ahmedcine has completed programs covering topics ranging from improving communication 
+skills to understanding global health research fundamentals.
+<br />
+Ahmedcine's passion for empowering others extends beyond his professional endeavours. As 
+a current worker at the National Health Service (NHS) in England, United Kingdom, he has a 
+strong desire to advance primary healthcare, promote health equity, and champion medical 
+leadership, education, and research.
             </p>
             <button
-              className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-toggle hover:bg-red-700 text-white neue-thin py-2 px-4 rounded"
               onClick={handleClose}
             >
               Close

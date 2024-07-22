@@ -134,7 +134,7 @@ const GoalList = () => {
           </>
         )}
       </div>
-      <button onClick={handleToggle} className={`  toggle-button text-white flex flex-row mx-auto  `}>
+      <button onClick={handleToggle} className={`rounded  toggle-button text-white flex flex-row mx-auto  `}>
         
         {showAll ? 'Read Less' : 'Read More '}
         <img src={showAll ? less : more} alt="arrow" className='w-[40%] mx-2 p-2 ' />
