@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ahmed, arroww, emp, ppl, white } from '../../assets';
+import styles from '../../style';
 
 
 function Kazeem() {
@@ -31,11 +32,12 @@ function Kazeem() {
           </div>
           <div className="px-6 py-4">
             <button
-              className="bg-white hover:bg-blue-700 text-white text-[24px] gap-8  py-2 px-2 rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
+              className="bg-white hover:bg-blue-700 text-white text-[24px] gap-8  py-2  rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
               onClick={handleViewMore}
-            >
+            ><div className={`${styles.flexCenter}`}>
               <p className='purple mx-4 '>View More</p>
-              <img src={arroww} alt=""  className='w-[43.43px] h-[41.55px] mr-2' />
+              <img src={arroww} alt=""  className='w-[10%] mr-2' />
+              </div>
             </button>
           </div>
         </div>
@@ -97,8 +99,10 @@ leadership, education, and research.
                className="bg-purple hover:bg-blue-700 text-white text-[24px] gap-8  py-2 px-2 mt-2 rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
               onClick={handleClose}
             >
-               <p className='text-white mx-4 '>close</p>
-               <img src={white} alt=""  className='w-[43.43px] h-[41.55px] mr-2' />
+             <div className={`${styles.flexCenter}`}>
+              <p className='white mx-4 '>close</p>
+              <img src={white} alt=""  className='w-[12%] mr-2' />
+              </div>
             </button>
           </div>
         </div>
