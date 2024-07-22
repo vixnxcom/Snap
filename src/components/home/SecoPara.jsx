@@ -15,8 +15,10 @@ const SecoPara = () => {
         we are committed to delivering tailored
         </h2>
         {/* header */}
-        <div className='plates'>
+        <div className='mx-auto '>
+        <div className='plates '>
        <p className='textt'>crazy</p>
+        </div>
         </div>
 
         <p className='text-[24px] neue-thin mt-5 p-2'>

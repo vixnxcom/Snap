@@ -550,18 +550,18 @@ box-shadow: 0px 0px 20px #FFC000;
     /* Group 2 */
 /* trans 1 */
 border: 1px solid #FFFFFF;
-filter: drop-shadow(0px 0px 40px #FFC000);
+/* filter: drop-shadow(0px 0px 40px #FFC000); */
 
-    background-image: url(assets/trans.PNG);
+    background-image: url(assets/imgblur.png);
     background-position: scroll;
     background-size: contain;
     /* width: 100vw; */
     height: 160px;
     overflow: hidden;
-    border-top-left-radius: 48px;
+    /* border-top-left-radius: 48px;
     border-top-right-radius:48px ;
-  
-    
+   */
+    margin:2px auto;
      background-repeat: no-repeat; 
 
      /* trans 1 */
