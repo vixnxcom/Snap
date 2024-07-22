@@ -17,9 +17,11 @@ import more from './more.png'
 import emp from './emp.png'
 import ahmed from './ahmed.jpg'
 import brand from './brand.png'
+import gif from './gif.gif'
 
 
 export {
+    gif,
     brand,
     white,
     ahmed,

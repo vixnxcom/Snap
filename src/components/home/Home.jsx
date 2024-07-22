@@ -35,6 +35,11 @@ const Home = () => {
 </div> 
 
  <div className='bg-intro mt-5'>
+  <div className='p-6'>
+  <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10` }>
+        we are committed to delivering tailored
+        </h2>
+  </div>
   <SecoPara />
 </div> 
     </div>
