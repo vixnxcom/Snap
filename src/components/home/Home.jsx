@@ -73,7 +73,7 @@ const Home = () => {
     </div>
 
 
-<div className={`${styles.flexCenter}`}>
+<div className={`${styles.flexCenter} `}>
  <Kazeem/>
  </div>
 

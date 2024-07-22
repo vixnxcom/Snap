@@ -14,7 +14,7 @@ function Kazeem() {
   };
 
   return (
-    <div className="flex justify-center items-center p-2  ">
+    <div className="flex justify-center items-center p-8  ">
       {/* Card */}
       <div
         className={`transform transition-transform duration-500  ${

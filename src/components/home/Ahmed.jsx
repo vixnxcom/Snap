@@ -31,7 +31,7 @@ function Ahmed() {
           </div>
           <div className="px-6 py-4">
             <button
-              className="bg-white hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-white hover:bg-blue-700 text-white font-bold py-2 px-4 button"
               onClick={handleViewMore}
             >
               <img src={arroww} alt=""  className='w-[43.43px] h-[41.55px]' />
