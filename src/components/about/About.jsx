@@ -13,7 +13,7 @@ const About = () => {
     <section>
     <div className='w-full overflow-hidden bg-black' >
 
-      <div className='bg-black h-[400px]' >
+      <div className='bg-purplee h-[400px]' >
       <Head />
     </div>
 
