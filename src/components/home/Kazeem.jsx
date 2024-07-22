@@ -58,6 +58,12 @@ Champions Global-Consulting, guiding our mission to empower individuals and
 organizations worldwide. With over a decade of experience as a mentor, coach, and public 
 speaker, Ahmedcine brings a wealth of expertise and passion to his role.
 <br  className='mt-2'/>
+
+            </p>
+            <p className="text-gray-900 neue-thin text-base mb-4">
+              
+
+<br  className='mt-2'/>
 Ahmedcine's journey towards excellence began with his medical training, earning him 
 certification from the Educational Commission for Foreign Medical Graduates (ECFMG). 
 His dedication to mentorship and leadership led him to pursue additional qualifications, 
@@ -65,11 +71,22 @@ including recognition as a Fellow of the Institute of Management Consultants (IM
 and certification as a Management Consultant by IMC-Nigeria. He further honed his skills as 
 a Certified Management Specialist through the London Graduate School.
 <br />
+
+            </p>
+            <p className="text-gray-900 neue-thin text-base mb-2">
+              
+
+<br />
 Driven by a commitment to lifelong learning, Ahmedcine has undertaken numerous courses 
 to enhance his communication, mentorship, and leadership capabilities. From prestigious 
 institutions such as the University of Pennsylvania and the University of Washington, 
 Ahmedcine has completed programs covering topics ranging from improving communication 
 skills to understanding global health research fundamentals.
+<br />
+
+            </p>
+            <p className="text-gray-900 neue-thin text-base mb-2">
+
 <br />
 Ahmedcine's passion for empowering others extends beyond his professional endeavours. As 
 a current worker at the National Health Service (NHS) in England, United Kingdom, he has a 
