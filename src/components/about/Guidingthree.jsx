@@ -5,9 +5,9 @@ const Guidingthree = () => {
   return (
   <section className={`${styles.flexCenter} mb-20`}>
     <div>
-        <p className='galgo text-7xl text-center max-w-sm traxking-wide'>
-        By following these <span className='yellow'>principles, </span>  we are <span className='yellow '>confident </span> that we can provide our clients with the 
-        <span className='yellow'> support and guidance </span>they need to  <span className='yellow '> succeed. </span> 
+        <p className='galgo text-7xl text-start max-w-sm tracking-wide'>
+        By following these principles,   <span className=' neue-thin text-[24px]'> we are confident that we can provide our clients with the 
+         support and guidance they need to succeed. </span> 
         </p>
         {/* <p className='galgo text-4xl text-center max-w-sm traxking-wide mt-5'>
         If you have any questions or concerns about our 
