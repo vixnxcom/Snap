@@ -69,9 +69,9 @@ const Home = () => {
 {/* third bg */}
  <div className='bg-purple mx-auto'>
 
-<div className='bg-purple h-[20px] '></div>
+
    <div className=''>
-    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-16 ` }>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20 ` }>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
         Our Team
      </h2>

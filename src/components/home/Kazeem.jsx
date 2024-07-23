@@ -96,7 +96,7 @@ strong desire to advance primary healthcare, promote health equity, and champion
 leadership, education, and research.
             </p>
             <button
-               className="bg-purple hover:bg-blue-700 text-white text-[24px] gap-8  py-2 px-2 mt-2 rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
+               className="bg-purple hover:bg-blue-700 text-white text-[24px] gap-8  py-2 px-2 mt-5 rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
               onClick={handleClose}
             >
              <div className={`${styles.flexCenter}`}>
