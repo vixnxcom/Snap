@@ -15,7 +15,7 @@ const About = () => {
     <section>
     <div className='w-full overflow-hidden bg-black' >
 
-      <div className='bg-purplee h-[420px]' >
+      <div className='bg-white  h-[420px]' >
       <Head />
     </div>
 
