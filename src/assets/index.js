@@ -17,7 +17,7 @@ import more from './more.png'
 import emp from './emp.png'
 import ahmed from './ahmed.jpg'
 import brand from './brand.png'
-import guide from './guide.png'
+import guide from './blue.png'
 import gif from './gif.gif'
 
 
