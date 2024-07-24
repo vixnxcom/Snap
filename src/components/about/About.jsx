@@ -8,6 +8,7 @@ import { brand, emp } from '../../assets'
 import Guidingtwo from './Guidingtwo'
 import Cardtwo from './Cardtwo'
 import Guidingthree from './Guidingthree'
+import ParaGuid from './ParaGuid'
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
       <Secondp />
     </div>
 
-     <div className='bg-black h-[500px] '>
+     <div className='bg-black h-[470px] '>
      <div className='bg-box'>
       <Box />
      </div>
@@ -63,14 +64,17 @@ const About = () => {
         <Cardtwo />
        </div>
 
-       <div className={`${styles.flexCenter} mt-5 mb-5`}>
+       {/* <div className={`${styles.flexCenter} mt-5 mb-5`}>
         <div className=' max-w-sm'>
           <img src={brand} alt="" />
         </div>
-       </div>
+       </div> */}
 
-       <div>
-        <Guidingthree />
+       <div className='mt-10 bg-black'>
+        <ParaGuid />
+       </div>
+       <div className='mt-20'>
+        <Cardtwo />
        </div>
      </section>
   )

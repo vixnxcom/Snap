@@ -3,10 +3,10 @@ import styles from '../../style'
 
 const Guidingthree = () => {
   return (
-  <section className={`${styles.flexCenter} mb-20`}>
+  <section className={`${styles.flexCenter} mb-20 mt-20 mx-auto place-items-center text-center imagess`}>
     <div>
-        <p className='galgo text-7xl text-start max-w-sm tracking-wide'>
-        By following these principles,   <span className=' neue-thin text-[24px]'> we are confident that we can provide our clients with the 
+        <p className='galgo text-7xl text-start w-[320px] mt-2 mb-2'>
+        By following these principles,   <span className=' neue-thin text-[24px] '> we are confident that we can provide our clients with the 
          support and guidance they need to succeed. </span> 
         </p>
         {/* <p className='galgo text-4xl text-center max-w-sm traxking-wide mt-5'>

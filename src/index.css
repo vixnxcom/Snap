@@ -507,6 +507,18 @@ backdrop-filter: blur(20px);
 
 
   }
+  .imagess{
+    width: 400px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 23.18%,
+ rgba(89, 23, 132, 0.02) 66.22%), 
+linear-gradient(205.36deg, rgba(255, 255, 0, 0.1) 26.51%,
+ rgba(255, 255, 255, 0.2) 50.66%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+  }
   /* image */
 
   /* water edits */
