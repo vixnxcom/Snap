@@ -3,7 +3,7 @@ import styles from '../../style'
 
 const Cardtwo = () => {
   return (
-    <section className={`${styles.flexStart} text-start `}>
+    <section className={`${styles.flexStart} text-start z-[999] `}>
     <div>
              {/* card 6 */}  
     <div className=' h-[8px] '></div>
@@ -18,7 +18,7 @@ const Cardtwo = () => {
     We are dedicated to maintaining the highest ethical standards.
          </h2>        
      </div>
-     <p className='text-[24px] text-white neue-thin mt-2 p-2  '>
+     <p className='text-[24px] text-white neue-thin mt-2 p-2 mb-10 '>
      We will always act 
 with integrity and respect, including upholding confidentiality, and we will never 
 engage in any practices that are unethical or harmful to our clients.

@@ -63,17 +63,26 @@ const About = () => {
       
         <Cardtwo />
        </div>
+    
+     <div className='bg-white textt  '>
+      
+        <Cardtwo />
+       </div>
 
        {/* <div className={`${styles.flexCenter} mt-5 mb-5`}>
         <div className=' max-w-sm'>
           <img src={brand} alt="" />
         </div>
        </div> */}
-
-       <div className='mt-10 bg-black'>
+        <div className='bg-white mt-36'></div>
+       <div className='mt-36 bg-black mb-36'>
         <ParaGuid />
        </div>
-       <div className='mt-20'>
+       <div className='bg-white h-[200px]'></div>
+       <div className='mt-36 '>
+        <Cardtwo />
+       </div>
+       <div className='mt-36 '>
         <Cardtwo />
        </div>
      </section>

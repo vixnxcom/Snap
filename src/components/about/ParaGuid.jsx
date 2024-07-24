@@ -29,7 +29,7 @@ borderRadius: '24px',
 
   
   return (
-    <div style={{textAlign: 'center', height:'65vh'}}>
+    <div style={{textAlign: 'center', height:'70vh'}}>
 <div>
 
     <Parallax strength={600} 
@@ -45,7 +45,7 @@ borderRadius: '24px',
      marginLeft: 'auto',
     zIndex: 1,
     BackgroundPosition: 'center',
-    //   overflow: 'visible',
+      overflow: 'visible',
      
 
     }} 
