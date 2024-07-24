@@ -15,7 +15,8 @@ const About = () => {
     <section>
     <div className='w-full overflow-hidden bg-black' >
 
-      <div className='bg-white  h-[420px]' >
+      <div className='bg-white  h-[480px] mt-28' >
+      <div className='bg-white h-[20px] '></div>
       <Head />
     </div>
 
@@ -23,7 +24,7 @@ const About = () => {
       <Secondp />
     </div>
 
-     <div className='bg-black h-[470px] '>
+     <div className='bg-purple h-[470px] '>
      <div className='bg-box'>
       <Box />
      </div>
@@ -47,7 +48,7 @@ const About = () => {
       <div className='bg-purple h-[40px] '></div>
 
       <div className='bg-white p-2 '>
-        <img src={emp} alt="" className='md:w-[50%] w-[96%] mx-auto'/>
+        <img src={emp} alt="" className='md:w-[50%] w-[96%] mx-auto mt-20 mb-20'/>
        </div>
        {/* image */}
 
