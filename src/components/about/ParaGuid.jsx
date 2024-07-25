@@ -45,7 +45,7 @@ borderRadius: '24px',
      marginLeft: 'auto',
     zIndex: 1,
     BackgroundPosition: 'center',
-      overflow: 'visible',
+      // overflow: 'visible',
      
 
     }} 

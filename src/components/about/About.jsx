@@ -67,18 +67,13 @@ const About = () => {
         <Cardtwo />
        </div>
     
-     <div className='bg-white textt  '>
-      
-        <Cardtwo />
-       </div>
-
 
         <div className='bg-white mt-36'></div>
        <div className='mt-36 bg-black mb-36'>
         <ParaGuid />
        </div>
 
-       <div className='bg-white h-[240px]'></div>
+       {/* <div className='bg-white h-[240px]'></div> */}
        <div className='bg-office'>
        <div className='mt-36 max-w-md mx-auto'>
         <Vision />
