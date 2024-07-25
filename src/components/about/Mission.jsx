@@ -5,10 +5,12 @@ const Mission = () => {
   return (
    <section className={`${styles.flexCenter}`}>
     <div className='mission-button  mt-36'>
-      <div className={`${styles.flexCenter} text-white flex flex-col`}>
-        <h1 className='neue-medium font-semibold mt-5 mb-2 text-[32px] text-white tracking-wide '>
+      <div className={`${styles.flexCenter} text-white flex flex-col mt-10`}>
+        <div className='bg-vision mt-5'>
+        <h1 className={`${styles.flexCenter} neue-medium font-semibold  mb-2 mt-4 text-[32px]  tracking-wide text-black `}>
         Mission Statement:
        </h1>
+       </div>
 
         <p className='neue-thin text-[24px] text-white mb-10 p-8 tracking-wide'>
         "At Champions Global-Consulting, our mission is to provide unparalleled coaching, 

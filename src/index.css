@@ -470,6 +470,19 @@ rgba(89, 23, 132, 0.96) 141.92%); */
     margin-right: 4px;
     margin-top: 20px;
   }
+  .bg-vision{
+    border-radius: 48px;
+    height: 86px;
+    padding: auto;
+    width: 80%;
+    margin: auto;
+ background-color: #fff;
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+/* Note: backdrop-filter has minimal browser support */
+
+  }
 
   .bg-purple{
     background-color: #591784;
