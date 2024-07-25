@@ -35,7 +35,7 @@ developing a tailored plan.
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] text-white bg-yellow`}>  
      <h1 className='text-white galgo text-[32px] tracking-wide'> 02. </h1>
      </div> 
-   <h2 className={`${styles.flexStart} galgo text-5xl blue tracking-wide mt-5 mx-2` }>
+   <h2 className={`${styles.flexStart} galgo text-5xl purple tracking-wide mt-5 mx-2` }>
    We are committed to providing high-quality services that are based on the latest 
    research and best practices.
         </h2>        
