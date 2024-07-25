@@ -689,9 +689,9 @@ box-shadow: 0px 0px 20px #FFC000;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(assets/IMG_9589.JPG);
+    background-image: url(assets/IMG_9554.JPG);
     background-size: cover;
-     background-position: 50%; 
+     background-position: 80%; 
    
 
   }
@@ -767,6 +767,10 @@ width: 98vw;
 
 background: linear-gradient(74.74deg, #EFEFF9 34.9%, #E7E8F2 60.34%);
 
+}
+
+.button-stroke{
+  border: 1px solid #FFC000;
 }
 
 /* scroll box///////////////////// */

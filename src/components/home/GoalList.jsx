@@ -14,7 +14,7 @@ const GoalList = () => {
       <div>
           {/* card 1 */}
           <div className='  mt-5 mb-5'>
-        <div className='goals  '>
+        <div className='leads  '>
           <div className={` ${styles.flexCenter} w-[128px] h-[128px]   rounded-full mt-20  mx-10  `}>
      
          <img src={success} alt="" className=' w-[128px] h-[128px] mx-auto mt-20' />
@@ -32,7 +32,7 @@ const GoalList = () => {
         {/* card 1 */}
         {/* card 2 */}
         <div className='  mt-5 mb-5'>
-        <div className='teams  '>
+        <div className='tots '>
           <div className={` ${styles.flexCenter} w-[128px] h-[128px]   rounded-full mt-20  mx-10  `}>
      
          <img src={improve} alt="" className=' w-[128px] h-[128px] mx-auto mt-20' />
@@ -51,7 +51,7 @@ const GoalList = () => {
           {/* card 3*/}
       
         <div className=' mt-5 mb-5'>
-        <div className='clients  '>
+        <div className='teams  '>
           <div className={` ${styles.flexCenter} w-[128px] h-[128px]  rounded-full mt-20  mx-10  `}>
      
          <img src={globe} alt="" className='w-[128px] h-[128px] mx-auto mt-20' />
@@ -76,7 +76,7 @@ const GoalList = () => {
           {/* card 4*/}
         <div className='  mt-5 mb-5 '>
       
-        <div className='leads   '>
+        <div className='goals   '>
         
           <div className={` ${styles.flexCenter} w-[128px] h-[128px]  rounded-full mt-20  mx-10  `}>
      
@@ -95,7 +95,7 @@ const GoalList = () => {
         {/* card 4 */}
           {/* card 5*/}
         <div className='  mt-5 mb-5'>
-        <div className='tots  '>
+        <div className='clients  '>
           <div className={` ${styles.flexCenter} w-[128px] h-[128px]  rounded-full mt-20  mx-10  `}>
      
          <img src={client} alt="" className='w-[128px] h-[128px] mx-auto mt-20' />
