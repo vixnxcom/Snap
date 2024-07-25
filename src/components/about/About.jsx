@@ -26,28 +26,28 @@ const About = () => {
       <Secondp />
     </div>
 
-     <div className='bg-purple h-[470px] '>
+     <div className='bg-white h-[470px] '>
      <div className='bg-box'>
       <Box />
      </div>
      </div>
 
-        <div className='bg-purple'>
+        <div className='bg-white'>
         <div className=''>
     
-    <h2 className={`${styles.flexStart} galgo text-8xl text-white tracking-wide p-8` }>
-       <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4'></span>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-black tracking-wide p-8` }>
+       <span className='rounded-[16px] h-[16px] w-[16px] bg-black mr-4'></span>
       Guiding Principles
         </h2>
         </div>
-        <div className='bg-curve'>
+        <div className='bg-curvy'>
        <Guiding />
        </div>
     
         </div>
    
       {/* image */}
-      <div className='bg-purple h-[40px] '></div>
+      <div className='bg-white h-[40px] '></div>
 
       <div className='bg-white p-2 '>
         <img src={emp} alt="" className='md:w-[50%] w-[96%] mx-auto mt-20 mb-20'/>

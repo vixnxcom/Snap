@@ -454,12 +454,12 @@ rgba(89, 23, 132, 0.96) 141.92%); */
   }
   .bg-curvy{
     /* top: -20; */
-    background-color: #fff;
+    background-color: #591784;
     border-radius: 48px;
     height: auto;
     margin-left: 4px;
     margin-right: 4px;
-    border: 1px solid #591784;
+    /* border: 1px solid #591784; */
   }
   .bg-curvee{
     /* top: -20; */
