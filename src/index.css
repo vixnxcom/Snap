@@ -365,7 +365,13 @@ color: #001a70;
   /* overflow: hidden; */
     }
   }
-  
+
+  .bg-aboutt{
+    background-image: url(assets/IMG_9542.GIF);
+    background-position:scroll ;
+    background-size: cover;
+  }
+
 .content-inner{
   padding: 20px auto;
 }
@@ -587,8 +593,8 @@ box-shadow: 0px 0px 20px #FFC000;
     margin-left: auto;
     margin-right: auto;
     background-image: url(assets/IMG_9483.jpeg);
-    background-size: contain;
-    background-position: 90%;
+    background-size: cover;
+    background-position: 20%;
 
   }
   @media (min-width: 1024px) {
@@ -644,7 +650,8 @@ box-shadow: 0px 0px 20px #FFC000;
     margin-left: auto;
     margin-right: auto;
     background-image: url(assets/IMG_9543.JPG);
-    background-size: contain;
+    background-size: cover;
+    background-position: 60%;
    
 
   }
@@ -662,9 +669,9 @@ box-shadow: 0px 0px 20px #FFC000;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(assets/IMG_9554.JPG);
+    background-image: url(assets/IMG_9553.JPG);
     background-size: cover;
-    background-position: 90%;
+     background-position: 60%; 
    
 
   }
@@ -683,7 +690,7 @@ box-shadow: 0px 0px 20px #FFC000;
     margin-left: auto;
     margin-right: auto;
     background-image: url(assets/IMG_9589.JPG);
-    background-size: contain;
+    background-size: cover;
      background-position: 50%; 
    
 
@@ -755,6 +762,12 @@ top: 60;
 width: 98vw;
 }
 
+.off-blue{
+
+
+background: linear-gradient(74.74deg, #EFEFF9 34.9%, #E7E8F2 60.34%);
+
+}
 
 /* scroll box///////////////////// */
 

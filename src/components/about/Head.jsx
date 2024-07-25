@@ -3,7 +3,7 @@ import styles from '../../style'
 
 const Head = () => {
   return (
-    <section className='h-[480px] flex flex-col p-8 mt-24 bg-png '>
+    <section className='h-[480px] flex flex-col p-8 mt-24  '>
    
       <div className='mt-10 mx-auto'>
       <h2 className={`${styles.flexCenter} galgo text-8xl text-blck tracking-wide mt-10` }>

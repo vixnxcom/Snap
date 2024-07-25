@@ -13,10 +13,10 @@ import ParaGuid from './ParaGuid'
 const About = () => {
   return (
     <section>
-    <div className='w-full overflow-hidden bg-black' >
+    <div className='w-full overflow-hidden off-blue' >
 
-      <div className='bg-white  h-[480px] mt-28' >
-      <div className='bg-white h-[20px] '></div>
+      <div className='bg-aboutt  h-[480px] mt-28' >
+      {/* <div className='bg-aboutt h-[20px] '></div> */}
       <Head />
     </div>
 
