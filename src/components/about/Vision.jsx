@@ -8,7 +8,7 @@ const Vision = () => {
       <div className={`${styles.flexCenter} text-white flex flex-col mt-10`}>
       <div className='bg-vision mt-5'>
         <h1 className={`${styles.flexCenter} neue-medium font-semibold  mb-2 mt-4 text-[32px]  tracking-wide text-black `}>
-        Vision Statement:
+        Vision Statement
        </h1>
        </div>
 

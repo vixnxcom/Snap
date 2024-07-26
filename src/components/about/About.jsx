@@ -11,6 +11,8 @@ import Guidingthree from './Guidingthree'
 import ParaGuid from './ParaGuid'
 import Mission from './Mission'
 import Vision from './Vision'
+import Ceo from './Ceo'
+import End from './End'
 
 const About = () => {
   return (
@@ -82,9 +84,20 @@ const About = () => {
 
 
      <div className='bg-mission'>
-       <div className='mt-20 max-w-md mx-auto'>
+       <div className='mt-20 max-w-md mx-auto '>
         < Mission />
        </div>
+       </div>
+
+       <div className=''>
+        <Ceo />
+       </div>
+    
+
+       <div className='bg-missionn mb-20'>
+        <div className='mt-36'>
+          <End />
+        </div>
        </div>
      </section>
   )

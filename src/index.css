@@ -901,10 +901,18 @@ margin-left: 12px;
   }
 
   .bg-mission{
+    background-image: url(assets/IMG_9690.JPG);
+    background-position: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    margin: auto;
+  }
+  .bg-missionn{
     background-image: url(assets/intercultural-hand-shake-outdoor.jpg);
     background-position: scroll;
-
-    background-size: contain;
+  height: 600px;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 24px;
   }
