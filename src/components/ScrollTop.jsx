@@ -8,7 +8,7 @@ const ScrollTop = () => {
    useEffect(() => {
     const handleScroll = () => {
         const scrollTop = window.scrollY;
-        setIsVisible(scrollTop > 400);
+        setIsVisible(scrollTop > 800);
     };
     window.addEventListener('scroll', handleScroll);
 
@@ -32,7 +32,7 @@ const ScrollTop = () => {
   return (
 
     <button className={`scroll-to-top ${isVisible ? 'visible' : ''}`} onClick= {scrollToTop}>
-        <img src={top} alt="" className='w-[80px] h-[80px]'/>
+        <img src={top} alt="" className='w-[56px] h-[56px]'/>
     </button>
   );
 };

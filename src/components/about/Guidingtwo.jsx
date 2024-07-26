@@ -26,7 +26,7 @@ throughout the duration of our engagement.
     </div> 
     {/* card 4  ///////////////////////////////////////////    */}
      {/* card 5 */}  
-    <div className='bg-purple h-[8px] '></div>
+  
     
    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-black '>
      {/* heading */}
@@ -48,7 +48,7 @@ suggestions from them as well.
     </div> 
     {/* card 5  ///////////////////////////////////////////    */}
      {/* card 6 */}  
-    <div className='bg-purple h-[8px] '></div>
+   
     
    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track  '>
      {/* heading */}
