@@ -901,7 +901,7 @@ margin-left: 12px;
   }
 
   .bg-mission{
-    background-image: url(assets/IMG_9690.JPG);
+    background-image: url(assets/intercultural-hand-shake-outdoor.jpg);
     background-position: scroll;
     background-size: contain;
     background-repeat: no-repeat;
@@ -909,12 +909,15 @@ margin-left: 12px;
     margin: auto;
   }
   .bg-missionn{
-    background-image: url(assets/intercultural-hand-shake-outdoor.jpg);
+    background-image: url(assets/water-polo-trophy-by-pool.jpg);
     background-position: scroll;
-  height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 24px;
+   height: 800px; 
+    background-size: contain;
+/*    
+    border-top-left-radius: 48px ;
+    border-top-right-radius: 48px; */
+    background-position: 50%;
+  
   }
   .bg-morph{
 

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navbar from '../Navbar'
 import Home from '../home/Home'
 import About from '../about/About'
+import Footer from '../Footer'
 
 
 
@@ -26,6 +27,11 @@ const Pages = () => {
       
 
 
+<div className='bg-missionn '>
+        <div className=''>
+          <Footer />
+        </div>
+       </div>
 
 
 </Router> 

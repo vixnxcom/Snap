@@ -94,8 +94,8 @@ const About = () => {
        </div>
     
 
-       <div className='bg-missionn mb-20'>
-        <div className='mt-36'>
+       <div className='bg-purple h-[600px] '>
+        <div className='mt-20'>
           <End />
         </div>
        </div>
