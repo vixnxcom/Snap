@@ -4,6 +4,8 @@ import Navbar from '../Navbar'
 import Home from '../home/Home'
 import About from '../about/About'
 import Footer from '../Footer'
+import ScrollTop from '../ScrollTop'
+import styles from '../../style'
 
 
 
@@ -24,7 +26,9 @@ const Pages = () => {
     <Route exact path ='/about' element={< About />} />  
 
 </Routes>
-      
+<div className={`${styles.boxWidth} `}>
+            < ScrollTop />
+           </div>  
 
 
 <div className='bg-missionn '>

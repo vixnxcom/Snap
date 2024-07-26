@@ -55,8 +55,8 @@ developing a tailored plan.
    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track '>
      {/* heading */}
      <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] text-white bg-yellow`}>  
-     <h1 className='text-white galgo text-[32px] tracking-wide'> 03. </h1>
+     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] text-white bg-white`}>  
+     <h1 className='yellow galgo text-[32px] tracking-wide'> 03. </h1>
      </div> 
    <h2 className={`${styles.flexStart} galgo text-5xl tracking-wide mt-5 mx-2 text-white` }>
     We believe in the importance of open communication and collaboration.

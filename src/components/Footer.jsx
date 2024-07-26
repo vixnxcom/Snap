@@ -8,11 +8,12 @@ const Footer = () => {
      <div className=' md:w-[800px] xs:w-[470px] p-6  track imagess mt-20'>
 
   <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10` }>
-Join us as we embark
+Champions Global Consulting
 </h2>
 <p className='text-[24px] neue-thin mt-5 p-2 mr-2 text-start'>
-on a transformative journey under Ahmedcine's guidance, where every 
-step forward is a testament to the power of empowerment and leadership.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, corrupti excepturi. Labore repellendus dolorem,
+ praesentium 
+suscipit tempore sunt ut vitae sequi, 
 </p>
 </div> 
     </section>

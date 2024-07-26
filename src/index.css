@@ -920,11 +920,33 @@ margin-left: 12px;
   
   }
   .bg-morph{
-
-
-background: linear-gradient(139.36deg, rgba(0, 0, 0, 0.8) 41.58%, 
-rgba(4, 1, 6, 0.6) 66.91%, rgba(89, 23, 132, 0.6) 99.42%);
-backdrop-filter: blur(30px);
+  background: linear-gradient(139.36deg, rgba(0, 0, 0, 0.8) 41.58%, 
+  rgba(4, 1, 6, 0.6) 66.91%, rgba(89, 23, 132, 0.6) 99.42%);
+   backdrop-filter: blur(30px);
 /* Note: backdrop-filter has minimal browser support */
 
   }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 22px;
+    display: none;
+    color: white;
+    cursor: pointer;
+  
+  
+  }
+  
+  .scroll-to-top.visible {
+    display: block;
+  }
+  
+  
+  
+  @media(min-width:620px) {
+    .scroll-to-top {
+      right: 60px;
+    }
+  }
+  

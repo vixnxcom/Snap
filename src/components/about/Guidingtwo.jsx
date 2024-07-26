@@ -31,8 +31,8 @@ throughout the duration of our engagement.
    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-black '>
      {/* heading */}
      <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-yellow`}>  
-     <h1 className='text-white galgo text-[32px] tracking-wide'> 05. </h1>
+     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-white`}>  
+     <h1 className='purple galgo text-[32px] tracking-wide'> 05. </h1>
      </div> 
    <h2 className={`${styles.flexStart} galgo text-5xl text-white tracking-wide mt-5 mx-2` }>
    We are committed to being transparent and accountable
