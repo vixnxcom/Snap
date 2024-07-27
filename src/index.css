@@ -879,7 +879,7 @@ background: linear-gradient(74.74deg, #EFEFF9 34.9%, #E7E8F2 60.34%);
 }
 .mission-button{
 
-background-color: #000;
+
 backdrop-filter: blur(30px);
 /* Note: backdrop-filter has minimal browser support */
 

@@ -20,25 +20,26 @@ const About = () => {
     <div className='w-full overflow-hidden off-blue' >
 
       <div className='bg-aboutt  h-[480px] mt-28' >
-      {/* <div className='bg-aboutt h-[20px] '></div> */}
       <Head />
     </div>
 
-    <div className='bg-white'>
+    <div className='bg-gray-950'>
       <Secondp />
     </div>
 
-     <div className='bg-white h-[470px] '>
+     <div className='bg-gray-950 h-[470px] '>
      <div className='bg-box'>
       <Box />
      </div>
      </div>
 
-        <div className='bg-white'>
+
+
+        <div className='bg-gray-950'>
         <div className=''>
     
-    <h2 className={`${styles.flexStart} galgo text-8xl text-black tracking-wide p-8` }>
-       <span className='rounded-[16px] h-[16px] w-[16px] bg-black mr-4'></span>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-white tracking-wide p-8` }>
+       <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4'></span>
       Guiding Principles
         </h2>
         </div>
@@ -49,29 +50,29 @@ const About = () => {
         </div>
    
       {/* image */}
-      <div className='bg-white h-[40px] '></div>
+      <div className='bg-gray-950 h-[40px] '></div>
 
-      <div className='bg-white p-2 '>
+      <div className='bg-gray-950 p-2 '>
         <img src={emp} alt="" className='md:w-[50%] w-[96%] mx-auto mt-20 mb-20'/>
        </div>
        {/* image */}
 
-       <div className='bg-white'>
+       <div className='bg-gray-950'>
        <Guidingtwo />
        </div>
-
-    
-
      </div>
-    
-     <div className='bg-curvee  '>
+     
+     
+     <div className='bg-curvee '>
       
         <Cardtwo />
+        
        </div>
+   
     
 
         <div className='bg-white mt-36'></div>
-       <div className='mt-36 bg-black mb-36'>
+       <div className='mt-36 bg-gray-950 mb-36'>
         <ParaGuid />
        </div>
 

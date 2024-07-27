@@ -32,6 +32,9 @@ const Navbar = () => {
             <Link to='/about' onClick={handleSelection}>About</Link>
           </li>
           <li className='nav-item'>
+            <Link to='/service' onClick={handleSelection}>Services</Link>
+          </li>
+          <li className='nav-item'>
             <Link to='/contact' onClick={handleSelection}>Contact</Link>
           </li>
         </ul>

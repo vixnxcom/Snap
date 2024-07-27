@@ -6,6 +6,7 @@ import About from '../about/About'
 import Footer from '../Footer'
 import ScrollTop from '../ScrollTop'
 import styles from '../../style'
+import Services from '../services/Services'
 
 
 
@@ -24,6 +25,7 @@ const Pages = () => {
 
     <Route exact path ='/' element={<Home />} />  
     <Route exact path ='/about' element={< About />} />  
+    <Route exact path ='/service' element={< Services />} />  
 
 </Routes>
 <div className={`${styles.boxWidth} `}>

@@ -5,9 +5,9 @@ import styles from '../../style'
 const Secondp = () => {
   return (
    <section>
-    <div className=' md:w-[800px] xs:w-[470px] p-6  track'>
+    <div className=' md:w-[800px] xs:w-[470px] p-6 text-white  track'>
 
-    <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10` }>
+    <h2 className='galgo text-8xl tracking-wide text-start mt-10'>
     Our mission is to empower you
         </h2>
         <p className='text-[24px] neue-thin mt-5 p-2 mr-2'>
