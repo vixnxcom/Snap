@@ -965,7 +965,10 @@ margin-left: 12px;
   }
 
   .bg-welcomee{
+  /* Rectangle 6 */
 
- background: linear-gradient(216.53deg, rgba(194, 2, 225, 0.8) 59.18%, #000000 89.47%);
+
+background: linear-gradient(220.25deg, rgba(194, 2, 225, 0.8) 60.88%, 
+rgba(172, 2, 200, 0.822687) 69.01%, #000000 93.35%);
 
   }
