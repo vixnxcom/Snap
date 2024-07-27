@@ -17,9 +17,9 @@ import End from './End'
 const About = () => {
   return (
     <section>
-    <div className='w-full overflow-hidden off-blue' >
-
-      <div className='bg-aboutt  h-[480px] mt-28' >
+    <div className='w-full overflow-hidden ' >
+    
+      <div className='bg-aboutt  h-[480px] ' >
       <Head />
     </div>
 

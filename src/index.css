@@ -264,22 +264,13 @@ background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
 
 .border-logo{
   padding: 4px 10px;
-
 /* Rectangle 2 */
-
-
-/* Rectangle 2 */
-
-
-background: linear-gradient(124.61deg, rgba(89, 23, 132, 0.25)   8.63%,  rgba(255, 255, 255, 0.2)  122.96%);
+background: linear-gradient(124.61deg, rgba(108, 38, 155, 0.25)   8.63%, 
+ rgba(221, 220, 220, 0.2)  122.96%);
 box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(20px);
 /* Note: backdrop-filter has minimal browser support */
 border-radius: 12px;
-
-
-
-
 
 }
 
@@ -614,9 +605,9 @@ box-shadow: 0px 0px 20px #FFC000;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(assets/IMG_9483.jpeg);
+    background-image: url(assets/IMG_9591.jpg);
     background-size: cover;
-    background-position: 20%;
+    background-position: 100%;
 
   }
   @media (min-width: 1024px) {
@@ -633,9 +624,9 @@ box-shadow: 0px 0px 20px #FFC000;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(assets/IMG_9548.JPG);
+    background-image: url(assets/IMG_9552.JPG);
     background-size: cover;
-    background-position: 80%;
+    background-position: 50%;
 
 
   }
@@ -711,7 +702,7 @@ box-shadow: 0px 0px 20px #FFC000;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(assets/IMG_9554.JPG);
+    background-image: url(assets/IMG_9548.jpg);
     background-size: cover;
      background-position: 80%; 
    
@@ -788,6 +779,8 @@ width: 98vw;
 
 
 background: linear-gradient(74.74deg, #EFEFF9 34.9%, #E7E8F2 60.34%);
+background: linear-gradient(180deg, rgba(89, 23, 132, 0.12) 49.91%, rgba(89, 23, 132, 0.16) 100%), linear-gradient(139.36deg, rgba(0, 0, 0, 0.16) 58.5%, rgba(0, 0, 0, 0.2) 85.13%);
+backdrop-filter: blur(5px);
 
 }
 
@@ -900,6 +893,12 @@ margin-left: 12px;
     border-radius: 24px;
   }
 
+  @media (min-width: 768px) {
+    .bg-office{
+      background-size: cover;
+    }
+  }
+
   .bg-mission{
     background-image: url(assets/intercultural-hand-shake-outdoor.jpg);
     background-position: scroll;
@@ -908,6 +907,14 @@ margin-left: 12px;
     border-radius: 24px;
     margin: auto;
   }
+  @media (min-width: 768px) {
+    .bg-mission{
+      background-size: cover;
+    }
+  }
+
+
+
   .bg-missionn{
     background-image: url(assets/water-polo-trophy-by-pool.jpg);
     background-position: scroll;
@@ -950,3 +957,15 @@ margin-left: 12px;
     }
   }
   
+  .services-bg{
+    background: #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 48px;
+  }
+
+  .bg-welcomee{
+
+ background: linear-gradient(216.53deg, rgba(194, 2, 225, 0.8) 59.18%, #000000 89.47%);
+
+  }
