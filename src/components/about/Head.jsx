@@ -14,7 +14,7 @@ const Head = () => {
 
     <div className='mt-20'>
     <p className={`${styles.flexCenter} neue-medium tracking-wide text-3xl text-white w-[470px] text-shadoww`}>
-      <span className='yellow mr-2'> Motto: </span> Unleashing Potential, <br /> Achieving Greatness.
+      <span className='yellow '> Motto: </span> Unleashing Potential, <br /> Achieving Greatness.
         </p>
     </div>
     
