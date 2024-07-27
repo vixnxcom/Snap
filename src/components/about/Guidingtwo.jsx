@@ -61,7 +61,7 @@ suggestions from them as well.
    We believe in the importance of diversity and inclusion.
         </h2>        
     </div>
-    <p className='text-[24px] neue-thin mt-2 p-2 text-black mb-2 '>
+    <p className='text-[24px] neue-thin mt-2 p-2 text-black  '>
     Our team is made up of 
 individuals with a wide range of backgrounds and experiences, and we welcome 
 clients from all walks of life.

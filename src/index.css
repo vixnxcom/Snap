@@ -799,7 +799,7 @@ background: linear-gradient(74.74deg, #EFEFF9 34.9%, #E7E8F2 60.34%);
 
 
 .bg-box{
-  background-image: url(assets/IMG_9552.JPG);
+  background-image: url(assets/IMG_9678.JPG);
   display: flex;
   background-size: cover;
   height: 400px;
@@ -823,11 +823,11 @@ background: linear-gradient(74.74deg, #EFEFF9 34.9%, #E7E8F2 60.34%);
     position: absolute;
     top: 0; 
     left: 0;
-
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
     width: 100%;
     height: 100%;
     display: flex;
-    color: #001a70;
+    color: #fff;
     align-items: center;
     justify-content: center;
     font-family: neue-medium;
