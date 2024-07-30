@@ -19,7 +19,7 @@ const Navbar = () => {
          {/* text */}
          <div className='mx-2 text-white text-shadoww '>
           <h1 className='text-[24px] neue-medium ' >Champions Global</h1>
-          <h1 className='neue-thin'>Consulting</h1>
+          <h1 className='neue-thin text-[20px]'>Consulting</h1>
          </div>
         </div>
         {/* logo */}

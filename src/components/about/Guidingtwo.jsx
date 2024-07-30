@@ -12,7 +12,7 @@ const Guidingtwo = () => {
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-yellow`}>  
      <h1 className='text-white galgo text-[32px] tracking-wide'> 04. </h1>
      </div> 
-   <h2 className={`${styles.flexStart} galgo text-5xl text-white tracking-wide mt-5 mx-2` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-white tracking-wide mt-5 mx-2` }>
    We are dedicated to the success of our clients
         </h2>        
     </div>
@@ -27,15 +27,15 @@ throughout the duration of our engagement.
     {/* card 4  ///////////////////////////////////////////    */}
      {/* card 5 */}  
   
-     <div className='h-[8px] bg-white'></div>
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-gray-950'>
+     <div className='h-[2px] bg-white'></div>
+   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-gray-950 rounded-[48px]'>
    
      {/* heading */}
      <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-white`}>  
+     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-white mt-5`}>  
      <h1 className='purple galgo text-[32px] tracking-wide'> 05. </h1>
      </div> 
-   <h2 className={`${styles.flexStart} galgo text-5xl purple tracking-wide mt-5 mx-2` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] purple tracking-wide mt-5 mx-2` }>
    We are committed to being transparent and accountable
         </h2>        
     </div>
@@ -51,13 +51,13 @@ suggestions from them as well.
      {/* card 6 */}  
     <div className='bg-white h-[8px] '></div>
     
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-white '>
+   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-white  '>
      {/* heading */}
      <div className='flex flex-col'>
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-purple`}>  
      <h1 className='text-white galgo text-[32px] tracking-wide'> 06. </h1>
      </div> 
-   <h2 className={`${styles.flexStart} galgo text-5xl tracking-wide mt-5 mx-2 text-black` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 text-black` }>
    We believe in the importance of diversity and inclusion.
         </h2>        
     </div>

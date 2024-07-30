@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../style'
+import { service } from '../../assets'
 
 const Headservice = () => {
   return (
@@ -10,6 +11,9 @@ const Headservice = () => {
             <h1 className='galgo text-8xl text-white'>
                 Our Services
             </h1>
+        </div>
+        <div className='w-[80%] mx-20'>
+            <img src={service} alt="" />
         </div>
         {/* head text */}
     </div>

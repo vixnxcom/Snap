@@ -1,5 +1,5 @@
 import React from 'react'
-import { success } from '../../assets'
+import { career, success } from '../../assets'
 import styles from '../../style'
 
 const Career = () => {
@@ -7,15 +7,15 @@ const Career = () => {
    <section className={`${styles.paddingX} flex flex-col`}>
     <div className='flex flex-row gap-4'>
        {/* img */}
-       <div className='services-bg mx-2'>
-        <img src={success} alt="" />
+       <div className='services-bg w-[120px] h-[120px] '>
+        <img src={career} alt="" className=' mt-4 mx-auto' />
        </div>
        {/* img */}
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 mx-2'>
+       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 '>
              Career <br /> Coaching
             </h1>
      </div>
-            <div className='p-4'>
+            <div className='p-2'>
            
             <p className='neue-medium text-[24px] text-white w-[370px] '>
             Guidance and strategies to navigate career transitions, develop skills, and 

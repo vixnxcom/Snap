@@ -5,13 +5,13 @@ import { ppl } from '../../assets'
 const Mtalks = () => {
   return (
  <section className={`${styles.flexCenter} max-w-[520px] mx-auto `}>
-<div className='w-[96vw] bg-yellow rounded-[48px] '>
+<div className='max-w-sm w-[98vw]  rounded-[48px] overflow-hidden shadow-xl mb-5 mt-5  z-[60] '>
     <div className='h-[200px]'>
     <img src={ppl} alt="" />
     </div>
     <div className={`${styles.flexCenter} flex flex-col p-4`}>
-        <h1 className='galgo text-black text-7xl tracking wide'> Inspirational Talks </h1>
-        <p className='text-black tracking-wide text-[24px] neue-medium mt-2 mb-5'>Compelling narratives and insights to inspire individuals to embrace 
+        <h1 className='galgo text-white text-7xl tracking wide'> Inspirational Talks </h1>
+        <p className='text-white tracking-wide text-[24px] neue-medium mt-2 mb-5'>Compelling narratives and insights to inspire individuals to embrace 
 change, overcome challenges, and pursue their dreams.
 
 </p>

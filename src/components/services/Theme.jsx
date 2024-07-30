@@ -12,7 +12,7 @@ const Theme = () => {
        </div> */}
        {/* img */}
        <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 mx-2 yellow'>
-       Theme-Based Mentoring:
+       Theme-Based <br /> Mentoring:
             </h1>
     
             <div className='p-4'>

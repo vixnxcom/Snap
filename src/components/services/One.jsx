@@ -12,7 +12,7 @@ const One = () => {
        </div> */}
        {/* img */}
        <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 mx-2 yellow'>
-       One-on-One Mentoring:
+       One-on-One <br /> Mentoring:
             </h1>
     
             <div className='p-4'>

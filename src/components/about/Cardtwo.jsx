@@ -14,7 +14,7 @@ const Cardtwo = () => {
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] text-white bg-white`}>  
       <h1 className='yellow galgo text-[32px] tracking-wide'> 07. </h1>
       </div> 
-    <h2 className={`${styles.flexStart} galgo text-5xl tracking-wide text-white mt-5 mx-2` }>
+    <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide text-white mt-5 mx-2` }>
     We are dedicated to maintaining the highest ethical standards.
          </h2>        
      </div>

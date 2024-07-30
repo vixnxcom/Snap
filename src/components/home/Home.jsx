@@ -13,6 +13,7 @@ import styles from '../../style'
 import Team from './Team'
 import Ahmed from './Ahmed'
 import Kazeem from './Kazeem'
+import Stat from './Stat'
 
 
 const Home = () => {
@@ -25,6 +26,8 @@ const Home = () => {
     <div className='bg-hero bg-heroo' >
       <Welcome />
     </div>
+
+ 
     
     <div className=' mt-5'>
     {/* <div className='bg-curve p-2 z-[999]'>
@@ -35,8 +38,8 @@ const Home = () => {
 </div> 
 
  <div className='bg-intro mt-5'>
-  <div className='p-6'>
-  <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10` }>
+  <div className={`${styles.flexCenter}  p-6 pbox track `}>
+  <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10 md:w-[800px] xs:w-[470px] ` }>
         we are committed to delivering tailored
         </h2>
   </div>

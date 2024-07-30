@@ -12,7 +12,7 @@ const Group = () => {
        </div> */}
        {/* img */}
        <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 mx-2 yellow'>
-       Group Mentoring:
+       Group <br /> Mentoring:
             </h1>
     
             <div className='p-4'>

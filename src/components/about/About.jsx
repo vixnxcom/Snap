@@ -13,6 +13,7 @@ import Mission from './Mission'
 import Vision from './Vision'
 import Ceo from './Ceo'
 import End from './End'
+import Stat from '../home/Stat'
 
 const About = () => {
   return (
@@ -23,9 +24,20 @@ const About = () => {
       <Head />
     </div>
 
-    <div className='bg-gray-950'>
+
+
+ 
+    <div className='bg-gray-950 '>
       <Secondp />
     </div>
+
+    <div className='bg-gray-950'>
+      <div className='h-[40px] bg-gray-950'></div>
+      <Stat />
+      <div className='h-[40px] bg-gray-950'></div>
+    </div>
+
+
 
      <div className='bg-gray-950 h-[470px] '>
      <div className='bg-box'>
@@ -39,7 +51,7 @@ const About = () => {
         <div className=''>
     
     <h2 className={`${styles.flexCenter} galgo text-8xl text-white tracking-wide p-8` }>
-       <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
+       <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mb-16'></span>
       Guiding Principles
         </h2>
         
@@ -47,7 +59,7 @@ const About = () => {
 
         </div>
         <div className='bg-gray-950 h-[40px]'></div>
-        <div className='bg-curvy '>
+        <div className='bg-white '>
        <Guiding />
        </div>
     
@@ -67,31 +79,34 @@ const About = () => {
      </div>
      
      
-     <div className='bg-curvee '>
-      
-        <Cardtwo />
-        
+     <div className='bg-curvee '>    
+        <Cardtwo />    
        </div>
    
     
 
-        <div className='bg-white mt-36'></div>
+        <div className='bg-gray-950 mt-36'></div>
        <div className='mt-36 bg-gray-950 mb-36'>
         <ParaGuid />
        </div>
 
-       {/* <div className='bg-white h-[240px]'></div> */}
-       <div className='bg-office'>
+     <div className='w-full bg-curvyoffice '>
+     {/* <div className='bg-purple  h-[2px]'></div> */}
+       <div className='bg-office '>
        <div className='mt-36 max-w-md mx-auto'>
         <Vision />
        </div>
        </div>
+
+       <div className='bg-purple  h-[128px]'></div>
 
 
      <div className='bg-mission'>
        <div className='mt-20 max-w-md mx-auto '>
         < Mission />
        </div>
+       </div>
+      <div className='bg-purple  h-[40px]'></div>
        </div>
 
        <div className=''>

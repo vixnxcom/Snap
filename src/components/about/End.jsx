@@ -5,7 +5,7 @@ import styles from '../../style'
 const End = () => {
   return (
     <section className={`${styles.flexCenter} mb-20  mx-auto place-items-center text-center flex flex-col`} >
-     <div className=' md:w-[800px] xs:w-[470px] p-6  track imagess mt-10 mb-10 text-white'>
+     <div className=' md:w-[800px] xs:w-[470px] p-6  track end mt-10 mb-10 text-white'>
 
   <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10` }>
 Join us as we embark

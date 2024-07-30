@@ -20,9 +20,26 @@ import brand from './brand.png'
 import guide from './blue.png'
 import top from './top.png'
 import gif from './gif.gif'
+import book from './book.gif'
+import lead from './lead.png'
+import life from './life.png'
+import mind from './mind.png'
+import motive from './motive.png'
+import career from './career.png'
+import arrowhite from './white.png'
+import service from './service.png'
+
 
 
 export {
+    book,
+    service,
+    arrowhite,
+    motive,
+    career,
+    mind,
+    lead,
+    life,
     top,
     guide,
     gif,
