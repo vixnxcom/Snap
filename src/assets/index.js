@@ -28,10 +28,16 @@ import motive from './motive.png'
 import career from './career.png'
 import arrowhite from './white.png'
 import service from './service.png'
+import lamp from './lamp.png'
+import seat from './manseat.jpg'
+import bulb from './bulb.jpg'
 
 
 
 export {
+    lamp,
+    seat,
+    bulb,
     book,
     service,
     arrowhite,

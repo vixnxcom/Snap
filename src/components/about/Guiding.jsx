@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../style'
+import { lamp } from '../../assets'
 
 const Guiding = () => {
   return (
@@ -46,8 +47,11 @@ developing a tailored plan.
       expertise.
     </p>
      {/* heading */}
-
+   <div>
+    <img src={lamp} alt="" className='' />
+   </div>
     </div> 
+    
     {/* card 2   ///////////////////////////////////////////    */}
      {/* card 3 */}  
     <div className='bg-purple h-[2px] '></div>
