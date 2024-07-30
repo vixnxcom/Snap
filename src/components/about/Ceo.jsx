@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../style'
+import { gif, lamp } from '../../assets'
 
 const Ceo = () => {
   return (
@@ -9,6 +10,9 @@ const Ceo = () => {
         <p className=' neue-thin text-[24px] text-start tracking-wide '><br /> He seeks to inspire 
        individuals and organizations to reach their full potential. With a focus on excellence, 
         empowerment, and innovation,  </p> 
+        <div>
+    <img src={lamp} alt="" className='' />
+   </div>
         <p className=' neue-thin text-[24px] text-start tracking-wide mt-5'>  Ahmedcine embodies our firm's commitment to guiding our 
         clients towards success in their respective fields. </p> 
       

@@ -1013,3 +1013,10 @@ backdrop-filter: blur(20px);
     background-repeat: repeat-y;
     
   }
+  .giff{
+    background-image: url(assets/guide.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+  }

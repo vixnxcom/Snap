@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../style'
-import { lamp } from '../../assets'
+import { ball, lamp } from '../../assets'
 
 const Guiding = () => {
   return (
@@ -47,9 +47,9 @@ developing a tailored plan.
       expertise.
     </p>
      {/* heading */}
-   <div>
-    <img src={lamp} alt="" className='' />
-   </div>
+  <div className='flex justify-end items-end align-items-right object-right'>
+    <img src={ball} alt=""className='w-[120px] h-[100px]' />
+  </div>
     </div> 
     
     {/* card 2   ///////////////////////////////////////////    */}
