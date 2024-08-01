@@ -114,7 +114,7 @@ const About = () => {
        </div>
     
 
-       <div className='bg-purple h-[600px] '>
+       <div className='bg-purple h-[580px] '>
         <div className='mt-20'>
           <End />
         </div>

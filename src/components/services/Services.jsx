@@ -122,7 +122,7 @@ const Services = () => {
        </div>
 
    <div className='bg-white h-[40px]'></div>
-        <div className='bg-white'>
+        <div className='bg-purple h-[364px]'>
        
         <Questions />
        </div>
