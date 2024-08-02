@@ -6,7 +6,7 @@ const Cardtwo = () => {
     <section className={`${styles.flexStart} text-start z-[999] `}>
     <div>
              {/* card 6 */}  
-    <div className=' h-[8px]  '></div>
+    <div className=' h-[8px]   '></div>
     
     <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track   '>
       {/* heading */}

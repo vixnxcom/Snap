@@ -71,6 +71,7 @@ clients from all walks of life.
     </div> 
    
     {/* card 6  ///////////////////////////////////////////    */}
+    <div className='black'></div>
     </div>
 
       

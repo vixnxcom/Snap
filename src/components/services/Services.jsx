@@ -30,6 +30,7 @@ const Services = () => {
         < Headservice />
     </div>
     </div>
+   
 
     <div className='bg-white h-[2px]'></div>
 
@@ -38,6 +39,8 @@ const Services = () => {
         <Coaching />
        </div>
        </div>
+ {/* col start */}
+ <div className='md:grid md:grid-cols-2 md:gap-4'>
 
         <div className='bg-gray-950 mt-10'>
           <Life />
@@ -60,7 +63,8 @@ const Services = () => {
       
         </div>
 
-       
+</div>
+{/* col end */}   
 
         <div className={`${styles.paddingX} bg-white mt-20`}>
        
@@ -68,6 +72,9 @@ const Services = () => {
         <Mentoring />
        </div>
        </div>
+
+  {/* col start */}
+ <div className='sm:grid md:grid-cols-2 md:gap-4'>
 
        <div className='bg-white '>
         <div className='bg-white h-[40px]'></div>
@@ -83,8 +90,11 @@ const Services = () => {
         <div className='bg-white h-[40px]'></div>
           <Theme />
         </div>
-        <div className='bg-white h-[40px]'></div>
+        
 
+ </div>
+ {/* col end */}   
+ <div className='bg-white h-[40px] md:hidden'></div>
 
         <div className={`${styles.paddingX} bg-gray-950 mt-20`}>
    
@@ -93,6 +103,8 @@ const Services = () => {
        </div>
        </div>
 
+  {/* col start */}
+  <div className='md:grid md:grid-cols-2 md:gap-4'>
        <div className='mt-10 '>
     
           <Inspire />
@@ -103,12 +115,17 @@ const Services = () => {
           <Mtalks />
         </div>
 
+ </div>
+ {/* col end */}   
+
 
         <div className={`${styles.paddingX} bg-white mt-20`}>
        <div className={`${styles.boxWidth} `}>
         <Consulting />
        </div>
        </div>
+
+
 
        <div className='bg-white '>
         
@@ -128,9 +145,9 @@ const Services = () => {
         <Questions />
        </div>
 
-       {/* <div className='w-full bg-white '>
+        {/* <div className='w-full bg-white '>
         <Loader />
-       </div>  */}
+       </div>   */}
       
     </section>
   )

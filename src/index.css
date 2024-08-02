@@ -997,7 +997,7 @@ backdrop-filter: blur(20px);
   }
   .bg-curvyoffice{
     /* top: -20; */
-    background-color: #591784;
+    background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
     border-top-left-radius: 240px;
     border-top-right-radius: 240px;
     height: auto;
@@ -1005,7 +1005,9 @@ backdrop-filter: blur(20px);
     margin-right: 4px;
 
   }
-
+.bg-yelloww{
+  background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
+}
   .gif{
     background-image: url(assets/IMG_9779.JPG);
     background-position: center;
@@ -1061,3 +1063,10 @@ backdrop-filter: blur(20px);
   }
 }
   /* loader//////////////////////////////////// */
+
+  @media (min-width: 520px) {
+    .black{
+      height: 20px;
+      background-color: #000;
+    }
+  }

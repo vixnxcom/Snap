@@ -98,7 +98,7 @@ const About = () => {
        </div>
        </div>
 
-       <div className='bg-purple  h-[128px]'></div>
+       <div className='bg-yelloww  h-[128px]'></div>
 
 
      <div className='bg-mission'>
@@ -106,7 +106,7 @@ const About = () => {
         < Mission />
        </div>
        </div>
-      <div className='bg-purple  h-[40px]'></div>
+      <div className='bg-yelloww  h-[40px]'></div>
        </div>
 
        <div className=''>

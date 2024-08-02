@@ -4,7 +4,7 @@ const Loader = () => {
   return (
     <section >
       <div className='loader-container  '>
-        <h1 className='galgo text-8xl text-white'>CGC</h1>  
+        <h1 className='galgo text-8xl text-white mt-1'>CGC</h1>  
 
         <div className='progress-bar'>      
         <div className='progress'>      
