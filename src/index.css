@@ -370,6 +370,8 @@ color: #001a70;
 .content-inner{
   padding: 20px auto;
 }
+
+
 .bg-book{
   background: linear-gradient(227.76deg, #DAD7DF 27.82%, #F5F6FC 42.3%);
   
@@ -447,6 +449,24 @@ rgba(89, 23, 132, 0.96) 141.92%); */
     margin-left: 4px;
     margin-right: 4px;
   }
+
+  .bg-curvebook{
+    /* top: -20; */
+
+
+  background: linear-gradient(227.76deg, #DAD7DF 27.82%, #F5F6FC 42.3%);
+
+    border-radius: 48px;
+    height: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .bg-bookservice{
+background: linear-gradient(227.76deg, #DAD7DF 27.82%, #F5F6FC 42.3%);
+
+  }
+
   .bg-curvy{
     /* top: -20; */
     background-color: #591784;
