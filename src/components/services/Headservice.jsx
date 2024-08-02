@@ -12,7 +12,7 @@ const Headservice = () => {
                 Our Services
             </h1>
         </div>
-        <div className='w-[80%] mx-20 mt-16'>
+        <div className='w-[80%] mx-20 mt-10'>
             <img src={service} alt="" />
         </div>
         {/* head text */}

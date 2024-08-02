@@ -16,6 +16,7 @@ import Kazeem from './Kazeem'
 import Stat from './Stat'
 import Image from './Image'
 import { book } from '../../assets'
+import Slider from './Slider'
 
 
 const Home = () => {
@@ -100,8 +101,17 @@ const Home = () => {
  </div>
 
 
+ <div className=''>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20 ` }>
+    <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
+       Our Reviews
+     </h2>
+     <p className={`${styles.flexCenter} text-white our tracking-wide mt-5 mt-5 neue-thin text-[28px] `}>What poeple are saying about us</p>
+    </div>
 
-
+<div>
+  <Slider />
+</div>
 
 
 </div> 
