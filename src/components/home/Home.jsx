@@ -38,7 +38,7 @@ const Home = () => {
  <div className='bg-curve '>
   <Intro />
   <img src={book} alt="" className='w-full h-[400px] mx-auto max-w-[800px] ' />
-  <div className={`${styles.flexCenter}  p-6 pbox track `}>
+  <div className={`${styles.flexCenter} md:w-[800px] xs:w-[470px]  p-6 pbox track mx-auto `}>
   <p className='text-[24px] neue-thin mt-5 p-2 mb-5'>
     
     With a

@@ -1054,3 +1054,18 @@ backdrop-filter: blur(20px);
       background-color: #000;
     }
   }
+.bg-each{
+  background-image: url(assets/pexels.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 640px;
+  /* Rectangle 12 */
+/* pexels */
+
+
+
+
+
+}
