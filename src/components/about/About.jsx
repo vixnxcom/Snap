@@ -106,7 +106,7 @@ const About = () => {
         < Mission />
        </div>
        </div>
-      <div className='bg-yelloww  h-[40px]'></div>
+      {/* <div className='bg-yelloww  h-[40px]'></div> */}
        </div>
 
        <div className=''>

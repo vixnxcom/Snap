@@ -1005,9 +1005,7 @@ backdrop-filter: blur(20px);
     margin-right: 4px;
 
   }
-.bg-yelloww{
-  background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
-}
+
   .gif{
     background-image: url(assets/IMG_9779.JPG);
     background-position: center;

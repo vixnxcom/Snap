@@ -3,8 +3,9 @@ import styles from '../../style'
 
 const Mission = () => {
   return (
-   <section className={`${styles.flexCenter}`}>
-    <div className='mission-button bg-arrow  mt-36'>
+   <section className={`${styles.flexCenter} `}>
+
+    <div className='mission-button bg-arrow  mt-36 mb-10'>
       <div className={`${styles.flexCenter} text-white flex flex-col mt-10`}>
         <div className='bg-vision mt-5'>
         <h1 className={`${styles.flexCenter} neue-medium  mb-2 mt-4 text-[32px]  tracking-wide text-white `}>
@@ -21,6 +22,7 @@ const Mission = () => {
         </p>
       </div>
     </div>
+
    </section>
   )
 }
