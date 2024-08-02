@@ -14,6 +14,8 @@ import Team from './Team'
 import Ahmed from './Ahmed'
 import Kazeem from './Kazeem'
 import Stat from './Stat'
+import Image from './Image'
+import { book } from '../../assets'
 
 
 const Home = () => {
@@ -35,13 +37,25 @@ const Home = () => {
     </div> */}
  <div className='bg-curve '>
   <Intro />
+  <img src={book} alt="" className='w-full h-[400px] mx-auto max-w-[800px] ' />
+  <div className={`${styles.flexCenter}  p-6 pbox track `}>
+  <p className='text-[24px] neue-thin mt-5 p-2 mb-5'>
+    
+    With a
+    dedicated team of seasoned coaches, mentors, consultants, and speakers,
+            </p>
+      
+  </div>
 </div> 
+
 
  <div className='bg-intro mt-5'>
   <div className={`${styles.flexCenter}  p-6 pbox track `}>
   <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10 md:w-[800px] xs:w-[470px] ` }>
         we are committed to delivering tailored
         </h2>
+
+        
   </div>
   <SecoPara />
 </div> 
@@ -76,7 +90,7 @@ const Home = () => {
    <div className=''>
     <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20 ` }>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
-        Our Team
+        Our Team Lead
      </h2>
     </div>
 

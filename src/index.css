@@ -547,28 +547,14 @@ backdrop-filter: blur(20px);
   /* water edits */
   
   .water{
-    background-image: url(assets/IMG_9546.jpg);
+    background-image: url(assets/intro.jpg);
     background-position: scroll;
     background-size: cover;
     background-repeat: no-repeat;
     height: 174px;
     overflow: hidden;
     background-position: 95%;
-
-    /* trans 1 */
-     /* Rectangle 15 */
-
-/* Rectangle 16 */
-/* Rectangle 16 */
-
-
-
-
 box-shadow: 0px 0px 20px #FFC000;
-
-
-   
-
   }
 
   @media (min-width: 620px) {

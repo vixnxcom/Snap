@@ -30,12 +30,14 @@ import arrowhite from './white.png'
 import service from './service.png'
 import lamp from './lamp.png'
 import seat from './manseat.jpg'
+import intro from './intro.jpg'
 import bulb from './bulb.png'
 import ball from './ball.png'
 
 
 
 export {
+    intro,
     ball,
     lamp,
     seat,

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../style'
 import Button from '../Button'
-import { book, gif } from '../../assets'
+import {  intro,  } from '../../assets'
 
 const SecoPara = () => {
   return (
@@ -10,9 +10,11 @@ const SecoPara = () => {
       <div className=' md:w-[800px] xs:w-[470px] pbox track'>
 
         {/* header */}
-   
+   <div className='max-w-[800px]'>
+    <img src={intro} alt="" />
+   </div>
         {/* header */}
-          <img src={book} alt="" className='w-full h-[400px] mx-auto ' />
+      
  <div className='p-6'>
         <p className='text-[24px] neue-thin  p-2'>
        

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../../style'
 
 
-const Intro = () => {
+const Image = () => {
   return (
     <section className={`${styles.flexStart} text-start `}>
       <div>
@@ -19,7 +19,14 @@ premier consulting firm, we specialize in unlocking the full potential of indivi
 organizations, guiding them towards becoming champions in their respective fields. 
 
         </p>
-
+        {/* <div className='water mt-10 mb-10'>
+       <p className='textt'>crazy</p>
+        </div> */}
+        <p className='text-[24px] neue-thin mt-5 p-2 '>
+    
+With a
+dedicated team of seasoned coaches, mentors, consultants, and speakers,
+        </p>
   
       </div>
       </div>
@@ -27,4 +34,4 @@ organizations, guiding them towards becoming champions in their respective field
   )
 }
 
-export default Intro
+export default Image
