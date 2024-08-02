@@ -33,10 +33,14 @@ import seat from './manseat.jpg'
 import intro from './intro.jpg'
 import bulb from './bulb.png'
 import ball from './ball.png'
+import whitea from './whitea.png'
+import whiteb from './whiteb.png'
 
 
 
 export {
+    whitea,
+    whiteb,
     intro,
     ball,
     lamp,

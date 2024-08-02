@@ -1086,3 +1086,16 @@ backdrop-filter: blur(20px);
 .bg-white{
   background-color: #fff;
 }
+
+/* App.css */
+
+.img {
+  transition: opacity 0.5s ease-in-out;
+}
+/* App.css */
+
+.pp {
+  transition: opacity 0.5s ease-in-out;
+  /* word-wrap: break-word; */
+  text-align: justify;
+}

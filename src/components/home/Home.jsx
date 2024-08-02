@@ -102,15 +102,17 @@ const Home = () => {
 
 
  <div className=''>
-    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20 ` }>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20  ` }>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
        Our Reviews
      </h2>
      <p className={`${styles.flexCenter} text-white our tracking-wide mt-5 mt-5 neue-thin text-[28px] `}>What poeple are saying about us</p>
     </div>
 
-<div>
+<div className='bg-purple mt-10 mb-10'>
+  <div className='bg-purple h-[20px]'></div>
   <Slider />
+  <div className='bg-purple h-[20px]'></div>
 </div>
 
 
