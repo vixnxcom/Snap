@@ -25,14 +25,14 @@ const Services = () => {
   return (
     <section className='w-full overflow-hidden bg-gray-950'>
       
-      <div className={`${styles.flexStart} bg-gray-950 h-[500px]  `}>
-        <div className={`${styles.boxWidth} mt-36`}>
+      <div className={`${styles.flexStart} bg-white h-[500px] mt-36 `}>
+        <div className={`${styles.boxWidth} mt-10 mb-10`}>
         < Headservice />
     </div>
     </div>
    
 
-    <div className='bg-white h-[2px]'></div>
+    {/* <div className='bg-white h-[1px]'></div> */}
 
        <div className={`${styles.paddingX} bg-gray-950 mt-20`}>
        <div className={`${styles.boxWidth} `}>

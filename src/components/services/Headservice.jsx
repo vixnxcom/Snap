@@ -8,11 +8,11 @@ const Headservice = () => {
     <div >
         {/* head text */}
         <div className=''>
-            <h1 className='galgo text-8xl text-white'>
+            <h1 className='galgo text-8xl purple '>
                 Our Services
             </h1>
         </div>
-        <div className='w-[80%] mx-20'>
+        <div className='w-[80%] mx-20 mt-16'>
             <img src={service} alt="" />
         </div>
         {/* head text */}
