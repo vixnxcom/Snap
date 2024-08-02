@@ -8,7 +8,7 @@ const Headservice = () => {
     <div >
         {/* head text */}
         <div className=''>
-            <h1 className='galgo text-8xl purple '>
+            <h1 className='galgo text-8xl text-black '>
                 Our Services
             </h1>
         </div>
