@@ -19,6 +19,7 @@ import Healthcare from './Healthcare'
 import { book, gif } from '../../assets'
 import Endservice from './Endservice'
 import Questions from './Questions'
+import Loader from '../home/Loader'
 
 const Services = () => {
   return (
@@ -126,6 +127,10 @@ const Services = () => {
        
         <Questions />
        </div>
+
+       {/* <div className='w-full bg-white '>
+        <Loader />
+       </div>  */}
       
     </section>
   )

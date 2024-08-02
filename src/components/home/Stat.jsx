@@ -15,7 +15,7 @@ const Stat = () => {
             {/* first card */}
             <div>
                 <h1 className='galgo tracking-wide text-8xl text-white'>100%</h1>
-                <p className='neue-medium text-[24px] text-white mt-2'>Satisfactory Rate</p>
+                <p className='neue-medium text-[24px] text-white mt-2'>Delivery</p>
                 <p className='neue-thin text-[16px] text-white mt-2'>to clients</p>
             </div>
             {/* first card */}
