@@ -81,7 +81,7 @@ const Slider = () => {
               key={index}
               onClick={() => goToSlide(index)}
               className={`h-3 w-3 rounded-full mb-20 focus:outline-none   ${
-                index === currentIndex ? 'bg-purple' : 'bg-yellow'
+                index === currentIndex ? 'bg-purple' : 'bg-white'
               }`}
             />
           ))}
