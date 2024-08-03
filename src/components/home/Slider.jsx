@@ -43,18 +43,18 @@ const Slider = () => {
       >
         {slides.map((slide, index) => (
           <div key={index} className="w-full flex-shrink-0 p-4">
-              <p className="text-center text-white neue-thin text-[20px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
+              <p className="text-center text-white neue-thin leading-relaxed text-[20px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
             <p className="text-center text-5xl text-white tracking-wide galgo pp">{slide.name}</p>
           
           </div>
         ))}
       </div>
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-4">
+      <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex items-center space-x-6 gap-2">
         <button
           onClick={prevSlide}
-          className="bg-yellow text-black px-3 py-2 rounded-full  rounded-[48px] neue-thin w-[80px] h-[60px] "
+          className="bg-yellow outline-none text-black flex items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
-          <img src={whiteb} alt="" />
+          <img src={whiteb} alt="Previous" className="w-18 h-16" />
         </button>
         {/* <div className="flex space-x-2">
           {slides.map((_, index) => (
@@ -67,11 +67,11 @@ const Slider = () => {
             />
           ))}
         </div> */}
-        <button
-          onClick={nextSlide}
-          className="bg-white text-black px-3 py-2 rounded-[48px] neue-thin  w-[80px] h-[60px] "
+         <button
+          onClick={prevSlide}
+          className="bg-white text-black flex items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
-        <img src={whitea} alt="" />
+          <img src={whitea} alt="Previous" className="w-18 h-16" />
         </button>
 
       </div>
@@ -80,7 +80,7 @@ const Slider = () => {
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`h-3 w-3 rounded-full mb-28  ${
+              className={`h-3 w-3 rounded-full mb-28 focus:outline-none   ${
                 index === currentIndex ? 'bg-purple' : 'bg-white'
               }`}
             />
