@@ -75,7 +75,7 @@ const Slider = () => {
         </button>
 
       </div>
-      <div className="flex space-x-2 mt-5">
+      <div className="flex space-x-2 mt-2">
           {slides.map((_, index) => (
             <button
               key={index}
