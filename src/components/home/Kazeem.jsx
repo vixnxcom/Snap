@@ -43,7 +43,7 @@ function Kazeem() {
 
            <Animate>
             <button
-              className="bg-white hover:bg-blue-700 text-white text-[24px] gap-8 button-stroke  py-2  rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
+              className="bg-white hover:tracking-widest text-white text-[24px] gap-8 button-stroke  py-2  rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
               onClick={handleViewMore}
             ><div className={`${styles.flexCenter}`}>
               <p className='purple mx-4 '>View More</p>
