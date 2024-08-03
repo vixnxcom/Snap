@@ -75,12 +75,12 @@ const Slider = () => {
         </button>
 
       </div>
-      <div className="flex space-x-2 mt-16">
+      <div className="flex space-x-2 mt-5">
           {slides.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`h-3 w-3 rounded-full mb-16  ${
+              className={`h-3 w-3 rounded-full mb-24  ${
                 index === currentIndex ? 'bg-purple' : 'bg-white'
               }`}
             />
