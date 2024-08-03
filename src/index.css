@@ -463,12 +463,10 @@ border-bottom-right-radius:48px;
     margin-right: 4px;
   }
   .bg-introbook{
-    /* top: -20; */
 
 
+background: linear-gradient(263.78deg, #A6B8DD 28.37%, rgba(237, 241, 248, 0.993803) 52.68%, #FFFFFF 60.5%);
 
-background: linear-gradient(250.35deg, rgba(165, 183, 220, 0.99) 31.7%, 
-rgba(237, 241, 248, 0.993803) 50.55%, #FFFFFF 53.93%);
 
 
     border-radius: 48px;

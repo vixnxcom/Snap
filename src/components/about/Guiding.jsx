@@ -12,7 +12,7 @@ const Guiding = () => {
    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
      {/* heading */}
      <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px]  text-white bg-white`}>  
+     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] border-purple-400  text-white bg-white`}>  
      <h1 className='text-black galgo text-[32px] tracking-wide'> 01. </h1>
      </div> 
      <SideAnim>
@@ -76,7 +76,7 @@ developing a tailored plan.
     We believe in the importance of open communication and collaboration.
         </h2>
     </SideAnim>
-    
+
     </div>
     <p className='text-[24px] neue-thin mt-2 p-2 text-black '>
     We will 

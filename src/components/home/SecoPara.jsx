@@ -6,12 +6,12 @@ import Animate from '../Animate'
 
 const SecoPara = () => {
   return (
-    <section className={`${styles.flexStart} text-start `}>
+    <section className={`${styles.flexStart} text-start bg-white md:bg-introbook `}>
        <div>
       <div className=' md:w-[800px] xs:w-[470px] pbox track'>
 
         {/* header */}
-   <div className='max-w-[800px] p-2'>
+   <div className='max-w-[800px] '>
     <img src={intro} alt="" />
    </div>
         {/* header */}
