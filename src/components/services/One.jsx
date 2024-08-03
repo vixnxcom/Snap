@@ -10,11 +10,11 @@ const One = () => {
    <section className={`${styles.paddingX} flex flex-col`}>
   
     <div className='flex flex-row gap-2 '>
-<SideAnim>
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 mx-2 yellow'>
+
+       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5  yellow'>
        One-on-One <br /> Mentoring:
             </h1>
- </SideAnim>  
+ 
             <div className='p-4'>
     <Animate>      
             <p className='neue-medium text-[24px]  w-[200px] text-black '>

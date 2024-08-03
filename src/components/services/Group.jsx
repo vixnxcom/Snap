@@ -9,11 +9,11 @@ const Group = () => {
    <section className={`${styles.paddingX} flex flex-col`}>
     
     <div className='flex flex-row gap-2 '>
-     <SideAnim>
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 mx-2 yellow'>
+
+       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5  yellow'>
        Group <br /> Mentoring:
             </h1>
-    </SideAnim>
+
             <div className='p-4'>
 
         <Animate>
@@ -22,7 +22,7 @@ const Group = () => {
 each other's experiences, share insights, and receive collective support.
           </p>
     </Animate>   
-         
+
             </div>
     </div>
    </section>
