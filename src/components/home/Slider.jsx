@@ -36,14 +36,14 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-[94vw] max-w-xl h-[100vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
+    <div className="relative w-[96vw] max-w-xl h-[100vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {slides.map((slide, index) => (
           <div key={index} className="w-full flex-shrink-0 p-4">
-              <p className="text-center text-white neue-thin text-[16px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
+              <p className="text-center text-white neue-thin text-[20px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
             <p className="text-center text-5xl text-white tracking-wide galgo pp">{slide.name}</p>
           
           </div>
@@ -56,7 +56,26 @@ const Slider = () => {
         >
           <img src={whiteb} alt="" />
         </button>
-        <div className="flex space-x-2">
+        {/* <div className="flex space-x-2">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToSlide(index)}
+              className={`h-3 w-3 rounded-full mb-16  ${
+                index === currentIndex ? 'bg-purple' : 'bg-white'
+              }`}
+            />
+          ))}
+        </div> */}
+        <button
+          onClick={nextSlide}
+          className="bg-white text-black px-3 py-2 rounded-[48px] neue-thin  w-[80px] h-[60px] "
+        >
+        <img src={whitea} alt="" />
+        </button>
+
+      </div>
+      <div className="flex space-x-2 mt-10">
           {slides.map((_, index) => (
             <button
               key={index}
@@ -67,13 +86,6 @@ const Slider = () => {
             />
           ))}
         </div>
-        <button
-          onClick={nextSlide}
-          className="bg-white text-black px-3 py-2 rounded-[48px] neue-thin  w-[80px] h-[60px] "
-        >
-        <img src={whitea} alt="" />
-        </button>
-      </div>
     </div>
   );
 };
