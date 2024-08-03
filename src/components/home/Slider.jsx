@@ -36,15 +36,15 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-[94vw] max-w-xl h-[102vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
+    <div className="relative w-[94vw] max-w-xl h-[100vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {slides.map((slide, index) => (
           <div key={index} className="w-full flex-shrink-0 p-4">
-              <p className="text-center text-white neue-thin text-[16px] tracking-wide mt-4 mb-10 pp">{slide.content}</p>
-            <p className="text-center text-6xl text-white tracking-wide galgo pp">{slide.name}</p>
+              <p className="text-center text-white neue-thin text-[16px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
+            <p className="text-center text-5xl text-white tracking-wide galgo pp">{slide.name}</p>
           
           </div>
         ))}
