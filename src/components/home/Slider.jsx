@@ -6,7 +6,7 @@ const Slider = () => {
   const slides = [
     { name: ' Ibraheem O. Qozeem', content: ' Mentorship is an important part of a mans career which helps one to get over challenges that are inimical to progress. Through Champion Global Consulting, I got the proper guidance and professional skills ( communication, problem-solving, and crisis management) needed to get me going in my career path. I can boast of their quality services and proudly recommend them to anyone who wishes to get to the peak of his or her career at the desired time.', alt: 'Slide 1' },
 
-    { name: 'Mr. Usman Taiwo-Hassan A.', content: 'Dr. Ahmed Abdulkareem has been my mentor since about 15 years ago. He has always been a man with a listening ear, an open-minded fellow, and a sincere gentleman,He is outspoken and that helped a lot of us get things right with his word of encouragement and his special guidance skill. He used to make us see why we need to review our options and be optimistic about our aims. He has mentored, coached, and nurtured a number of us. Now, we are happy he was there to watch us grow. Growing up around him was fun and challenging, and most especially it gave us hope', alt: 'Slide 2' },
+    { name: 'Mr. Usman Taiwo-Hassan A.', content: 'Dr. Ahmed Abdulkareem has been my mentor since about 15 years ago. He has always been a man with a listening ear, an open-minded fellow, and a sincere gentleman, He is outspoken and that helped a lot of us get things right with his word of encouragement and his special guidance skill. He used to make us see why we need to review our options and be optimistic about our aims. He has mentored, coached, and nurtured a number of us. Now, we are happy he was there to watch us grow. Growing up around him was fun and challenging, and most especially it gave us hope', alt: 'Slide 2' },
 
     { name: 'Edime Jesse', content: 'Dr Ahmed Abdulkareem, An excellent mentor who held my hands through a one year fellowship programme at the champions Educational foundation. He is highly proficient in public speaking, terrific verbal construct and a remarkable choice of word. He has a calm aura that facilitates the best environment to learn from his wealth of knowledge and experience', alt: 'Slide 3' },
 
@@ -36,7 +36,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-[96vw] max-w-xl h-[100vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
+    <div className="relative w-[96vw] max-w-xl h-[95vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
