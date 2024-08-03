@@ -462,6 +462,20 @@ border-bottom-right-radius:48px;
     margin-left: 4px;
     margin-right: 4px;
   }
+  .bg-introbook{
+    /* top: -20; */
+
+
+
+background: linear-gradient(250.35deg, rgba(165, 183, 220, 0.99) 31.7%, 
+rgba(237, 241, 248, 0.993803) 50.55%, #FFFFFF 53.93%);
+
+
+    border-radius: 48px;
+    height: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
 
   .bg-bookservice{
 background: linear-gradient(227.76deg, #DAD7DF 27.82%, #F5F6FC 42.3%);

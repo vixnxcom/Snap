@@ -53,7 +53,7 @@ const Home = () => {
 </div> 
 
 
- <div className='bg-intro mt-5'>
+ <div className='bg-introbook mt-5'>
   <div className={`${styles.flexCenter}  p-6 pbox track `}>
 
   <TextAnim>
