@@ -36,7 +36,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-[96vw] max-w-xl h-[97vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
+    <div className="relative w-[96vw] max-w-xl h-[95vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}

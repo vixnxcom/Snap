@@ -129,9 +129,9 @@ const Home = () => {
 <div className='bg-purple  mb-10'>
   <div className='bg-purple h-[20px]'></div>
 
-  <Animate>
+
   <Slider />
-  </Animate>
+  
   
   <div className='bg-purple h-[20px]'></div>
 </div>
