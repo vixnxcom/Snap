@@ -80,7 +80,7 @@ const Slider = () => {
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`h-3 w-3 rounded-full mb-24  ${
+              className={`h-3 w-3 rounded-full mb-28  ${
                 index === currentIndex ? 'bg-purple' : 'bg-white'
               }`}
             />
