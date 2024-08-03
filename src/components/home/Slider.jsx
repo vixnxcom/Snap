@@ -43,7 +43,7 @@ const Slider = () => {
       >
         {slides.map((slide, index) => (
           <div key={index} className="w-full flex-shrink-0 p-4">
-              <p className="text-center text-white neue-thin leading-relaxed text-[20px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
+              <p className="text-center text-white neue-thin leading-relaxed text-[18px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
             <p className="text-center text-5xl text-white tracking-wide galgo pp">{slide.name}</p>
           
           </div>
