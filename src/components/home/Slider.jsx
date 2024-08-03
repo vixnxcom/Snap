@@ -42,8 +42,8 @@ const Slider = () => {
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {slides.map((slide, index) => (
-          <div key={index} className="w-full flex-shrink-0 p-8">
-              <p className="text-center text-white neue-thin text-[20px] tracking-wide mt-4 mb-10 pp">{slide.content}</p>
+          <div key={index} className="w-full flex-shrink-0 p-6">
+              <p className="text-center text-white neue-thin text-[20px] tracking-wide mt-4 mb-8 pp">{slide.content}</p>
             <p className="text-center text-6xl text-white tracking-wide galgo pp">{slide.name}</p>
           
           </div>
