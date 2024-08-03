@@ -1,6 +1,7 @@
 import React from 'react'
 import { life, success } from '../../assets'
 import styles from '../../style'
+import SideAnim from '../SideAnim'
 
 const Life = () => {
   return (
@@ -11,9 +12,11 @@ const Life = () => {
         <img src={life} alt="" className='w-[110px] h-[110px] mt-2 mx-auto' />
        </div>
        {/* img */}
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 '>
+       <SideAnim>  
+       <h1 className='neue-medium text-[32px] text-white  '>
              Life <br /> Coaching
             </h1>
+        </SideAnim>  
      </div>
             <div className='p-2'>
            

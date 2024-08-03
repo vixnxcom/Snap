@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { ahmed, arroww, emp, ppl, white } from '../../assets';
 import styles from '../../style';
+import TextAnim from '../TextAnim';
+import SideAnim from '../SideAnim';
+import Animate from '../Animate';
 
 
 function Kazeem() {
@@ -25,12 +28,20 @@ function Kazeem() {
         <div className="max-w-sm w-[98vw]  rounded-[48px] overflow-hidden shadow-xl bg-purple mb-5 mt-5  z-[60]">
           <img className="w-full h-[full] " src={ahmed} alt="Card image" />
           <div className="px-6 py-4">
+            <SideAnim>
             <div className=" text-7xl galgo tracking-wide mb-2 text-white">Dr Ahmed <br /> Abdulkareem</div>
+            </SideAnim>
+            
+            <SideAnim>
             <p className="text-white neue-medium text-[28px] ">
               Principal Partner
             </p>
+            </SideAnim>
           </div>
+         
           <div className="px-6 py-4">
+
+           <Animate>
             <button
               className="bg-white hover:bg-blue-700 text-white text-[24px] gap-8 button-stroke  py-2  rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
               onClick={handleViewMore}
@@ -39,6 +50,8 @@ function Kazeem() {
               <img src={arroww} alt=""  className='w-[10%] mr-2' />
               </div>
             </button>
+            </Animate>
+            
           </div>
         </div>
       </div>

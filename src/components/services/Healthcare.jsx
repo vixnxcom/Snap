@@ -1,15 +1,19 @@
 import React from 'react'
 import styles from '../../style'
+import SideAnim from '../SideAnim'
 
 const Healthcare = () => {
   return (
 <section className={`${styles.paddingX} flex flex-col`}>
     <div >
         <div className='gif h-[400px] '>
-         
+
+      <SideAnim>
     <h1 className='neue-medium text-[32px] text-black mb-4 py-36 purple   '>
     Healthcare Leadership Consulting  
      </h1>
+     </SideAnim>  
+      
      </div>
    
 

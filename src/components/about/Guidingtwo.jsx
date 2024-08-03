@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../style'
+import SideAnim from '../SideAnim'
 
 const Guidingtwo = () => {
   return (
@@ -12,9 +13,13 @@ const Guidingtwo = () => {
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-yellow`}>  
      <h1 className='text-white galgo text-[32px] tracking-wide'> 04. </h1>
      </div> 
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-white tracking-wide mt-5 mx-2` }>
+
+     <SideAnim>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-white tracking-wide mt-5 ` }>
    We are dedicated to the success of our clients
-        </h2>        
+   </h2>    
+    </SideAnim>        
+
     </div>
     <p className='text-[24px] neue-thin mt-2 p-2 text-white mb-2 '>
     We will go above and beyond to help 
@@ -35,9 +40,13 @@ throughout the duration of our engagement.
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-white mt-5`}>  
      <h1 className='purple galgo text-[32px] tracking-wide'> 05. </h1>
      </div> 
+
+    <SideAnim>
    <h2 className={`${styles.flexStart} neue-medium text-[32px] purple tracking-wide mt-5 mx-2` }>
    We are committed to being transparent and accountable
-        </h2>        
+        </h2>
+   </SideAnim>   
+
     </div>
     <p className='text-[24px] neue-thin mt-2 p-2 text-white mb-2'>
     We will provide clear, honest 
@@ -57,9 +66,13 @@ suggestions from them as well.
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-purple`}>  
      <h1 className='text-white galgo text-[32px] tracking-wide'> 06. </h1>
      </div> 
+
+     <SideAnim>
    <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 text-black` }>
    We believe in the importance of diversity and inclusion.
-        </h2>        
+    </h2>
+    </SideAnim>    
+        
     </div>
     <p className='text-[24px] neue-thin mt-2 p-2 text-black  '>
     Our team is made up of 

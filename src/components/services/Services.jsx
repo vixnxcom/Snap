@@ -20,6 +20,7 @@ import { book, gif } from '../../assets'
 import Endservice from './Endservice'
 import Questions from './Questions'
 import Loader from '../home/Loader'
+import Animate from '../Animate'
 
 const Services = () => {
   return (
@@ -140,7 +141,7 @@ const Services = () => {
        </div>
 
    {/* <div className='bg-white h-[40px]'></div> */}
-        <div className='bg-purple h-[364px]'>
+        <div className='bg-purple h-[480px]'>
        
         <Questions />
        </div>

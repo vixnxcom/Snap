@@ -1,6 +1,7 @@
 import React from 'react'
 import { lead, success } from '../../assets'
 import styles from '../../style'
+import SideAnim from '../SideAnim'
 
 const Exec = () => {
   return (
@@ -11,9 +12,11 @@ const Exec = () => {
         <img src={lead} alt="" />
        </div>
        {/* img */}
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 '>
+       <SideAnim>
+       <h1 className='neue-medium text-[32px] text-white '>
        Executive & <br /> Leadership <br /> Coaching
             </h1>
+        </SideAnim>    
      </div>
             <div className='p-2'>
            

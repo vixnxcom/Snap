@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../style'
 import Button from '../Button'
 import {  intro,  } from '../../assets'
+import Animate from '../Animate'
 
 const SecoPara = () => {
   return (
@@ -24,7 +25,11 @@ const SecoPara = () => {
      </div>
       </div>
      <div className=' mb-5'>
+
+      <Animate>
       <Button />
+      </Animate>
+      
      </div>
       </div>
     

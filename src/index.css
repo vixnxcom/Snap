@@ -1099,3 +1099,57 @@ backdrop-filter: blur(20px);
   /* word-wrap: break-word; */
   text-align: justify;
 }
+
+ /* intersection animation///////////////////////////////////////////// */
+
+/* App.css */
+/* Ensure the container has enough height and padding for scrolling */
+.vertical-animate-container {
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Hide overflow to prevent scrollbars during animation */
+}
+
+.vertical-animate-container > * {
+  opacity: 0; /* Start hidden */
+  transform: translateY(200px); /* Slide from 200px below */
+}
+
+ /* text-anim//////// */
+ 
+/* Ensure the container has enough height and padding for scrolling */
+/* Ensure the container has enough height and padding for scrolling */
+.animate-container {
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Hide overflow to prevent scrollbars during animation */
+}
+
+.animate-container > * {
+  opacity: 0; /* Start hidden */
+  transform: translateX(-200px); /* Slide from 200px off-screen */
+}
+/* Ensure the container has enough height and padding for scrolling */
+.animate-containerr {
+  padding: 20px 0;
+/* 
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  overflow: hidden; /* Hide overflow to prevent scrollbars during animation */
+}
+
+.animate-containerr > * {
+  opacity: 0; /* Start hidden */
+  transform: translateX(-200px); /* Slide from 200px off-screen */
+}
+
+
+ /* intersection animation////////////////////////////////////////////////////////
+ ////////////////////////////////// */

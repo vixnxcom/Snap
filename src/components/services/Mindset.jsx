@@ -1,6 +1,7 @@
 import React from 'react'
 import { mind, success } from '../../assets'
 import styles from '../../style'
+import SideAnim from '../SideAnim'
 
 const Mindset = () => {
   return (
@@ -11,9 +12,11 @@ const Mindset = () => {
         <img src={mind} alt="" className='mt-1'/>
        </div>
        {/* img */}
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5 '>
+       <SideAnim>
+       <h1 className='neue-medium text-[32px] text-white  '>
        Mindset & <br /> Confidence <br /> Coaching
             </h1>
+         </SideAnim>     
      </div>
             <div className='p-2'>
            

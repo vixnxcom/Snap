@@ -14,6 +14,7 @@ import Vision from './Vision'
 import Ceo from './Ceo'
 import End from './End'
 import Stat from '../home/Stat'
+import Animate from '../Animate'
 
 const About = () => {
   return (
@@ -49,12 +50,13 @@ const About = () => {
 
         <div className='bg-gray-950'>
         <div className=''>
-    
-    <h2 className={`${styles.flexCenter} galgo text-8xl text-white tracking-wide p-8` }>
+          
+       <Animate>
+    <h2 className={`${styles.flexCenter} galgo text-8xl text-white tracking-wide` }>
        <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mb-16'></span>
       Guiding Principles
         </h2>
-        
+        </Animate>    
       
 
         </div>
