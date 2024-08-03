@@ -35,10 +35,20 @@ import bulb from './bulb.png'
 import ball from './ball.png'
 import whitea from './whitea.png'
 import whiteb from './whiteb.png'
+import fb from './fb.png'
+import ig from './ig.png'
+import lk from './lk.png'
+import x from './x.png'
+import yt from './yt.png'
 
 
 
 export {
+    fb,
+    ig,
+    lk,
+    x,
+    yt,
     whitea,
     whiteb,
     intro,

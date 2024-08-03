@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ahmed, arroww, emp, ppl, white } from '../../assets';
+import { ahmed, arroww, emp, fb, ig, lk, ppl, white, x, yt } from '../../assets';
 import styles from '../../style';
 import TextAnim from '../TextAnim';
 import SideAnim from '../SideAnim';
@@ -108,13 +108,28 @@ a current worker at the National Health Service (NHS) in England, United Kingdom
 strong desire to advance primary healthcare, promote health equity, and champion medical 
 leadership, education, and research.
             </p>
+
+<div className='icons mt-2'>
+<div className=" text-2xl galgo mb-2">Socials</div>
+<div className={`${styles.paddingX} gap-8 flex flex-row`} >
+<img src={fb} alt="" className='w-[48px]'/>
+<img src={lk} alt="" className='w-[48px]' />
+<img src={x} alt=""  className='w-[48px]'/>
+</div>
+<div className={`${styles.paddingX} gap-8 flex flex-row mt-5`} >
+<img src={ig} alt="" className='w-[48px]'/>
+<img src={yt} alt="" className='w-[48px]' />
+
+</div>
+
+</div>
             <button
-               className="bg-purple hover:bg-blue-700 text-white text-[24px] gap-8  py-2 px-2 mt-5 rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
+               className="bg-purple hover:bg-blue-700 text-white text-[24px] gap-8  py-2 px-2 mt-10 rounded-[44px] mb-2 p-2 neue-thin flex flex-row"
               onClick={handleClose}
             >
              <div className={`${styles.flexCenter}`}>
               <p className='white mx-4 '>close</p>
-              <img src={white} alt=""  className='w-[12%] mr-2' />
+              <img src={white} alt=""  className='w-[10%] mr-2' />
               </div>
             </button>
           </div>
