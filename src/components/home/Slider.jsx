@@ -36,15 +36,15 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-[96vw] max-w-xl h-[85vh] mx-auto overflow-hidden  bg-black p-4 rounded-[24px] shadow-lg">
+    <div className="relative w-[96vw] max-w-xl h-[85vh] mx-auto overflow-hidden  bg-book p-4 rounded-[24px] shadow-lg">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {slides.map((slide, index) => (
           <div key={index} className="w-full flex-shrink-0 p-4">
-              <p className="text-center text-white neue-thin leading-relaxed text-[18px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
-            <p className="text-center text-5xl text-white tracking-wide galgo pp">{slide.name}</p>
+              <p className="text-center text-black neue-thin leading-relaxed text-[18px] tracking-wide mt-4 mb-10 pp space-y-4">{slide.content}</p>
+            <p className="text-center text-5xl text-black tracking-wide galgo pp">{slide.name}</p>
           
           </div>
         ))}
@@ -52,7 +52,7 @@ const Slider = () => {
       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex items-center space-x-6 gap-2">
         <button
           onClick={prevSlide}
-          className="bg-yellow outline-none focus:outline-none text-black flex items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
+          className="bg-black outline-none focus:outline-none text-black flex items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
           <img src={whiteb} alt="Previous" className="w-18 h-16" />
         </button>
@@ -69,7 +69,7 @@ const Slider = () => {
         </div> */}
          <button
           onClick={nextSlide}
-          className="bg-white text-black flex focus:outline-none  items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
+          className="bg-black text-black flex focus:outline-none  items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
           <img src={whitea} alt="Previous" className="w-18 h-16" />
         </button>
@@ -81,7 +81,7 @@ const Slider = () => {
               key={index}
               onClick={() => goToSlide(index)}
               className={`h-3 w-3 rounded-full mb-20 focus:outline-none   ${
-                index === currentIndex ? 'bg-purple' : 'bg-white'
+                index === currentIndex ? 'bg-purple' : 'bg-yellow'
               }`}
             />
           ))}
