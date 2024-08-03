@@ -474,6 +474,9 @@ background: linear-gradient(263.78deg, #A6B8DD 28.37%, rgba(237, 241, 248, 0.993
     margin-left: 4px;
     margin-right: 4px;
   }
+  .bg-reviews{
+    background: linear-gradient(263.78deg, #A6B8DD 28.37%, rgba(237, 241, 248, 0.993803) 52.68%, #FFFFFF 60.5%);
+  }
 
   .bg-bookservice{
 background: linear-gradient(227.76deg, #DAD7DF 27.82%, #F5F6FC 42.3%);
