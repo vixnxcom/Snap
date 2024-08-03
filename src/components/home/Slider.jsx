@@ -68,19 +68,19 @@ const Slider = () => {
           ))}
         </div> */}
          <button
-          onClick={prevSlide}
+          onClick={nextSlide}
           className="bg-white text-black flex focus:outline-none  items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
           <img src={whitea} alt="Previous" className="w-18 h-16" />
         </button>
 
       </div>
-      <div className="flex space-x-2 mt-2">
+      <div className="flex space-x-2 mt-5">
           {slides.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`h-3 w-3 rounded-full mb-32 focus:outline-none   ${
+              className={`h-3 w-3 rounded-full mb-36 focus:outline-none   ${
                 index === currentIndex ? 'bg-purple' : 'bg-white'
               }`}
             />
