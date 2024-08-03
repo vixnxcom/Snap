@@ -15,7 +15,7 @@ const Animate = ({ children }) => {
             gsap.fromTo(
               element.children, // Animate child elements
               { y: 200, opacity: 0 }, // Start from 200px below
-              { y: 0, opacity: 1, duration: 1, stagger: 0.4 } // Move to original position
+              { y: 0, opacity: 1, duration: 1.2, stagger: 0.4 } // Move to original position
             );
             observer.unobserve(element); // Stop observing once the animation has triggered
           }

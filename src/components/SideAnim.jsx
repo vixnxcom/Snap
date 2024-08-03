@@ -15,7 +15,7 @@ const SideAnim = ({ children }) => {
             gsap.fromTo(
               element.children, // Animate child elements
               { x: -200, opacity: 0 },
-              { x: 0, opacity: 1, duration: 1, stagger: 0.3 } // Added stagger for a sequential effect
+              { x: 0, opacity: 1, duration: 1.2, stagger: 0.3 } // Added stagger for a sequential effect
             );
             observer.unobserve(element); // Stop observing once the animation has triggered
           }
