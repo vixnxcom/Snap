@@ -59,7 +59,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
 
   <TextAnim>
   <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10 md:w-[800px] xs:w-[470px] ` }>
-      <span className='rounded-[16px] h-[16px] w-[16px] bg-black mr-4 mb-16'></span>
+      <span className='rounded-[16px] h-[16px] w-[16px] bg-purple mr-4 mb-16'></span>
       Guiding Principles  
         </h2>
   </TextAnim>  
