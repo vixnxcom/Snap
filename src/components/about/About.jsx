@@ -68,11 +68,16 @@ const About = () => {
         </div>
    
       {/* image */}
-      <div className='bg-gray-950 h-[40px] '></div>
+      {/* <div className='bg-gray-950 h-[40px] '></div> */}
 
+    
       <div className='bg-gray-950 p-2 '>
+      <Animate>
         <img src={emp} alt="" className='md:w-[50%] w-[96%] mx-auto mt-20 mb-20'/>
+        </Animate>
        </div>
+       
+       
        {/* image */}
 
        <div className='bg-gray-950'>
