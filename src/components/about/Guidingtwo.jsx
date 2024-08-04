@@ -6,38 +6,15 @@ const Guidingtwo = () => {
   return (
     <section className={`${styles.flexStart} text-start `}>
    <div>
-    {/* card 1 */}   
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
-     {/* heading */}
-     <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-yellow`}>  
-     <h1 className='text-white galgo text-[32px] tracking-wide'> 04. </h1>
-     </div> 
 
-     <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-white tracking-wide mt-5 ` }>
-   We are dedicated to the success of our clients
-   </h2>    
-    </SideAnim>        
-
-    </div>
-    <p className='text-[24px] neue-thin mt-2 p-2 text-white mb-2 '>
-    We will go above and beyond to help 
-them achieve their goals, and we will provide ongoing support and guidance 
-throughout the duration of our engagement.
-    </p>
-     {/* heading */}
-
-    </div> 
-    {/* card 4  ///////////////////////////////////////////    */}
      {/* card 5 */}  
   
-     <div className='h-[2px] bg-white'></div>
+     {/* <div className='h-[2px] bg-white'></div> */}
    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-gray-950 rounded-[48px]'>
    
      {/* heading */}
      <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-white mt-5`}>  
+     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-black bg-yellow mt-5`}>  
      <h1 className='purple galgo text-[32px] tracking-wide'> 05. </h1>
      </div> 
 

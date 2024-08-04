@@ -17,10 +17,9 @@ const Intro = () => {
         {/* header */}
         </TextAnim>     
         <p className='text-[24px] neue-thin mt-5 p-2 '>
-        where excellence meets empowerment. As a
-premier consulting firm, we specialize in unlocking the full potential of individuals and
-organizations, guiding them towards becoming champions in their respective fields. 
-
+  where excellence meets empowerment. As a 
+premier consulting firm, we specialize in unlocking the full potential of individuals and 
+organizations, guiding them towards becoming champions in their respective fields.  
         </p>
 
   

@@ -9,27 +9,8 @@ const Guiding = () => {
     <section className={`${styles.flexStart} text-start `}>
    <div>
     {/* card 1 */}   
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
-     {/* heading */}
-     <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] border-purple-400  text-white bg-white`}>  
-     <h1 className='text-black galgo text-[32px] tracking-wide'> 01. </h1>
-     </div> 
-     <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 text-black` }>
-   All our services are customized to meet the specific needs of each individual and 
-   organization.
-        </h2>    
-     </SideAnim>
-    </div>
-    <p className='text-[24px] neue-thin mt-2 p-2 text-black '>
-    We believe that the one-size-fits-all approaches do not work, and we 
-will take the time to understand the specific goals and challenges of each client before 
-developing a tailored plan.
-    </p>
-     {/* heading */}
+ 
 
-    </div> 
     {/* card 1   ///////////////////////////////////////////    */}
      {/* card 2 */}  
     {/* <div className='bg-white h-[8px] '></div> */}
@@ -55,14 +36,12 @@ developing a tailored plan.
       expertise.
     </p>
      {/* heading */}
-  <div className='flex justify-end items-end align-items-right object-right'>
-    <img src={ball} alt=""className='w-[120px] h-[100px]' />
-  </div>
+
     </div> 
     
     {/* card 2   ///////////////////////////////////////////    */}
      {/* card 3 */}  
-    <div className='bg-purple h-[2px] '></div>
+
     
    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track '>
      {/* heading */}
@@ -85,9 +64,38 @@ developing a tailored plan.
     succeed.
     </p>
      {/* heading */}
+     <div className='flex justify-end items-end align-items-right object-right'>
+    <img src={ball} alt=""className='w-[120px] h-[100px]' />
+  </div>
 
     </div> 
+   
     {/* card 3  ///////////////////////////////////////////    */}
+   {/* card 1 */}   
+        <div className='bg-purple h-[2px] '></div>
+   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
+     {/* heading */}
+     <div className='flex flex-col'>
+     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-black`}>  
+     <h1 className='text-white galgo text-[32px] tracking-wide'> 04. </h1>
+     </div> 
+
+     <SideAnim>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-black tracking-wide mt-5 ` }>
+   We are dedicated to the success of our clients
+   </h2>    
+    </SideAnim>        
+
+    </div>
+    <p className='text-[24px] neue-thin mt-2 p-2 text-black mb-2 '>
+    We will go above and beyond to help 
+them achieve their goals, and we will provide ongoing support and guidance 
+throughout the duration of our engagement.
+    </p>
+     {/* heading */}
+
+    </div> 
+    {/* card 4  ///////////////////////////////////////////    */}
     </div>
 
       

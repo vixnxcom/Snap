@@ -45,8 +45,9 @@ const Home = () => {
 
 
   <p className='text-[24px] neue-thin mt-5 p-2 mb-5'>
-    With a
-    dedicated team of seasoned coaches, mentors, consultants, and speakers,
+  With a 
+dedicated team of seasoned coaches, mentors, consultants, and speakers, we are committed to 
+delivering tailored solutions that inspire growth, drive success, and foster sustainable change.
    </p>
      
   </div>
@@ -58,7 +59,8 @@ const Home = () => {
 
   <TextAnim>
   <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10 md:w-[800px] xs:w-[470px] ` }>
-        we are committed to delivering tailored
+      <span className='rounded-[16px] h-[16px] w-[16px] bg-black mr-4 mb-16'></span>
+      Guiding Principles  
         </h2>
   </TextAnim>  
         
