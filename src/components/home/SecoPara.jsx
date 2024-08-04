@@ -20,8 +20,8 @@ const SecoPara = () => {
      {/* heading */}
 
      <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] border-purple-400  text-white bg-white`}>  
-     <h1 className='text-black galgo text-[32px] tracking-wide'> 01. </h1>
+     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] border-purple-400  text-white bg-purple`}>  
+     <h1 className='text-white galgo text-[32px] tracking-wide'> 01. </h1>
      </div> 
      <SideAnim>
    <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 text-black` }>

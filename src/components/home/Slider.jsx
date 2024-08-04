@@ -12,9 +12,7 @@ const Slider = () => {
 
     { name: 'Dr. Idris Toyeeb', content: 'I have known Dr. Ahmed Abdulkareem for over 15 years and I can attest that he possesses an exceptional qualities of a good mentor. I have benefited from his enthusiastic support and top-notch mentorship. He is a leader with integrity, he is accountable, and is an academia per excellence. Ahmedcine (as he is popularly known) is passionate about coaching youngsters and he is always ready to guide you whenever required. Also, having interacted with him in formal and non-formal gatherings, and witnessed his prowess in anchoring programs at assemblies of intellectuals; I can vehemently say that he is, confident, fluent, and has good speaking skills', alt: 'Slide 4' },
 
-    { name: '', content: 'If there is anything I learnt in from you ma... is GROWTH and HARDWORK. Thank you for the access, for the enlightment and advice... I just remembered you now and my soul bless you.Thank you for being you. Thank you for everything ma', alt: 'Slide 5' },
 
-    { name: '', content: 'With @Haleemah Gegele Services as your coach and mentor, I am confident that you will achieve your set goals with the way she breaks down her point and make you understand things you felt confusing Thank you ma. I look forward to having another fruitful session with you', alt: 'Slide 6' },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,7 +34,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-[96vw] max-w-xl h-[85vh] mx-auto overflow-hidden  bg-reviews p-4 rounded-[24px] shadow-lg">
+    <div className="relative w-[96vw] max-w-xl h-[85vh] mx-auto overflow-hidden card bg-white p-4 rounded-[24px] shadow-lg">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -52,7 +50,7 @@ const Slider = () => {
       <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex items-center space-x-6 gap-2">
         <button
           onClick={prevSlide}
-          className="bg-black outline-none focus:outline-none text-black flex items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
+          className="bg-yellow shadowc outline-none focus:outline-none text-black flex items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
           <img src={whiteb} alt="Previous" className="w-18 h-16" />
         </button>
@@ -69,7 +67,7 @@ const Slider = () => {
         </div> */}
          <button
           onClick={nextSlide}
-          className="bg-black text-black flex focus:outline-none  items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
+          className="bg-yellow shadowc text-black flex focus:outline-none  items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
           <img src={whitea} alt="Previous" className="w-18 h-16" />
         </button>
@@ -81,7 +79,7 @@ const Slider = () => {
               key={index}
               onClick={() => goToSlide(index)}
               className={`h-3 w-3 rounded-full mb-20 focus:outline-none   ${
-                index === currentIndex ? 'bg-purple' : 'bg-white'
+                index === currentIndex ? 'bg-purple' : 'bg-black'
               }`}
             />
           ))}

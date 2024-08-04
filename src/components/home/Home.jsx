@@ -101,7 +101,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
     <Animate>
     <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20 ` }>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
-        Our Team Lead
+        Leadership
      </h2>
      </Animate>
 
