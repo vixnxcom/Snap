@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Button = () => {
   return (
     <div className=' p-2'>
-      <div className='Button flex flex-row'>
+      <div className='Button flex flex-row shadow-lg'>
 
     <Link to='/about' className='p-2 flex flex-row gap-8 mx-auto'> 
     <p className='neue-medium text-[24px] mt-1 hover:tracking-widest'>Read More</p>
