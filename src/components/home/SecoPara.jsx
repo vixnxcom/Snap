@@ -12,9 +12,9 @@ const SecoPara = () => {
       <div className=' md:w-[800px] xs:w-[470px] pbox track'>
 
         {/* header */}
-   <div className='max-w-[800px] p-2 '>
+   {/* <div className='max-w-[800px] p-2 '>
     <img src={intro} alt="" />
-   </div>
+   </div> */}
         {/* header/////////////////////////////////////////////////////////////////////////////////////// */}
         <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
      {/* heading */}
