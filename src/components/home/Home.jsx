@@ -113,7 +113,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
  </div>
 
 
- <div className=''>
+ <div className='bg-reviews mt-10'>
 
     <Animate>
     <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20  ` }>
@@ -126,18 +126,18 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
      <p className={`${styles.flexCenter} text-white our tracking-wide  neue-thin text-[28px] `}>
       What poeple are saying about us</p>
       </TextAnim>
-    </div>
+   
 
-<div className='bg-purple  mb-10'>
-  <div className='bg-purple h-[20px]'></div>
+<div className='  '>
+
 
 
   <Slider />
   
   
-  <div className='bg-purple h-[20px]'></div>
+ 
 </div>
-
+</div>
 
 </div> 
 {/* third bg */}

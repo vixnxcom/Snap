@@ -1174,11 +1174,11 @@ backdrop-filter: blur(20px);
  ////////////////////////////////// */
  .card{
 /* Rectangle 16 */
-
 border: 1px solid #fff;
+border-radius: 24px;
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
-
  }
+ 
 
  .shadowc{
  
@@ -1186,3 +1186,9 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
  }
  
+ .bg-reviews{
+
+
+background: linear-gradient(132.56deg, #FD1266 5.01%, #7F2DA1 44.54%, #D7CEE7 75.41%, #FD1266 109.55%);
+
+ }
