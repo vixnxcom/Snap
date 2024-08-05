@@ -707,9 +707,14 @@ box-shadow: 0px 0px 20px #FFC000;
 /* 
 background: linear-gradient(121.81deg, #FFC000 31.82%, #591784 70.18%);
  */
+/* iPhone 14 & 15 Pro Max - 7 */
 
+position: relative;
+width: 900px;
+height: 932px;
 
-background: linear-gradient(122.9deg, #FFFF00 17.84%, #FFC000 41.66%, #D5DDE8 99.85%);
+background: linear-gradient(120.51deg, #FFFF00 18.45%, #FFC000 43.23%, #FFFF00 66.96%, #D5DDE8 97.3%);
+
 
 
     background-position: center;
