@@ -10,7 +10,7 @@ const Group = () => {
     
     <div className='flex flex-row gap-2 '>
 
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5  yellow'>
+       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2  yellow'>
        Group <br /> Mentoring:
             </h1>
 

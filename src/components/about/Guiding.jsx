@@ -71,8 +71,11 @@ const Guiding = () => {
     </div> 
    
     {/* card 3  ///////////////////////////////////////////    */}
-   {/* card 1 */}   
+   {/* card 1 */} 
+        <SideAnim>
         <div className='bg-purple h-[2px] '></div>
+        </SideAnim>
+        
    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
      {/* heading */}
      <div className='flex flex-col'>

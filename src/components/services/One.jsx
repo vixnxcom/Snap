@@ -11,7 +11,7 @@ const One = () => {
   
     <div className='flex flex-row gap-2 '>
 
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5  yellow'>
+       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2  yellow'>
        One-on-One <br /> Mentoring:
             </h1>
  

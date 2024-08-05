@@ -9,7 +9,7 @@ const Theme = () => {
    <section className={`${styles.paddingX} flex flex-col`}>
     <div className='flex flex-row gap-2 '>
     
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-5  w-full yellow'>
+       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2  w-full yellow'>
        Theme-Based <br /> Mentoring:
             </h1>
           
