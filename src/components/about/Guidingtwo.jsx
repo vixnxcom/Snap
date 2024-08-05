@@ -15,11 +15,11 @@ const Guidingtwo = () => {
      {/* heading */}
      <div className='flex flex-col'>
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-black bg-yellow mt-5`}>  
-     <h1 className='purple galgo text-[32px] tracking-wide'> 05. </h1>
+     <h1 className='text-white galgo text-[32px] tracking-wide'> 05. </h1>
      </div> 
 
     <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] purple tracking-wide mt-5 mx-2` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-white tracking-wide mt-5 mx-2` }>
    We are committed to being transparent and accountable
         </h2>
    </SideAnim>   
@@ -45,7 +45,7 @@ suggestions from them as well.
      </div> 
 
      <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 text-black` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 purple` }>
    We believe in the importance of diversity and inclusion.
     </h2>
     </SideAnim>    
