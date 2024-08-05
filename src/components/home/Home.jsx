@@ -113,17 +113,17 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
  </div>
 
 
- <div className='bg-reviews mt-10'>
+ <div className='bg-book mt-10'>
 
     <Animate>
-    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20  ` }>
-    <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-black our tracking-wide mt-20  ` }>
+    <span className='rounded-[16px] h-[16px] w-[16px] bg-black mr-4 '></span>
        Our Reviews
      </h2>
      </Animate>
      
      <TextAnim>
-     <p className={`${styles.flexCenter} text-white our tracking-wide  neue-thin text-[28px] `}>
+     <p className={`${styles.flexCenter} text-black our tracking-wide  neue-thin text-[28px] `}>
       What poeple are saying about us</p>
       </TextAnim>
    
