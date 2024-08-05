@@ -54,7 +54,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
 </div> 
 
 
- <div className='bg-introbook mt-5'>
+ <div className='bg-curve mt-5'>
   <div className={`${styles.flexCenter}  p-6 pbox track `}>
 
   <TextAnim>
