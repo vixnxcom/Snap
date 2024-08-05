@@ -474,12 +474,7 @@ background: linear-gradient(263.78deg, #A6B8DD 28.37%, rgba(237, 241, 248, 0.993
     margin-left: 4px;
     margin-right: 4px;
   }
-  .bg-reviews{
 
-background: linear-gradient(96.99deg, #A6B8DD 25.86%, rgba(237, 241, 248, 0.993803) 53.41%, #FFFFFF 72.68%);
-
-
-  }
 
   .bg-bookservice{
 background: linear-gradient(227.76deg, #DAD7DF 27.82%, #F5F6FC 42.3%);
@@ -732,11 +727,11 @@ background: linear-gradient(130.06deg, #FD1266 4.48%, #7F2DA1 46.59%, #D7CEE7 73
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+/* iPhone 14 & 15 Pro Max - 6 */
 
-background: linear-gradient(126.39deg, #7601D2 5.76%, #5A039D 33.01%, #CBC9C9 64.01%);
 
-   
-   
+background: linear-gradient(126.39deg, #7601D2 5.76%, #5A039D 49.32%, #CBC9C9 90.03%);
+
 
   }
   @media (min-width: 1024px) {
