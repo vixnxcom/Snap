@@ -708,14 +708,10 @@ box-shadow: 0px 0px 20px #FFC000;
 background: linear-gradient(121.81deg, #FFC000 31.82%, #591784 70.18%);
  */
 
-background: linear-gradient(120.51deg, #FFFF00 18.45%, #FFC102 48.46%, #EAEA05 68.97%, #FD1266 115.24%);
-
-
-
-    background-position: center;
-   
-
+background: linear-gradient(124.99deg, #FFFF00 19.03%, #FFC102 44.75%, #FABF0B 70.42%, #FD1266 113.13%);
   }
+
+  
   @media (min-width: 1024px) {
     .tots{
       background-size: cover;
