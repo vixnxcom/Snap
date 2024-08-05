@@ -54,10 +54,10 @@ const Slider = () => {
      {/* new div */}
      </div>
      {/* new div */}
-      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex items-center space-x-6 gap-2">
+      <div className="absolute  bottom-2 left-1/2 transform -translate-x-1/2 flex items-center space-x-6 gap-2">
         <button
           onClick={prevSlide}
-          className="bg-purple shadowc outline-none focus:outline-none text-black flex items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
+          className="bg-purple shadowc outline-none focus:outline-none text-black flex items-center justify-center mb-2 mt-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
           <img src={whiteb} alt="Previous" className="w-18 h-16" />
         </button>
@@ -74,7 +74,7 @@ const Slider = () => {
         </div> */}
          <button
           onClick={nextSlide}
-          className="bg-purple shadowc text-black flex focus:outline-none  items-center justify-center mb-2 rounded-full w-[80px] h-[48px] neue-thin"
+          className="bg-purple shadowc text-black flex focus:outline-none  items-center justify-center mb-2 mt-2 rounded-full w-[80px] h-[48px] neue-thin"
         >
           <img src={whitea} alt="Previous" className="w-18 h-16" />
         </button>
