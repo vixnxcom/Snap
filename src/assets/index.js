@@ -40,10 +40,12 @@ import ig from './ig.png'
 import lk from './lk.png'
 import x from './x.png'
 import yt from './yt.png'
+import wave from './wave.png'
 
 
 
 export {
+    wave,
     fb,
     ig,
     lk,

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../style'
 import Button from '../Button'
-import {  intro,  } from '../../assets'
+import {  intro, wave,  } from '../../assets'
 import Animate from '../Animate'
 import SideAnim from '../SideAnim'
 
@@ -12,9 +12,9 @@ const SecoPara = () => {
       <div className=' md:w-[800px] xs:w-[470px] pbox track'>
 
         {/* header */}
-   {/* <div className='max-w-[800px] p-2 '>
-    <img src={intro} alt="" />
-   </div> */}
+    <div className='max-w-[800px] p-2 '>
+    <img src={wave} alt="" />
+   </div> 
         {/* header/////////////////////////////////////////////////////////////////////////////////////// */}
         <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
      {/* heading */}

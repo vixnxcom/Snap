@@ -462,6 +462,22 @@ border-bottom-right-radius:48px;
     margin-left: 4px;
     margin-right: 4px;
   }
+  .bg-curvybook{
+    /* top: -20; */
+
+
+
+background: linear-gradient(133.34deg, #F9F8F4 17.71%, #FFFFFF 116.59%);
+
+
+    border-radius: 48px;
+    height: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+
+
   .bg-introbook{
 
 
@@ -692,7 +708,9 @@ box-shadow: 0px 0px 20px #FFC000;
 background: linear-gradient(121.81deg, #FFC000 31.82%, #591784 70.18%);
  */
 
-background: linear-gradient(122.75deg, #FFC000 30.89%, #e9af03 45.61%, #dbe9f8 73.14%, #D5DDE8 94.81%);
+
+background: linear-gradient(122.9deg, #FFFF00 17.84%, #FFC000 41.66%, #D5DDE8 99.85%);
+
 
     background-position: center;
    
