@@ -645,8 +645,9 @@ box-shadow: 0px 0px 20px #FFC000;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(129.1deg, #D9D9D9 33.26%, #7F2DA1 61.3%, #D9D9D9 116.79%);
 
+
+background: linear-gradient(129.1deg, #D9D9D9 25.8%, #F1C0D2 33.02%, #7F2DA1 58.52%, #D9D9D9 116.79%);
 
 
   }
@@ -664,8 +665,9 @@ box-shadow: 0px 0px 20px #FFC000;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(121.81deg, #00F0FF 31.82%, #171B84 70.18%);
 
+    background: linear-gradient(129.99deg, #FDFD04 21.55%, #FFC515 37.34%,
+     #FFFF00 62.8%, #8B2A9C 107.67%);
 
 
   }
@@ -708,10 +710,12 @@ box-shadow: 0px 0px 20px #FFC000;
 background: linear-gradient(121.81deg, #FFC000 31.82%, #591784 70.18%);
  */
 
-background: linear-gradient(124.99deg, #FFFF00 19.03%, #FFC102 44.75%, #FABF0B 70.42%, #FD1266 113.13%);
+
+background: linear-gradient(125.11deg, #ECEAEF 16.37%, #00F0FF 42.18%, #009CED 63.89%, #DAD7DF 95.02%);
+
   }
 
-  
+
   @media (min-width: 1024px) {
     .tots{
       background-size: cover;
@@ -746,11 +750,10 @@ background: linear-gradient(124.99deg, #FFFF00 19.03%, #FFC102 44.75%, #FABF0B 7
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-/* iPhone 14 & 15 Pro Max - 6 */
 
+/* background: linear-gradient(121.81deg, #00F0FF 31.82%, #171B84 70.18%); */
 
-background: linear-gradient(126.39deg, #7601D2 5.76%, #5A039D 49.32%, #03A1AB 90.03%);
-
+background: linear-gradient(126.22deg, #00F0FF 38.55%, #5A039D 72.78%, #7F2DA1 131.36%);
 
 
   }
