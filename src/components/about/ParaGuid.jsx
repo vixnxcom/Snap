@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Parallax } from 'react-parallax'
-import { guide, pic, ppl } from '../../assets';
+import { gif, guide, pic, ppl } from '../../assets';
 import Guidingthree from './Guidingthree';
 
 
@@ -33,7 +33,7 @@ borderRadius: '24px',
 <div>
 
     <Parallax strength={600} 
-    bgImage={guide}
+    bgImage={gif}
     style={{
       position: 'relative',
       height: '70vh',

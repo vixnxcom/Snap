@@ -92,8 +92,8 @@ const About = () => {
    
     
 
-        <div className='bg-gray-950 mt-36'></div>
-       <div className='mt-36 bg-gray-950 mb-36'>
+        <div className='bg-white mt-36'></div>
+       <div className='mt-36 bg-white mb-36'>
         <ParaGuid />
        </div>
 
