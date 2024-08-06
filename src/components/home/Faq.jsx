@@ -64,7 +64,7 @@ const toggleItemmm = () => {
 <div className='text-start mx-auto p-2'>
         <button onClick={toggleItemm} className='flex text-[20px] bg-book  p-4'>
             <h1 className='text-black text-start neue-thin  mx-2 mr-20'>What do we do?</h1>
-            <img src={showItem ? lesss : moree} className='p-4 w-[40%] mx-2  '/>
+            <img src={showItemm ? lesss : moree} className='p-4 w-[40%] mx-2  '/>
         </button>
         </div>
     </div>
@@ -84,7 +84,7 @@ const toggleItemmm = () => {
 <div className='text-start mx-auto p-2'>
         <button onClick={toggleItemmm} className='flex text-[20px] bg-book  p-4'>
             <h1 className='text-black text-start neue-thin mx-2 mr-10'>How to book our services?</h1>
-            <img src={showItem ? lesss : moree} className='p-4 w-[40%] mx-2  '/>
+            <img src={showItemmm ? lesss : moree} className='p-4 w-[40%] mx-2  '/>
         </button>
         </div>
     </div>
