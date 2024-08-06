@@ -13,7 +13,9 @@ import improve from './improve.png'
 import success from './success.png'
 import thought from './thought.png'
 import less from './less.png'
+import lesss from './lesss.png'
 import more from './more.png'
+import moree from './moree.png'
 import emp from './emp.png'
 import ahmed from './ahmed.jpg'
 import brand from './brand.png'
@@ -45,6 +47,8 @@ import wave from './wave.png'
 
 
 export {
+    moree,
+    lesss,
     wave,
     fb,
     ig,

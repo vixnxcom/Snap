@@ -19,6 +19,7 @@ import { book } from '../../assets'
 import Slider from './Slider'
 import Animate from '../Animate'
 import TextAnim from '../TextAnim'
+import Faq from './Faq'
 
 
 const Home = () => {
@@ -124,19 +125,33 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
      
      <TextAnim>
      <p className={`${styles.flexCenter} text-black our tracking-wide  neue-thin text-[28px] `}>
-      What poeple are saying about us</p>
+      What people are saying about us</p>
       </TextAnim>
    
 
 <div className='  '>
 
-
-
   <Slider />
   
-  
- 
 </div>
+
+   <div className='bg-purple '>
+   <Animate>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20  ` }>
+     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span> 
+       FAQs
+     </h2>
+     </Animate>
+     
+     <TextAnim>
+     <p className={`${styles.flexCenter} text-white our tracking-wide  neue-thin text-[28px] `}>
+      Frequently asked questions</p>
+      </TextAnim>
+   
+    <Faq />
+   </div>
+
+
 </div>
 
 </div> 
