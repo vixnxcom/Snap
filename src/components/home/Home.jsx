@@ -129,7 +129,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
       </TextAnim>
    
 
-<div className='  '>
+<div className=' mt-5 '>
 
   <Slider />
   

@@ -26,7 +26,7 @@ const toggleItemmm = () => {
 
 
   return (
-    <section className={`${styles.flexCenter} flex flex-col flex flex-row mt-5 mb-20 ` }>
+    <section className={`${styles.flexCenter} flex flex-col flex flex-row  mb-20 ` }>
         <div className=' max-w-[470px] mx-auto mt-5'>
 
      {/* <div className='border-work mt-20 mb-10 '>
