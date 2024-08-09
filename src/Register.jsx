@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './style'
 import { poster } from './assets'
 import Ticket from './components/contact/Ticket'
+import Steps from './components/contact/Steps'
 
 const Register = () => {
   return (
@@ -24,46 +25,57 @@ const Register = () => {
 
         {/* paragraph */}
        <div className='mt-5 p-4 max-w-[sm]'>
-       <p className='neue-medium text-[28px] text-white tracking-wide'>
+       <p className='neue-thin text-[28px] text-white tracking-wide'>
           For youths and students in senior secondary classes
         </p>
        </div>
         {/* paragraph */}
         {/* paragraph */}
-        <div className='bg-white'>
+        <div className=''>
        <div className='mt-5 p-4 max-w-[lg] w-[390px]  '>
-       <p className='neue-medium text-[32px] text-black tracking-wide'>
-        <span className='neue-medium font-bold  tracking-wide'>6pm - 7pm  </span>
+       <p className='neue-thin text-[28px] text-white tracking-wide'>
+        <span className=' underline  tracking-wide'>6pm - 7pm  </span>
              daily from the </p>
        </div>
        <div className='p-4 max-w-[lg] w-[390px]  '>
-       <p className='neue-medium text-[32px] text-black tracking-wide'>
+       <p className='neue-thin text-[28px] text-white tracking-wide'>
     
-            <span className='neue-medium font-bold tracking-wide  '> 19th of August </span>  to the 
+            <span className=' underline tracking-wide  '> 19th of August </span>  to the 
         </p>
        </div>
        <div className='p-4 max-w-[lg] w-[390px]  '>
-       <p className='neue-medium text-[32px] text-black tracking-wide'>
+       <p className='neue-thin text-[28px] text-white tracking-wide'>
     
-      <span className='neue-medium font-bold tracking-wide'> 6th of September 2024 </span>  
+      <span className=' underline tracking-wide'> 6th of September 2024 </span>  
         </p>
        </div>
        </div>
         {/* paragraph */}
-       <div className='p-4 max-w-[lg]   '>
-       <p className='neue-medium text-[28px] text-white tracking-wide'>
+       {/* <div className='p-4 max-w-[lg]   '>
+       <p className='neue-thin text-[28px] text-white tracking-wide'>
     
-       for Inquires contact
-       <span className='neue-medium font-bold tracking-wide  '> +234-08084683622  </span>
+       for Inquires contact 
+       <span className=' underline tracking-wide  '> +234-08084683622  </span>
         </p>
-       </div>
+       </div> */}
         {/* paragraph */}
      
     {/* button */} 
-    <div className='mt-5 p-4'>
-    <p className='neue-medium text-[28px] text-white tracking-wide'>Buy your tickets</p> 
+    <div>
+      <Steps />
+    </div>
+    <div className='mt-5 p-4 '>
+    <p className='neue-medium text-[28px] text-white tracking-wide flex flex-row '>
+    <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></span>Buy your tickets here</p> 
     <Ticket />
     </div>
+    <div className='mt-5 p-4'>
+    <p className='neue-medium text-[28px] text-white tracking-wide flex flex-row '>
+    <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></span>Join our class here</p>
+    <Ticket />
+    </div>
+
+
     {/* button */}
      </div>
 
