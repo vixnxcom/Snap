@@ -20,6 +20,7 @@ import Slider from './Slider'
 import Animate from '../Animate'
 import TextAnim from '../TextAnim'
 import Faq from './Faq'
+import Register from '../../Register'
 
 
 const Home = () => {

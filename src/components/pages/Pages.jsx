@@ -9,17 +9,18 @@ import styles from '../../style'
 
 import Loader from '../home/Loader'
 import Services from '../services/Services'
+import Register from '../../Register'
 
 
 const LazyAbout = React.lazy(() => import('../about/About'))
 const LazyService = React.lazy(() => import('../services/Services'))
+const LazyContact = React.lazy(() => import('../contact/Contact'))
+const LazyRegister = React.lazy(() => import('../../Register'))
 
 const Pages = () => {
   return (
     <>
 <Router >
-
-
      <div className=' w-full overflow-hidden'> 
         <Navbar />
      </div>
@@ -30,6 +31,8 @@ const Pages = () => {
     <Route exact path ='/' element={<Home />} />  
     <Route exact path ='/about' element={<React.Suspense fallback={<div><Loader /></div>}><LazyAbout /></React.Suspense>} />  
     <Route exact path ='/service' element={<React.Suspense fallback={<div><Loader /></div>}><LazyService /></React.Suspense>} />  
+    <Route exact path ='/contact' element={<React.Suspense fallback={<div><Loader /></div>}><LazyContact /></React.Suspense>} />  
+    <Route exact path ='/register' element={<React.Suspense fallback={<div><Loader /></div>}><LazyRegister /></React.Suspense>} />  
   
 
 </Routes>

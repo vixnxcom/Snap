@@ -43,10 +43,12 @@ import lk from './lk.png'
 import x from './x.png'
 import yt from './yt.png'
 import wave from './wave.png'
+import poster from './poster.png'
 
 
 
 export {
+    poster,
     moree,
     lesss,
     wave,
