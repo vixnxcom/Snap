@@ -122,7 +122,7 @@ leadership, education, and research.
                 <img src={fb} alt=""  className='w-[48px] h-[48px] mx-auto '/>
             </div>
           </a>
-<a href="https://x.com/i/flow/login?redirect_after_login=%2Fahmedcine" target="_blank" rel="noopener noreferrer">
+<a href="https://www.twitter.com/ahmedicine" target="_blank" rel="noopener noreferrer">
           <div className={`${styles.flexCenter}  `}>
                 <img src={x} alt=""  className='w-[48px] h-[48px] mx-auto '/>
             </div>
