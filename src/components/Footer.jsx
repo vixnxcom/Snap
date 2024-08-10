@@ -8,7 +8,7 @@ const Footer = () => {
         <h2 className=' text-8xl galgo md:text-6xl lg:text-8xl tracking-wide text-start'>
           Champions Global <br  className='md:hidden'/> Consulting
         </h2>
-
+        <div className='loader'></div>
         <div className='text-xl md:text-2xl tracking-wide text-start mt-5 neue-medium'>
           <h2>Unleashing Potential, Achieving Greatness</h2>
         </div>
