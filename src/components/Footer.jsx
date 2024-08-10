@@ -3,7 +3,7 @@ import styles from '../style';
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexCenter} mb-20 mx-auto text-center flex flex-col bg-gray-950`}>
+    <section className={`${styles.flexCenter}  mx-auto text-center flex flex-col bg-gray-950 `}>
       <div className='p-6 mt-10 text-white'>
         <h2 className=' text-8xl galgo md:text-6xl lg:text-8xl tracking-wide text-start'>
           Champions Global <br  className='md:hidden'/> Consulting
@@ -16,13 +16,26 @@ const Footer = () => {
         <div className='text-6xl md:text-4xl   tracking-wide text-start mt-10'>
           <h2 className='galgo'>Contact Us</h2>
           <p className='mt-5 text-xl md:text-2xl neue-thin'>
-            championsglobalconsulting@gmail.com
+           championsglobalconsulting@gmail.com
           </p>
           <p className='mt-5 text-xl md:text-2xl neue-thin'>
             +234- 8084683622
           </p>
         </div>
+      
       </div>
+
+        {/* foot */}
+        <div className=' h-[2px] bg-purple mt-10 w-full'></div>
+        {/* foot */}
+        <div className='text-white'>
+       <p className='neue-thin text-[16px] mt-5 tracking-wide'> &copy; Championsglobalconsulting. All Rights Reserved 2024.</p>
+        </div>
+        <div className='text-white flex flex-row tracking-wide mb-5'>
+       <p className='neue-thin text-[16px] mt-5'>Developed by </p>
+        <a href="https://read.cv/Vixndotcom" target="_blank" className='mt-5 mx-2 cursor-pointer'
+        rel="noopener noreferrer"> vixndotcom</a>
+        </div>
     </section>
   );
 }

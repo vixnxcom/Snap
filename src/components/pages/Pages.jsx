@@ -41,7 +41,7 @@ const Pages = () => {
            </div>  
 
 
-<div className='bg-black bottom-0 h-[600px]'>
+<div className='bg-black bottom-0 '>
         <div className=''>
           <Footer />
         </div>

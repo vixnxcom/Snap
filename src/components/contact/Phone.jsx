@@ -1,19 +1,31 @@
 import React from 'react'
+import { arrow, arrowhite, arroww } from '../../assets';
 
 const Phone = () => {
+
+    const emailAddress = 'championsglobalconsulting@gmail.com';
+    // const phoneNumber = '08084683622';
+   
+
+
+
   return (
     <section>
         <div>
             {/* phone */}
-            <div className='text-white  text-[28px] tracking-wide p-4'>
-                <p className='neue-thin '>For Inquires call</p>
-                <h1 className='neue-medium'>+234 - 08084683622</h1>
+            <div className='text-white  w-[300px] text-[28px] tracking-wide p-4'>
+                <p className='neue-medium text-[32px]'>For Inquires call</p>
+                <h1 className='neue-medium text-[28px] mt-5'>
+                <a href='tel:+234808468622'>+234-8084683622<img src={arrowhite} alt="" className='w-[8%] mt-1' /> </a> 
+                </h1>
             </div>
             {/* phone */}
             {/* Email */}
             <div className='text-white w-[300px] text-[28px] tracking-wide p-4'>
-                <p className='neue-thin '>Email us</p>
-                <h1 className='neue-medium w-[300px]'>championsglobalconsulting@gmail.com</h1>
+                <p className='neue-medium text-[32px] '>Email us</p>
+                <h1 className='neue-thin text-[20px] mt-5'>
+                <a href={`mailto:${emailAddress}`} >{emailAddress}<img src={arrowhite} alt="" className='w-[8%] mt-1' /> </a>
+                </h1>
             </div>
             {/* phone */}
         </div>

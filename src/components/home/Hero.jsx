@@ -28,7 +28,7 @@ const Hero = () => {
 
       <button className=' w-[320px]  arrow  rounded-[12px] bg-arrow mt-8  ' >
 
-       <Link to ='/about' className='flex flex-row text-center md:mt-4  w-[300px] h-[140px]'>
+       <Link to ='' className='flex flex-row text-center md:mt-4  w-[300px] h-[140px]'>
        <p className='text-[24px] mx-6 text-white  mt-8 neue-medium  text-arrow hover:tracking-widest'>Book a Service</p>
         <img src={arrow} alt="" className='object contain w-[54.73px] h-[53.75px] mx-2 mt-5'/>
        </Link> 
