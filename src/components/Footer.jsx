@@ -16,7 +16,7 @@ const Footer = () => {
         <div className='text-6xl md:text-4xl   tracking-wide text-start mt-10'>
           <h2 className='galgo'>Contact Us</h2>
           <p className='mt-5 text-xl md:text-2xl neue-thin'>
-           championsglobalconsulting@gmail.com
+          info.globalcgc@gmail.com
           </p>
           <p className='mt-5 text-xl md:text-2xl neue-thin'>
             +234- 8084683622

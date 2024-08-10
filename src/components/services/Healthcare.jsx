@@ -10,7 +10,7 @@ const Healthcare = () => {
 
       <SideAnim>
     <h1 className='neue-medium text-[32px] text-black mb-4 py-36 purple   '>
-    Healthcare Leadership Consulting  
+     Consulting  
      </h1>
      </SideAnim>  
       
@@ -18,8 +18,7 @@ const Healthcare = () => {
    
 
      <p className='neue-thin text-[24px] text-black w-[400px] md:w-[900px] tracking-wide p-6' >
-     Strategic guidance and support for students pursuing 
-health-related courses, healthcare professionals, private hospitals, and healthcare 
+     Strategic guidance and support for students professionals, and
 organizations to enhance leadership capabilities & excellence, drive organizational 
 effectiveness, navigate challenges, and optimize operations.
      </p>

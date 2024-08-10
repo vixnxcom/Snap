@@ -4,7 +4,7 @@ import styles from '../../style';
 
 const Phone = () => {
 
-    const emailAddress = 'championsglobalconsulting@gmail.com';
+    const emailAddress = 'info.globalcgc@gmail.com';
     // const phoneNumber = '08084683622';
    
 
