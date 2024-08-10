@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
 
         {/* foot */}
-        <div className=' h-[2px] bg-purple mt-10 w-full'></div>
+        <div className=' h-[2px] bg-purple mt-20 w-full'></div>
         {/* foot */}
         <div className='text-white'>
        <p className='neue-thin text-[16px] mt-5 tracking-wide'> &copy; Championsglobalconsulting. All Rights Reserved 2024.</p>

@@ -15,12 +15,13 @@ import Ahmed from './Ahmed'
 import Kazeem from './Kazeem'
 import Stat from './Stat'
 import Image from './Image'
-import { book } from '../../assets'
+import { arrowhite, book } from '../../assets'
 import Slider from './Slider'
 import Animate from '../Animate'
 import TextAnim from '../TextAnim'
 import Faq from './Faq'
 import Register from '../../Register'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -34,13 +35,21 @@ const Home = () => {
       <Welcome />
     </div>
 
- 
-    
-    <div className=' mt-5'>
-    {/* <div className='bg-curve p-2 z-[999]'>
+ {/* bootcamp */}
+ <div className=' md:mt-5'>
+   
+   <button className='shadow-lg Buttonn text-black bg-reviews text-center mx-auto flex flex-row '>
+   <Link to ='/register' className={`${styles.flexCenter} mx-auto neue-medium text-[28px] text-center  flex flex-row cursor-pointer p-6`}>Join the Online Bootcamp !
+   <img src={arrowhite} alt="" className=' w-[64px] mx-2 mb-3'/>
+   </Link>
+   
 
-    </div> */}
- <div className='bg-curvebook '>
+   </button>
+   </div> 
+ {/* bootcamp */}
+   
+    <div className=' mt-10'> 
+ <div className='bg-curvebook mt-24'>
   <Intro />
   <img src={book} alt="" className='w-full h-[400px] mx-auto max-w-[800px] ' />
   <div className={`${styles.flexCenter} md:w-[800px] xs:w-[470px]  p-6 pbox track mx-auto `}>

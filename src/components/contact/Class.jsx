@@ -12,7 +12,7 @@ const Class = () => {
     {/* <p className='neue-medium text-[24px] mt-1 hover:tracking-widest'>Buy Tickets</p> */}
     <a href="https://shows.ng/event/A-3-week-online-Bootcamp-training-267" 
      target="_blank" rel="noopener noreferrer" className='neue-medium text-[24px] mt-1 hover:tracking-widest'>
-        Buy your Tickets </a>
+        Join class </a>
     <img src={arroww} alt="" className='w-[43.43px] h-[41.55px] ' />
     </div> 
     

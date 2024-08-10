@@ -3,6 +3,7 @@ import styles from './style'
 import { poster } from './assets'
 import Ticket from './components/contact/Ticket'
 import Steps from './components/contact/Steps'
+import Class from './components/contact/Class'
 
 const Register = () => {
   return (
@@ -72,7 +73,7 @@ const Register = () => {
     <div className='mt-5 p-4'>
     <p className='neue-medium text-[28px] text-white tracking-wide flex flex-row '>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></span>Join our class here</p>
-    <Ticket />
+    <Class/>
     </div>
 
 
