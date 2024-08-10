@@ -51,7 +51,8 @@ const toggleItemmm = () => {
 {showItem  && (
     <div>
         <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae.
+        We are consulting company. We guide individuals and organizations to unlock their full potential,
+         offering tailored solutions that drive success and foster sustainable growth.
         </p>
     </div>
  
@@ -71,7 +72,9 @@ const toggleItemmm = () => {
 {showItemm  && (
    <div>
    <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto'>
-       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae.
+   At Champions Global-Consulting, we provide customized coaching, mentoring, and consulting services.
+    Our team works closely with clients to develop strategies that enhance performance, drive growth, 
+    and achieve sustainable success across various industries.
    </p>
 </div>
  
@@ -89,10 +92,45 @@ const toggleItemmm = () => {
         </div>
     </div>
 {showItemmm  && (
-   <div>
-   <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto'>
-       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae.
-   </p>
+   <div className='flex flex-col'>
+
+   {/* <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto'>
+       
+   </p> */}
+   <div className='flex flex-row'>
+
+   <div className={`w-[48px] h-[48px] mt-5 p-1 rounded-full ${styles.flexCenter}  text-white bg-black`}>  
+     <h1 className='text-white galgo text-[24px] tracking-wide'> 01. </h1>
+     </div> 
+
+       <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
+       <span className='neue-medium text-black font-bold'>Select a Service</span> - Choose from our available services and pricing plans listed on our website
+        </p>     
+   </div>
+   {/* </p> */}
+   <div className='flex flex-row mt-2'>
+
+   <div className={`w-[48px] h-[48px] p-1 mt-5 rounded-full ${styles.flexCenter}  text-white bg-black`}>  
+     <h1 className='text-white galgo text-[24px] tracking-wide'> 02. </h1>
+     </div> 
+
+       <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
+       <span className='neue-medium text-black font-bold'>Review Pricing</span> - Check the details and select the plan that best fits your needs.
+        </p>     
+   </div>
+   {/* </p> */}
+   <div className='flex flex-row mt-5'>
+
+   <div className={`w-[48px] h-[48px] p-1 rounded-full ${styles.flexCenter} mt-5  text-white bg-black`}>  
+     <h1 className='text-white galgo text-[24px] tracking-wide'> 03. </h1>
+     </div> 
+
+       <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
+       <span className='neue-medium text-black font-bold'>Make Payment</span> - Complete your booking by making a secure payment through our Paystack account on the website.
+        </p>     
+   </div>
+
+
 </div>
  
  )}

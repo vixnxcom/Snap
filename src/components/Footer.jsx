@@ -1,23 +1,30 @@
-import React from 'react'
-import styles from '../style'
-
+import React from 'react';
+import styles from '../style';
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexCenter} mb-20  mx-auto place-items-center text-center flex flex-col`} >
-     <div className=' md:w-[800px] xs:w-[470px] p-6  track  mt-20 text-white'>
+    <section className={`${styles.flexCenter} mb-20 mx-auto text-center flex flex-col`}>
+      <div className='p-6 mt-10 text-white'>
+        <h2 className={`${styles.flexStart} text-6xl galgo md:text-6xl lg:text-8xl tracking-wide text-start`}>
+          Champions Global Consulting
+        </h2>
 
-  <h2 className={`${styles.flexStart} galgo text-8xl tracking-wide text-start mt-10 ` }>
-Champions Global Consulting
-</h2>
-<p className='text-[24px] neue-thin mt-5 p-2 mr-2 text-start'>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, corrupti excepturi. Labore repellendus dolorem,
- praesentium 
-suscipit tempore sunt ut vitae sequi, 
-</p>
-</div> 
+        <div className='text-xl md:text-2xl tracking-wide text-start mt-5 neue-medium'>
+          <h2>Unleashing Potential, Achieving Greatness</h2>
+        </div>
+
+        <div className='text-4xl md:text-4xl   tracking-wide text-start mt-10'>
+          <h2 className='galgo'>Contact Us</h2>
+          <p className='mt-5 text-xl md:text-2xl neue-thin'>
+            championsglobalconsulting@gmail.com
+          </p>
+          <p className='mt-5 text-xl md:text-2xl neue-thin'>
+            +234- 8084683622
+          </p>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
