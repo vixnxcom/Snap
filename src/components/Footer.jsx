@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../style';
+import Social from './contact/Social';
 
 const Footer = () => {
   return (
@@ -21,8 +22,13 @@ const Footer = () => {
           <p className='mt-5 text-xl md:text-2xl neue-thin'>
             +234- 8084683622
           </p>
+
+          <div>
+        <Social />
+      </div>
         </div>
       
+    
       </div>
 
         {/* foot */}

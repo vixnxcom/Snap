@@ -44,10 +44,18 @@ import x from './x.png'
 import yt from './yt.png'
 import wave from './wave.png'
 import poster from './poster.png'
+import faceb from './faceb.png'
+import insta from './instagram.png'
+import linked from './linked.png'
+import twitter from './twitter.png'
 
 
 
 export {
+    faceb,
+    insta,
+    linked,
+    twitter,
     poster,
     moree,
     lesss,

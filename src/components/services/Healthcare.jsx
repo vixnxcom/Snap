@@ -18,7 +18,7 @@ const Healthcare = () => {
    
 
      <p className='neue-thin text-[24px] text-black w-[400px] md:w-[900px] tracking-wide p-6' >
-     Strategic guidance and support for students professionals, and
+     Strategic guidance and support for students professionals, an  d
 organizations to enhance leadership capabilities & excellence, drive organizational 
 effectiveness, navigate challenges, and optimize operations.
      </p>

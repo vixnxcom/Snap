@@ -112,13 +112,37 @@ leadership, education, and research.
 <div className='icons mt-2'>
 <div className=" text-2xl galgo mb-2">Socials</div>
 <div className={`${styles.paddingX} gap-8 flex flex-row`} >
-<img src={fb} alt="" className='w-[48px]'/>
-<img src={lk} alt="" className='w-[48px]' />
-<img src={x} alt=""  className='w-[48px]'/>
+<a href="https://uk.linkedin.com/in/ahmed-abdulkareem-7931b1b8?trk=public_post_feed-actor-name" target="_blank" rel="noopener noreferrer">
+          <div className={`${styles.flexCenter}  `}>
+                <img src={lk} alt=""  className='w-[48px] h-[48px] mx-auto '/>
+            </div>
+          </a>
+<a href="https://web.facebook.com/ahmedcine/?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer">
+          <div className={`${styles.flexCenter}  `}>
+                <img src={fb} alt=""  className='w-[48px] h-[48px] mx-auto '/>
+            </div>
+          </a>
+<a href="https://x.com/i/flow/login?redirect_after_login=%2Fahmedcine" target="_blank" rel="noopener noreferrer">
+          <div className={`${styles.flexCenter}  `}>
+                <img src={x} alt=""  className='w-[48px] h-[48px] mx-auto '/>
+            </div>
+          </a>
+
+
+
 </div>
 <div className={`${styles.paddingX} gap-8 flex flex-row mt-5`} >
-<img src={ig} alt="" className='w-[48px]'/>
-<img src={yt} alt="" className='w-[48px]' />
+<a href="https://www.instagram.com/ahmedcine_md/" target="_blank" rel="noopener noreferrer">
+          <div className={`${styles.flexCenter}  `}>
+                <img src={ig} alt=""  className='w-[48px] h-[48px] mx-auto '/>
+            </div>
+          </a>
+<a href="https://youtube.com/@ahmedcine?si=2XDNueWmyHFX1x5h" target="_blank" rel="noopener noreferrer">
+          <div className={`${styles.flexCenter}  `}>
+                <img src={yt} alt=""  className='w-[48px] h-[48px] mx-auto '/>
+            </div>
+          </a>
+
 
 </div>
 
