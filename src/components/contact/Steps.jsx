@@ -28,7 +28,7 @@ const Steps = () => {
      <div className='flex flex-col '>
   <p className='neue-medium text-[28px] text-white tracking-wide mt-2 mx-4 ' > Email your ticket receipt for <br />confirmation to:</p>
 
-  <a href={`mailto:${emailAddress}` } className='text-white text-[20px] neue-thin mt-2 p-1'>{emailAddress}<img src={arrowhite} alt="" className='w-[36px] mt-2 ' /> </a>
+  <a href={`mailto:${emailAddress}` } className='text-white text-[20px] neue-thin mt-2 p-1'>{emailAddress}<img src={arrowhite} alt="" className='w-[24px] mt-2 ' /> </a>
      </div>
      </div>
      {/* card 3/////////////////////////////////// */}
