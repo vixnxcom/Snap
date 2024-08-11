@@ -38,9 +38,9 @@ const Home = () => {
  {/* bootcamp */}
  <div className=' md:mt-5'>
    
-   <button className='shadow-lg Buttonn text-black bg-reviews text-center mx-auto flex flex-row '>
+   <button className='shadow-lg Buttonn text-black  text-center gap-2 mx-auto flex flex-row '>
    <Link to ='/register' className={`${styles.flexCenter} mx-auto neue-medium text-[28px] text-center  flex flex-row cursor-pointer p-6`}>Join the Online Bootcamp !
-   <img src={arrowhite} alt="" className=' w-[64px] mx-2 mb-3'/>
+   <img src={arrowhite} alt="" className='w-[48px] mt-2  mb-3'/>
    </Link>
    
 
