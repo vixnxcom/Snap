@@ -5,7 +5,7 @@ import { arroww } from '../../assets'
 const Class = () => {
   return (
 <section>
-<div className='mt-5 mb-10 p-2'>
+<div className='mt-5 mb-20 p-2'>
       <div className='Button flex flex-row shadow-lg'>
 
     <div className='p-2 flex flex-row gap-8 mx-auto'> 
