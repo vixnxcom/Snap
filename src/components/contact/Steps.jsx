@@ -18,7 +18,7 @@ const Steps = () => {
     <div className={`w-[48px] h-[48px] rounded-full ${styles.flexCenter} mt-2  text-white bg-black`}>  
      <h1 className='text-white galgo text-[24px] tracking-wide'> 01. </h1>
      </div> 
-  <p className='neue-medium text-[24px] text-white tracking-wide mt-2 mx-4 ' > Purchase a ticket</p>
+  <p className='neue-medium text-[24px] text-white tracking-wide mt-4 mx-4 ' > Purchase a ticket</p>
      </div>
 {/* email///////////////////////////////////////// */}
    <div className='flex flex-row mt-2'>
@@ -36,7 +36,7 @@ const Steps = () => {
     <div className={`w-[48px] h-[48px] rounded-full ${styles.flexCenter} mt-2 text-white bg-black`}>  
      <h1 className='text-white galgo text-[24px]  tracking-wide'> 03. </h1>
      </div> 
-  <p className='neue-medium text-[24px] text-white tracking-wide mt-2 mx-4 ' > Join our class</p>
+  <p className='neue-medium text-[24px] text-white tracking-wide mt-4 mx-4 ' > Join our class</p>
      </div>
 
 
