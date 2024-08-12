@@ -9,7 +9,7 @@ const Class = () => {
       <div className='Button flex flex-row shadow-lg'>
 
     <div className='p-2 flex flex-row gap-8 mx-auto'> 
-    {/* <p className='neue-medium text-[24px] mt-1 hover:tracking-widest'>Buy Tickets</p> */}
+ 
     <a href=" https://meet.google.com/vtb-mahr-osq" target="_blank" rel="noopener noreferrer"  className='neue-medium text-[24px] mt-1 hover:tracking-widest' >
 
         Join class </a>

@@ -4,6 +4,7 @@ import { poster } from './assets'
 import Ticket from './components/contact/Ticket'
 import Steps from './components/contact/Steps'
 import Class from './components/contact/Class'
+import Yt from './components/contact/Yt'
 
 const Register = () => {
   return (
@@ -23,6 +24,12 @@ const Register = () => {
            A 3 weeks online Bootcamp Training!
           </h1>
         </div>
+
+       <div className={`${styles.flexCenter}`}>
+       <div className={`${styles.boxWidth}`}>
+       <Yt />
+       </div>
+       </div>
 
         {/* paragraph */}
        <div className='mt-5 p-4 max-w-[sm]'>

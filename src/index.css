@@ -1253,3 +1253,22 @@ background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
     background-position: 0 50%,0 calc(0% - 2px),0 calc(100% + 2px),50% 50%,50% calc(0% - 2px),50% calc(100% + 2px),100% 50%,100% calc(0% - 2px),100% calc(100% + 2px);
  }
 }
+
+/* video/////////////////////////// */
+/* Responsive YouTube Video Container */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000; /* Optional: helps with visibility */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
