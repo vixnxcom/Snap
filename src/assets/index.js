@@ -52,7 +52,7 @@ import twitter from './twitter.png'
 
 
 export {
-    faceb,
+   faceb,
     insta,
     linked,
     twitter,

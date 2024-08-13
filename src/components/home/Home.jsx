@@ -15,7 +15,7 @@ import Ahmed from './Ahmed'
 import Kazeem from './Kazeem'
 import Stat from './Stat'
 import Image from './Image'
-import { arrowhite, book } from '../../assets'
+import { arrowhite, book  } from '../../assets'
 import Slider from './Slider'
 import Animate from '../Animate'
 import TextAnim from '../TextAnim'
@@ -163,6 +163,8 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
 
 
 </div>
+
+
 
 </div> 
 {/* third bg */}

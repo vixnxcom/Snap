@@ -1223,7 +1223,7 @@ background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
  /* HTML: <div class="loader"></div> */
 .loader {
   width: 40px;
-  border-radius: 4px;
+  border-radius: 2px;
   aspect-ratio: 1;
   --c: linear-gradient(#591784 0 0);
   --r1: radial-gradient(farthest-side at bottom, #fff 93%,#561784);
