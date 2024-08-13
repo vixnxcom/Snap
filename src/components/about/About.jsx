@@ -121,8 +121,8 @@ const About = () => {
        </div>
     
 
-       <div className='bg-purple h-[580px] '>
-        <div className='mt-20'>
+       <div className='bg-purple h-[590px] md:h-[400px]'>
+        <div className='mt-10'>
           <End />
         </div>
        </div>

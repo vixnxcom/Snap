@@ -147,7 +147,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
 
    <div className='bg-purple '>
    <Animate>
-    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20  ` }>
+    <h2 className={`${styles.flexStart} galgo text-8xl text-white our tracking-wide mt-20  mb-20 ` }>
      <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span> 
        FAQs
      </h2>
@@ -159,6 +159,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
       </TextAnim>
    
     <Faq />
+    <div className='h-[100px] bg-purple'></div>
    </div>
 
 

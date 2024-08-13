@@ -5,7 +5,7 @@ import TextAnim from '../TextAnim'
 
 const Vision = () => {
   return (
-   <section className={`${styles.flexCenter} `}>
+   <section className={`${styles.flexCenter} mx-auto `}>
     <div className='mission-button mt-28  bg-arrow'>
       <div className={`${styles.flexCenter} text-white flex flex-col mt-10`}>
 

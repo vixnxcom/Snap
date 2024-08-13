@@ -4,7 +4,7 @@ import Animate from '../Animate'
 
 const Mission = () => {
   return (
-   <section className={`${styles.flexCenter} `}>
+   <section className={`${styles.flexCenter} mx-auto `}>
 
     <div className='mission-button bg-arrow  mt-36 mb-10'>
       <div className={`${styles.flexCenter} text-white flex flex-col mt-10`}>

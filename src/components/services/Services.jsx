@@ -141,7 +141,7 @@ const Services = () => {
        </div>
 
    {/* <div className='bg-white h-[40px]'></div> */}
-        <div className='bg-purple h-[480px]'>
+        <div className='bg-purple h-[520px] md:h-[360px]'>
        
         <Questions />
        </div>
