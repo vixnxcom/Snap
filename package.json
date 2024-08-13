@@ -1,6 +1,7 @@
 {
   "name": "globalconsulting",
   "private": true,
+  "homepage": "https://championsglobalconsulting.org/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
