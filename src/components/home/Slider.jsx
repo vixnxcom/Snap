@@ -34,7 +34,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-[96vw]   max-w-xl h-[83vh] mx-auto overflow-hidden  ">
+    <div className="relative w-[96vw]   max-w-xl  mx-auto overflow-hidden  ">
       <div className=' card rounded-[24px] p-1 overflow-hidden shadow-lg'>
      {/* new div */}
      <div className=' bg-reviews p-2 rounded-[24px]    mx-auto'>
@@ -54,7 +54,8 @@ const Slider = () => {
      {/* new div */}
      </div>
      {/* new div */}
-      <div className="absolute  bottom-2 left-1/2 transform -translate-x-1/2 flex items-center space-x-6 gap-2">
+     <div className='mt-20'>
+      <div className="absolute  bottom-3 left-1/2 transform -translate-x-1/2 flex items-center space-x-6 gap-2">
         <button
           onClick={prevSlide}
           className="bg-purple shadowc outline-none focus:outline-none text-black flex items-center justify-center mb-2 mt-2 rounded-full w-[80px] h-[48px] neue-thin"
@@ -81,6 +82,7 @@ const Slider = () => {
 
       </div>
       {/* new div for bg */}
+      </div>
       </div>
       {/* <div className="flex space-x-2 mt-1 p-4 ">
           {slides.map((_, index) => (

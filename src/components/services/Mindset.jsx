@@ -20,7 +20,7 @@ const Mindset = () => {
      </div>
             <div className='p-2'>
            
-            <p className='neue-medium text-[24px] text-white w-[370px] '>
+            <p className='neue-medium text-[24px] text-white max-w-[350px] '>
            Techniques to cultivate a positive mindset, build self-confidence,
              and overcome self-limiting beliefs.
 

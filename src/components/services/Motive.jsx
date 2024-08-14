@@ -20,7 +20,7 @@ const Motive = () => {
      </div>
             <div className='p-2'>
            
-            <p className='neue-medium text-[24px] text-white w-[370px] '>
+            <p className='neue-medium text-[24px] text-white max-w-[350px] '>
           Inspiring individuals to unleash their inner drive, set ambitious 
           goals, and stay motivated on their journey.
 

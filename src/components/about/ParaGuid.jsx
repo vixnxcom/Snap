@@ -13,7 +13,7 @@ const ParaGuid = () => {
  const imageStyle = {
   // position: 'relative',
   height: '60vh',
-  width: '420px',
+  width: 'auto',
  display: 'flex',
  alignItems: 'center',
  justifyContent: 'center',
@@ -37,7 +37,7 @@ borderRadius: '24px',
     style={{
       position: 'relative',
       height: '70vh',
-      width: '420px',
+      width: 'auto',
      display: 'flex',
      alignItems: 'center',
      justifyContent: 'center',

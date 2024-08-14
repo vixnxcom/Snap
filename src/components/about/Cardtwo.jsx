@@ -6,7 +6,7 @@ import SideAnim from '../SideAnim'
 
 const Cardtwo = () => {
   return (
-    <section className={`${styles.flexStart} text-start z-[999] `}>
+    <section className={`${styles.flexStart} ${styles.paddingX} text-start z-[999] `}>
     <div>
              {/* card 6 */}  
     <div className=' h-[8px]   '></div>

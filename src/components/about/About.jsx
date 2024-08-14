@@ -15,6 +15,7 @@ import Ceo from './Ceo'
 import End from './End'
 import Stat from '../home/Stat'
 import Animate from '../Animate'
+import Newcard from './Newcard'
 
 const About = () => {
   return (
@@ -85,7 +86,10 @@ const About = () => {
        </div>
      </div>
      
-     
+     <div className='bg-white'>
+<Newcard/>
+     </div>
+
      <div className='bg-curvee '>    
         <Cardtwo />    
        </div>
@@ -120,9 +124,9 @@ const About = () => {
         <Ceo />
        </div>
     
-
-       <div className='bg-purple h-[590px] md:h-[400px]'>
-        <div className='mt-10'>
+       
+       <div className='bg-purple h-[auto] md:h-[400px] mx-auto'>
+        <div className={`${styles.flexCenter} mt-16 `}>
           <End />
         </div>
        </div>

@@ -6,7 +6,7 @@ import TextAnim from '../TextAnim'
 
 const Guiding = () => {
   return (
-    <section className={`${styles.flexStart} text-start `}>
+    <section className={`${styles.flexStart} ${styles.paddingX} text-start `}>
    <div>
     {/* card 1 */}   
  

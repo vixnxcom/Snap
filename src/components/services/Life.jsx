@@ -20,7 +20,7 @@ const Life = () => {
      </div>
             <div className='p-2'>
            
-            <p className='neue-medium text-[24px] text-white w-[370px] '>
+            <p className='neue-medium text-[24px] text-white max-w-[330px] '>
             Tailored support to help individuals clarify their goals, overcome obstacles, 
             and achieve personal fulfilment.  
             </p>

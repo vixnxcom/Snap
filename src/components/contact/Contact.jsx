@@ -11,18 +11,18 @@ const Contact = () => {
 
         <div className='w-[400px] bg-gray-950'>
            
-        <div className={`${styles.flexStart}   `}>
+        <div className={`${styles.flexStart} ${styles.paddingX}  `}>
         <div className={`${styles.boxWidth} `}>
         < ContactHead />
     </div>
     </div>
         </div>
 
-        <div>
+        <div className={`${styles.flexCenter}`}>
        <img src={guide} alt="" />
         </div>
 
-        <div>
+        <div className={`${styles.paddingX}`}>
             <Phone />
         </div>
         

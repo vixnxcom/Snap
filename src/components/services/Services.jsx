@@ -41,7 +41,7 @@ const Services = () => {
        </div>
        </div>
  {/* col start */}
- <div className='md:grid md:grid-cols-2 md:gap-4'>
+ <div className={`${styles.paddingX} md:grid md:grid-cols-2 md:gap-4`}>
 
         <div className='bg-gray-950 mt-10'>
           <Life />
@@ -75,7 +75,7 @@ const Services = () => {
        </div>
 
   {/* col start */}
- <div className='sm:grid md:grid-cols-2 md:gap-4'>
+ <div className=' bg-white sm:grid md:grid-cols-2 md:gap-4 mx-auto'>
 
        <div className='bg-white '>
         <div className='bg-white h-[40px]'></div>
@@ -87,7 +87,7 @@ const Services = () => {
           <Group />
         </div>
 
-       <div className='bg-white  '>
+       <div className='bg-white'>
         <div className='bg-white h-[40px]'></div>
           <Theme />
         </div>
@@ -135,15 +135,18 @@ const Services = () => {
         </div>
     
    <div className='bg-white h-[40px]'></div>
+   
         <div className='bg-each'>
        
         <Endservice />
        </div>
+      
 
    {/* <div className='bg-white h-[40px]'></div> */}
-        <div className='bg-purple h-[520px] md:h-[360px]'>
-       
+        <div className='bg-purple h-[auto] md:h-[360px]'>
+       <div className='mt-10 '>
         <Questions />
+       </div>
        </div>
 
       

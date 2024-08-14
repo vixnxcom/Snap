@@ -9,13 +9,13 @@ const Theme = () => {
    <section className={`${styles.paddingX} flex flex-col`}>
     <div className='flex flex-row gap-2 '>
     
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2  w-full yellow'>
+       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2 py-6 w-full yellow'>
        Theme-Based <br /> Mentoring:
             </h1>
           
-            <div className='p-4 '>
+            <div className='p-6 '>
            <Animate>
-            <p className='neue-medium text-[24px]  w-[200px] text-black '>
+            <p className='neue-medium text-[24px]  w-[190px] text-black '>
             Specialized mentoring programs focusing on specific themes or 
             topics such as career development, leadership, or personal growth
  

@@ -6,7 +6,7 @@ import SideAnim from '../SideAnim'
 
 const Secondp = () => {
   return (
-   <section>
+   <section className={`${styles.paddingX}`}>
     <div className=' md:w-[800px] xs:w-[470px] p-6 text-white  track'>
 
    <SideAnim>

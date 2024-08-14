@@ -20,7 +20,7 @@ const Exec = () => {
      </div>
             <div className='p-2'>
            
-            <p className='neue-medium text-[24px] text-white w-[370px] '>
+            <p className='neue-medium text-[24px] text-white max-w-[330px] '>
            Targeted coaching for executives and leaders to 
 enhance leadership skills, improve decision-making, and drive organizational success.
 

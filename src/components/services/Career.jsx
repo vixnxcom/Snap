@@ -20,7 +20,7 @@ const Career = () => {
      </div>
             <div className='p-2'>
            
-            <p className='neue-medium text-[24px] text-white w-[370px] '>
+            <p className='neue-medium text-[24px] text-white max-w-[350px] '>
             Guidance and strategies to navigate career transitions, develop skills, and 
             achieve professional success.
 

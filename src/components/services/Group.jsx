@@ -10,14 +10,14 @@ const Group = () => {
     
     <div className='flex flex-row gap-2 '>
 
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2  yellow'>
+       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2 py-6  yellow'>
        Group <br /> Mentoring:
             </h1>
 
-            <div className='p-4'>
+            <div className='p-6'>
 
         <Animate>
-            <p className='neue-medium text-[24px]  w-[200px] text-black '>
+            <p className='neue-medium text-[24px]  w-[190px] text-black '>
             Collaborative mentorship experiences where individuals can learn from 
 each other's experiences, share insights, and receive collective support.
           </p>

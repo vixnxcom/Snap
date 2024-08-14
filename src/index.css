@@ -1039,7 +1039,7 @@ background: linear-gradient(186.28deg, rgba(215, 4, 250, 0.8) 36.05%,
   }
 
   .end{
-    width: 400px;
+    width: auto;
 background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 23.18%,
  rgba(89, 23, 132, 0.02) 66.22%), 
 linear-gradient(205.36deg, rgba(195, 0, 255, 0.1) 26.51%,
@@ -1128,8 +1128,8 @@ backdrop-filter: blur(20px);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 640px;
+  width: auto;
+  height: auto;
   /* Rectangle 12 */
 /* pexels */
 
