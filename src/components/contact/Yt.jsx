@@ -3,7 +3,7 @@ import React from 'react';
 
 const Yt = () => {
   return (
-    <section className="p-2">
+    <section className="py-2">
       <div className="video-responsive">
         <iframe
           src="https://www.youtube.com/embed/vvHIjby1_04?modestbranding=1&rel=0"

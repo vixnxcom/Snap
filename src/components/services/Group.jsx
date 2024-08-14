@@ -10,11 +10,11 @@ const Group = () => {
     
     <div className='flex flex-row gap-2 '>
 
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2 py-6  yellow'>
+       <h1 className='neue-medium text-[28px] text-white mb-4 mt-2 py-6  yellow'>
        Group <br /> Mentoring:
             </h1>
 
-            <div className='p-6'>
+            <div className='p-2'>
 
         <Animate>
             <p className='neue-medium text-[24px]  w-[190px] text-black '>

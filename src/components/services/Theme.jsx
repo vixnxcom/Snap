@@ -9,11 +9,11 @@ const Theme = () => {
    <section className={`${styles.paddingX} flex flex-col`}>
     <div className='flex flex-row gap-2 '>
     
-       <h1 className='neue-medium text-[32px] text-white mb-4 mt-2 py-6 w-full yellow'>
+       <h1 className='neue-medium text-[28px] text-white mb-4 mt-2 py-6 w-full yellow'>
        Theme-Based <br /> Mentoring:
             </h1>
           
-            <div className='p-6 '>
+            <div className='p-2 '>
            <Animate>
             <p className='neue-medium text-[24px]  w-[190px] text-black '>
             Specialized mentoring programs focusing on specific themes or 
