@@ -9,7 +9,7 @@ import Bootcamp from './Bootcamp'
 const Hero = () => {
    return (
      <section className={`${styles.flexStart} `} >
-       <div className='mt-20'>
+       <div className='mt-20 mb-20'>
  
        <h1 className=' mt-20 text-shadow text-start text-white' >
          <div className='mb-5 galgo tracking-wide text-7xl'>Stimulating the  <span className='purple'>Mind</span> </div>
@@ -18,7 +18,7 @@ const Hero = () => {
       </h1>
 
 {/* central div */}
-<div className='md:flex md:flex-row md:gap-16 z-[999] '>
+<div className='md:flex md:flex-row md:gap-16 z-[999] mb-20'>
       <div className='bg-book w-[320px] h-[auto] rounded-[12px]  mt-5 ' >
        <div className='flex flex-row text-center mt-10 bg-video w-[300px] h-[140px]'>
        <div className='text-[24px] mx-8  mt-5 neue-thin '>
