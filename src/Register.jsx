@@ -8,7 +8,7 @@ import Yt from './components/contact/Yt'
 
 const Register = () => {
   return (
-   <section className={`${styles.flexCenter} bg-white`}>
+   <section className={`${styles.flexStart}    bg-purple`}>
     
      <div>
      <div className='bg-purple h-[120px]'></div>
@@ -17,22 +17,22 @@ const Register = () => {
           <img src={poster} alt="" />
         </div>
         {/* image////////// */}
-        <div className='bg-purple'>
+        <div className={`${styles.flexCenter} flex flex-col mx-auto md:w-[800px] sm:w-[470px]`}>
         {/* heading */}
-        <div className='mt-5 p-4 sm:max-w-[lg]'>
+        <div className='mt-5 p-6 md:max-w-[lg] w-[380px] flex flex-row '>  
+        <div className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></div>
           <h1 className='galgo text-6xl text-white tracking-wide '>
+          
            A 3 weeks online Bootcamp Training!
           </h1>
         </div>
 
-       <div className={`${styles.flexCenter}`}>
-       <div className={`${styles.boxWidth}`}>
-       <Yt />
-       </div>
-       </div>
+     <div>
+      <Yt />
+     </div>
 
         {/* paragraph */}
-       <div className='mt-5 p-4 max-w-[sm]'>
+       <div className='mt-5 p-6 max-w-[sm] w-[380px] '>
        <p className='neue-thin text-[28px] text-white tracking-wide'>
           For youths and students in senior secondary classes
         </p>
@@ -40,18 +40,18 @@ const Register = () => {
         {/* paragraph */}
         {/* paragraph */}
         <div className=''>
-       <div className='mt-5 p-4 max-w-[lg] w-[390px]  '>
+       <div className='mt-5 p-6 max-w-[lg] w-[300px]  '>
        <p className='neue-thin text-[28px] text-white tracking-wide'>
         <span className=' underline  tracking-wide'>6pm - 7pm  </span>
              daily from the </p>
        </div>
-       <div className='p-4 max-w-[lg] w-[390px]  '>
+       <div className='p-6 max-w-[lg] w-[380px]  '>
        <p className='neue-thin text-[28px] text-white tracking-wide'>
     
             <span className=' underline tracking-wide  '> 19th of August </span>  to the 
         </p>
        </div>
-       <div className='p-4 max-w-[lg] w-[390px]  '>
+       <div className='p-6 max-w-[lg] w-[380px]  '>
        <p className='neue-thin text-[28px] text-white tracking-wide'>
     
       <span className=' underline tracking-wide'> 6th of September 2024 </span>  
@@ -72,13 +72,13 @@ const Register = () => {
     <div>
       <Steps />
     </div>
-    <div className='mt-5 p-4 '>
-    <p className='neue-medium text-[28px] text-white tracking-wide flex flex-row '>
+    <div className='mt-5 p-6  '>
+    <p className='neue-medium text-[24px] text-white tracking-wide flex flex-row w-[380px]  '>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></span>Buy your tickets here</p> 
     <Ticket />
     </div>
-    <div className='mt-5 p-4'>
-    <p className='neue-medium text-[28px] text-white tracking-wide flex flex-row '>
+    <div className='mt-5 p-6  '>
+    <p className='neue-medium text-[24px] text-white tracking-wide flex flex-row w-[380px]'>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></span>Join our class here</p>
     <Class/>
     </div>

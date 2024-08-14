@@ -58,7 +58,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
    </p>
      
   </div>
-
+  </div>
 {/* </div>  */}
 
 
@@ -87,7 +87,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
 
 </div> 
 
-    </div>
+ 
 
     <div className='bg-purple mt-10 '>
  <Parallaximg />

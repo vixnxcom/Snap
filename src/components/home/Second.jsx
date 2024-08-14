@@ -18,7 +18,7 @@ const Second = () => {
 <TextAnim>
         {/* header */}
    
-        <h2 className={`${styles.flexStart} neue-medium text-[32px]  text-black text-8xl tracking-wider mt-20` }>
+        <h2 className={`${styles.flexStart} neue-medium text-[32px] pbox track   text-black text-8xl tracking-wide mt-20` }>
         All our services are customized to meet the specific needs of each individual and 
    organization.
         </h2>
