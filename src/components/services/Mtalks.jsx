@@ -25,7 +25,7 @@ change, overcome challenges, and pursue their dreams.
     <img src={bulb} alt="" className='h-[200px] w-full object-cover ' />
     </div>
     <div className={`${styles.flexCenter} flex flex-col p-4`}>
-        <h1 className='galgo text-white text-7xl tracking wide'> Inspirational Talks</h1>
+        <h1 className='galgo text-white text-7xl tracking wide mt-2'> Inspirational Talks</h1>
         <SideAnim>
         <p className='text-white tracking-wide text-[24px] neue-medium '> Compelling narratives and insights to inspire individuals to embrace 
         change, overcome challenges, and pursue their dreams..

@@ -13,7 +13,7 @@ const Exec = () => {
        </div>
        {/* img */}
        <SideAnim>
-       <h1 className='neue-medium text-[32px] text-white '>
+       <h1 className='neue-medium text-[28px] text-white '>
        Executive & <br /> Leadership <br /> Coaching
             </h1>
         </SideAnim>    

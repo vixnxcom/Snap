@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Bootcamp = () => {
   return (
-   <section className='mt-20 mb-20 mb-5 px-18 '>
+   <section className='mt-10 mb-10 mb-5 px-18 '>
      {/* bootcamp */}
   
  <div className=' md:mt-10 '>

@@ -51,7 +51,7 @@ return () => ctx.revert()
        <h1 id='title-2' className='text-4xl mx-8 mt-10 text-white neue-thin'>Unleashing Potential</h1>  
        <h1 id='title-3' className='text-4xl mt-10 mx-8 text-white neue-thin'>Achieving Greatness</h1>  
     </div>
-    <div className='h-screen flex p-8 '>
+    <div className='h-[120vh] flex p-8 '>
 <h1 id='welcome' className='z-[900]'>
    <Hero />
 </h1>

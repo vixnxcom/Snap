@@ -11,7 +11,7 @@ const Inspire = () => {
     <img src={seat} alt="" className='h-[200px] w-full object-cover' />
     </div>
     <div className={`${styles.flexCenter} flex flex-col p-4`}>
-        <h1 className='galgo text-white text-7xl tracking wide'> Motivational Talks</h1>
+        <h1 className='galgo text-white text-7xl tracking wide mt-2'> Motivational Talks</h1>
         <SideAnim>
         <p className='text-white tracking-wide text-[24px] neue-medium '>Engaging and inspirational speeches
            designed to ignite passion, drive, 
