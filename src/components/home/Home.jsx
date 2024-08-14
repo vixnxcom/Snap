@@ -41,7 +41,7 @@ const Home = () => {
 
 
  {/* bootcamp */}
-  <div className='bg-purple h-[200px]'>
+  <div className='bg-purple h-[160px]'>
   </div>
  {/* bootcamp */}
 
