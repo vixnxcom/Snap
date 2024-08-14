@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
    return (
-     <section className={`${styles.flexStart} `} >
+     <section className={`${styles.flexStart} h-[105vh]`} >
        <div className='mt-20'>
  
        <h1 className=' mt-20 text-shadow text-start text-white' >

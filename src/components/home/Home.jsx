@@ -24,6 +24,7 @@ import Register from '../../Register'
 import { Link } from 'react-router-dom'
 import Second from './Second'
 import Button from '../Button'
+import Bootcamp from './Bootcamp'
 
 
 const Home = () => {
@@ -32,33 +33,24 @@ const Home = () => {
 
       {/* first bg */}
 
-      <div className='bg-purple'>
+      {/* <div className='bg-purple '> */}
     <div className='bg-hero bg-heroo' >
       <Welcome />
     </div>
 
+
+
  {/* bootcamp */}
- <div className=' md:mt-10'>
-   <div className='bg-purple h-[40px]'></div>
-   <button className='shadow-lg Buttonn text-black  text-center  mx-auto flex flex-row '>
-   <Link to ='/register' className={`${styles.flexCenter} mx-auto neue-medium text-[28px] text-center  flex flex-row cursor-pointer p-6`}>Join the Online Bootcamp !
-   <img src={arrowhite} alt="" className='w-[56px] mx-2   mb-3'/>
-   </Link>
-   
-
-   </button>
-   <div className='bg-purple h-[40px]'></div>
-   </div> 
+     <div className='p-4'>
+      <Bootcamp />
+     </div>
  {/* bootcamp */}
-   
-    <div className=' mt-10'> 
 
-
+  <div className=' mt-10'> 
  <div className='bg-curvebook mt-24'>
   <Intro />
   <img src={book} alt="" className='w-full h-[400px] mx-auto max-w-[800px] ' />
   <div className={`${styles.flexCenter} md:w-[800px] xs:w-[470px]  p-6 pbox track mx-auto `}>
-
 
   <p className='text-[24px] neue-thin mt-5 p-2 mb-5'>
   With a 
@@ -67,7 +59,8 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
    </p>
      
   </div>
-</div> 
+
+{/* </div>  */}
 
 
  <div className='bg-curvybook mt-5'>

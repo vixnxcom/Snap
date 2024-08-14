@@ -15,7 +15,7 @@ const Guiding = () => {
      {/* card 2 */}  
     {/* <div className='bg-white h-[8px] '></div> */}
     
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-white rounded-[48px]'>
+   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-white rounded-[48px]'> 
      {/* heading */}
      <div className='flex flex-col'>
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} text-white bg-yellow`}>  

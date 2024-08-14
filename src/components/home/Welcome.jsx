@@ -42,9 +42,9 @@ return () => ctx.revert()
 
   return (
     <section className=' relative   ' ref={comp}>
-    <div id='intro-slider' className='z-[920] absolute left-0 w-full h-[98vh]  top-0 flex flex-col gap-10 tracking-wide bg-welcome '>
-       <h1 id='title-1' className='text-9xl text-white flex  mt-10 galgo '> 
-        <span className='mr-4 '> <img src={logo} className='md:w-[153px] md:h-[146.75px] sm:w-[153px] sm:h-[146.75px]  xs:w-[61.2px] xs:h-[58.7px] 
+    <div id='intro-slider' className='z-[920] absolute left-0 w-full h-[105vh]  top-0 flex flex-col gap-10 tracking-wide bg-welcome '>
+       <h1 id='title-1' className='text-8xl text-white flex  mt-10 galgo '> 
+        <span className='mr-4 '> <img src={logo} className='md:w-[143px] md:h-[136.75px] sm:w-[143px] sm:h-[136.75px]  xs:w-[51.2px] xs:h-[48.7px] 
          mr-4 mt-2' /></span>
         <p className='mt-2'>Champions Global Consulting</p>
         </h1>  
