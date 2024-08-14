@@ -914,7 +914,7 @@ backdrop-filter: blur(5px);
   /* background-color: #fff; */
   background: linear-gradient(238.1deg, #FFFF00 0.57%, #FFC000 76.74%);
   padding: 8px auto;
-  width: 360px;
+  width: 70vw;
   max-width: 360px;
   border-radius: 44px;
   gap: 16px;

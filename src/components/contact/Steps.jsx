@@ -8,7 +8,7 @@ const Steps = () => {
   
   return (
    <section className={`${styles.flexCenter} flex flex-col`}>
-    <div className='mt-5 p-4 w-[300px] flex flex-row '>
+    <div className='mt-5 py-4 w-[300px] flex flex-row '>
     <div className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></div>
     <h1 className='galgo text-6xl text-white tracking-wide tracking-wide'>How to participate</h1>
     </div>

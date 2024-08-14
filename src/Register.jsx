@@ -19,13 +19,10 @@ const Register = () => {
         {/* image////////// */}
         <div className={`${styles.flexCenter} flex flex-col mx-auto md:w-[800px] sm:w-[470px]`}>
         {/* heading */}
-        <div className='mt-5 p-6 md:max-w-[lg] w-[380px] flex flex-row '>  
+        <div className='mt-5 py-4 w-[300px] flex flex-row mx-auto'>
         <div className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></div>
-          <h1 className='galgo text-6xl text-white tracking-wide '>
-          
-           A 3 weeks online Bootcamp Training!
-          </h1>
-        </div>
+    <h1 className='galgo text-6xl text-white tracking-wide tracking-wide '>A 3 week online Bootcamp</h1>
+    </div>
 
      <div>
       <Yt />
@@ -72,13 +69,13 @@ const Register = () => {
     <div>
       <Steps />
     </div>
-    <div className='mt-5 p-6  '>
-    <p className='neue-medium text-[24px] text-white tracking-wide flex flex-row w-[380px]  '>
+    <div className=' mt-5 p-6  '>
+    <p className={`${styles.flexStart} neue-medium text-[24px] text-white tracking-wide flex flex-row w-[380px] `}>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></span>Buy your tickets here</p> 
     <Ticket />
     </div>
     <div className='mt-5 p-6  '>
-    <p className='neue-medium text-[24px] text-white tracking-wide flex flex-row w-[380px]'>
+    <p className={`${styles.flexStart} neue-medium text-[24px] text-white tracking-wide flex flex-row w-[380px] `}>
     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3 '></span>Join our class here</p>
     <Class/>
     </div>
