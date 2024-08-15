@@ -35,7 +35,7 @@ const Slider = () => {
 
   return (
     <div className="relative w-[96vw]   max-w-xl  mx-auto overflow-hidden  ">
-      <div className=' card rounded-[24px] p-1 overflow-hidden shadow-lg'>
+      <div className=' card rounded-t-[24px] p-1 overflow-hidden shadow-lg'>
      {/* new div */}
      <div className=' bg-reviews p-2 rounded-[24px]    mx-auto'>
      {/* new div */}

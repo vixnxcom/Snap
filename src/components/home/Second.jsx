@@ -19,7 +19,7 @@ const Second = () => {
 <SideAnim>
         {/* header */}
    
-        <h2 className={`${styles.flexStart} leading-relaxed neue-medium text-[32px] pbox track   text-black text-8xl tracking-wide mt-20` }>
+        <h2 className={`${styles.flexStart} leading-relaxed neue-medium text-[32px] pbox track  p-2 text-black text-8xl tracking-wide mt-20` }>
         All our services are customized to meet the specific needs of each individual and 
    organization.
         </h2>

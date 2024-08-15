@@ -34,14 +34,16 @@ const Services = () => {
    
 
      <div className='bg-purple h-[4px]'></div> 
-
-       <div className={`${styles.paddingX} bg-gray-950 mt-20`}>
-       <div className={`${styles.boxWidth} `}>
+     <div className={`${styles.boxWidth} mx-auto mt-20`}>
+       <div className={`${styles.paddingX} bg-gray-950 `}>
+     
         <Coaching />
        </div>
        </div>
  {/* col start */}
- <div className={`${styles.paddingX} md:grid md:grid-cols-2 md:gap-4`}>
+ <div className={`${styles.boxWidth} mx-auto`}>
+
+ <div className={`${styles.paddingX} md:grid md:grid-cols-2 md:gap-4 `}>
 
         <div className='bg-gray-950 mt-10'>
           <Life />
@@ -65,18 +67,20 @@ const Services = () => {
         </div>
 
 </div>
+</div>
 {/* col end */}   
 
         <div className={`${styles.paddingX} bg-white mt-20`}>
        
-       <div className={`${styles.boxWidth} `}>
+       <div className={`${styles.boxWidth} mx-auto`}>
         <Mentoring />
        </div>
        </div>
 
   {/* col start */}
+  <div className={`${styles.boxWidth} bg-white mx-auto `}>
  <div className=' bg-white sm:grid md:grid-cols-2 md:gap-4 mx-auto'>
-
+ 
        <div className='bg-white '>
         <div className='bg-white h-[40px]'></div>
           <One />
@@ -94,7 +98,9 @@ const Services = () => {
         
 
  </div>
+ </div>
  {/* col end */}   
+ <div className={`${styles.boxWidth}  mx-auto `}>
  <div className='bg-white h-[40px] md:hidden'></div>
 
         <div className={`${styles.paddingX} bg-gray-950 mt-20`}>
@@ -117,28 +123,31 @@ const Services = () => {
         </div>
 
  </div>
+ </div>
  {/* col end */}   
 
-
-        <div className={`${styles.paddingX} bg-white mt-20`}>
-       <div className={`${styles.boxWidth} `}>
+          <div className={`${styles.boxWidth} mx-auto mt-20 bg-white`}>
+        <div className={`${styles.paddingX} bg-white  `}>
+      
         <Consulting />
        </div>
        </div>
 
 
 
-       <div className='bg-white '>
+       <div className={`${styles.boxWidth} bg-white mx-auto`}>
         
         <div className='bg-white h-[40px]'></div>
           <Healthcare/>
         </div>
     
    <div className='bg-white h-[40px]'></div>
+   <div className={`${styles.boxWidth} mx-auto`}>
    
         <div className='bg-each'>
        
         <Endservice />
+       </div>
        </div>
       
 

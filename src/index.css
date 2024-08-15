@@ -936,24 +936,26 @@ backdrop-filter: blur(5px);
 
 backdrop-filter: blur(30px);
 /* Note: backdrop-filter has minimal browser support */
-
 padding: 8px auto;
 /* width: 360px;  */
 border-radius: 24px;
-margin-right: 12px;
-margin-left: 12px;
+margin-right: 10px;
+margin-left: 10px;
 }
   /* button */
 
   .bg-office{
     background-image: url(assets/inno.jpg);
     background-position: scroll;
-  
+    
     background-size: contain;
     background-repeat: repeat;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
+    margin: auto;
      height: 400px;
+     width: 100vw;
+     max-width: 1440px;
   }
 
   @media (min-width: 768px) {
@@ -969,6 +971,8 @@ margin-left: 12px;
     background-repeat: no-repeat;
     border-radius: 24px;
     margin: auto;
+    width: 100vw;
+    max-width: 1440px;
   }
   @media (min-width: 768px) {
     .bg-mission{
@@ -1055,8 +1059,9 @@ backdrop-filter: blur(20px);
     border-top-left-radius: 240px;
     border-top-right-radius: 240px;
     height: auto;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin: auto;
+    /* margin-left: 4px;
+    margin-right: 4px; */
 
   }
 

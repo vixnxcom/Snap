@@ -99,6 +99,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
 
 
  <div className='bg-purple'>
+
   <div>
     <Animate>
   <h2 className={`${styles.flexStart} galgo text-8xl text-white tracking-wide mt-20` }>
@@ -107,7 +108,7 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
         </h2>
     </Animate>     
   </div>
-  <div>
+  <div className={`${styles.boxWidth} mx-auto`}>
   <GoalList />
  </div>
  </div>

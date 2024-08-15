@@ -4,9 +4,9 @@ import Animate from '../Animate'
 
 const Mission = () => {
   return (
-   <section className={`${styles.flexCenter} mx-auto `}>
+   <section className={`${styles.flexCenter} mx-auto  p-2`}>
 
-    <div className='mission-button bg-arrow  mt-36 mb-10'>
+    <div className='mission-button bg-arrow mx-auto mt-36 mb-10'>
       <div className={`${styles.flexCenter} text-white flex flex-col mt-10`}>
         <div className='bg-vision mt-5'>
         <h1 className={`${styles.flexCenter} neue-medium  mt-4 text-[32px]  tracking-wide text-white `}>
@@ -15,7 +15,7 @@ const Mission = () => {
        </div>
 
    <Animate>
-        <p className='neue-thin text-[24px] text-black p-8 tracking-wide'>
+        <p className='neue-thin text-[24px] text-black p-6 tracking-wide'>
         "At Champions Global-Consulting, our mission is to provide unparalleled coaching, 
     mentoring, speaking, and leadership consulting services, fostering growth, innovation, and 
       excellence in every client we serve. Through personalized guidance, strategic insights, and 

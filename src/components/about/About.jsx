@@ -22,22 +22,31 @@ const About = () => {
     <section>
     <div className='w-full overflow-hidden ' >
     
+    
       <div className='bg-aboutt  h-[480px] ' >
+    
       <Head />
     </div>
+  
 
 
 
  
     <div className='bg-gray-950 '>
+      <div className={`${styles.boxWidth} mx-auto`}>
       <Secondp />
     </div>
+    </div>
 
-    <div className='bg-gray-950'>
+  
+    <div className='bg-gray-950 mx-auto'>
       <div className='h-[40px] bg-gray-950'></div>
+     
       <Stat />
+    
       <div className='h-[40px] bg-gray-950'></div>
     </div>
+  
 
 
 
@@ -73,9 +82,11 @@ const About = () => {
 
     
       <div className='bg-gray-950 p-2 '>
+        <div className={`${styles.boxWidth} mx-auto`}>
       <Animate>
         <img src={emp} alt="" className='md:w-[50%] w-[96%] mx-auto mt-20 mb-20'/>
         </Animate>
+       </div>
        </div>
        
        
@@ -97,23 +108,25 @@ const About = () => {
     
 
         <div className='bg-white mt-36'></div>
+        
        <div className='mt-36 bg-white mb-36'>
+        <div className={`${styles.boxWidth} mx-auto`}>
         <ParaGuid />
+       </div>
        </div>
 
      <div className='w-full bg-curvyoffice '>
-     {/* <div className='bg-purple  h-[2px]'></div> */}
-       <div className='bg-office '>
-       <div className='mt-36 max-w-md mx-auto'>
+ 
+       <div className='bg-office'>
+       <div className='mt-36 max-w-lg mx-auto'>
+
         <Vision />
        </div>
        </div>
 
-       <div className='bg-yelloww  h-[128px]'></div>
-
-
+       <div className='bg-yelloww  h-[128px] w-full'></div>
      <div className='bg-mission'>
-       <div className='mt-20 max-w-md mx-auto '>
+       <div className='mt-20  max-w-lg mx-auto '>
         < Mission />
        </div>
        </div>

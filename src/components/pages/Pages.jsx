@@ -22,7 +22,9 @@ const Pages = () => {
     <>
 <Router >
      <div className=' w-full overflow-hidden'> 
+      <div className={`${styles.boxWidth} mx-auto`}>
         <Navbar />
+     </div>
      </div>
 
 

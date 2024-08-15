@@ -39,7 +39,7 @@ const Hero = () => {
    
 
  </div>    
- <div className={`${styles.flexCenter}  mr-16`}>
+ <div className={`${styles.flexCenter} md:mr-0 md-mx-auto mr-16 `}>
 <Bootcamp />
 </div>
       

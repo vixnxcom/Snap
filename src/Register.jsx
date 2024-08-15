@@ -25,7 +25,7 @@ const Register = () => {
           <div className='mt-5 py-4 w-[300px] flex flex-row mx-auto'>
             <div className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 mt-3'></div>
             <h1 className='galgo text-6xl text-white tracking-wide'>
-              A 3 Week Online Bootcamp
+              A 3 Week Online Bootcamp Training!
             </h1>
           </div>
 
