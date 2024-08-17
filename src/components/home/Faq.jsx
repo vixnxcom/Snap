@@ -99,34 +99,34 @@ const toggleItemmm = () => {
    </p> */}
    <div className='flex flex-row'>
 
-   <div className={`w-[48px] h-[48px] mt-5 p-1 rounded-full ${styles.flexCenter}  text-white bg-black`}>  
+   <div className={`w-[48px] h-[48px] mt-5 mx-2 p-1 rounded-full ${styles.flexCenter}  text-white bg-black`}>  
      <h1 className='text-white galgo text-[24px] tracking-wide'> 01. </h1>
      </div> 
 
        <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
-       <span className='neue-medium text-black font-bold'>Select a Service</span> - Choose from our available services and pricing plans listed on our website
+       <span className='neue-medium yellow font-bold'>Select a Service</span> - Choose from our available services and pricing plans listed on our website
         </p>     
    </div>
    {/* </p> */}
    <div className='flex flex-row mt-2'>
 
-   <div className={`w-[48px] h-[48px] p-1 mt-5 rounded-full ${styles.flexCenter}  text-white bg-black`}>  
+   <div className={`w-[48px] h-[48px] p-1 mx-2 mt-5 rounded-full ${styles.flexCenter}  text-white bg-black`}>  
      <h1 className='text-white galgo text-[24px] tracking-wide'> 02. </h1>
      </div> 
 
        <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
-       <span className='neue-medium text-black font-bold'>Review Pricing</span> - Check the details and select the plan that best fits your needs.
+       <span className='neue-medium yellow font-bold'>Review Pricing</span> - Check the details and select the plan that best fits your needs.
         </p>     
    </div>
    {/* </p> */}
    <div className='flex flex-row mt-5'>
 
-   <div className={`w-[48px] h-[48px] p-1 rounded-full ${styles.flexCenter} mt-5  text-white bg-black`}>  
+   <div className={`w-[48px] h-[48px] p-1 mx-2 rounded-full ${styles.flexCenter} mt-5  text-white bg-black`}>  
      <h1 className='text-white galgo text-[24px] tracking-wide'> 03. </h1>
      </div> 
 
        <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
-       <span className='neue-medium text-black font-bold'>Make Payment</span> - Complete your booking by making a secure payment through our Paystack account on the website.
+       <span className='neue-medium yellow font-bold'>Make Payment</span> - Complete your booking by making a secure payment through our Paystack account on the website.
         </p>     
    </div>
 
