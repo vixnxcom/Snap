@@ -124,7 +124,7 @@ const About = () => {
        </div>
        </div>
 
-       <div className='bg-yelloww  h-[80px] w-full'></div>
+       <div className='bg-yelloww  h-[40px] w-full'></div>
      <div className='bg-mission'>
        <div className='mt-20  max-w-lg mx-auto '>
         < Mission />
