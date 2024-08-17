@@ -14,8 +14,8 @@ const Register = () => {
         <div className='bg-purple h-[120px]'></div>
         
         {/* Image */}
-        <div className='p-1'>
-          <img src={poster} alt="Bootcamp Poster" />
+        <div className={`${styles.flexCenter} p-1 max-w-[900px]`}>
+          <img src={poster} alt="Bootcamp Poster max-w-[900px]" />
         </div>
         
         {/* Content Container */}
