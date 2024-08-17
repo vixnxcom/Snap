@@ -109,7 +109,7 @@ const About = () => {
 
         <div className='bg-white mt-20'></div>
         
-       <div className='mt-20 bg-white mb-20'>
+       <div className='mt-20 bg-white mb-10'>
         <div className={`${styles.boxWidth} mx-auto`}>
         <ParaGuid />
        </div>
@@ -118,7 +118,7 @@ const About = () => {
      <div className='w-full bg-curvyoffice '>
  
        <div className=''>
-       <div className='mt-36 max-w-lg mx-auto'>
+       <div className='mt-20 max-w-lg mx-auto'>
 
         <Vision />
        </div>
