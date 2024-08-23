@@ -38,8 +38,8 @@ const toggleItemmm = () => {
  </div>    */}
 
 {/* 1 card */}
-<div className='text-center align-items-center mx-auto justify-content-center'>
-
+<div className='text-center align-items-center mx-auto justify-content-center '>
+<div className='bg-book w-[96vw] mx-auto max-w-md'>
     <div className={`${styles.flexCenter} flex `}> 
     <div className='text-start mx-auto p-2'>
         <button onClick={toggleItem} className='flex text-[20px] bg-book  p-4'>
@@ -49,19 +49,20 @@ const toggleItemmm = () => {
         </div>
     </div>
 {showItem  && (
-    <div>
-        <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto'>
+    <div className=''>
+        <p className='neue-thin text-[20px] purple max-w-[330px] py-5 text-start mx-auto '>
         We are consulting company. We guide individuals and organizations to unlock their full potential,
          offering tailored solutions that drive success and foster sustainable growth.
         </p>
     </div>
  
  )}
-
+</div>
 {/* 1 card */}
 {/* 1 card */}
-
+<div className='bg-book w-[96vw] mx-auto max-w-md'>
 <div className={`${styles.flexCenter} flex mt-5`}> 
+
 <div className='text-start mx-auto p-2'>
         <button onClick={toggleItemm} className='flex text-[20px] bg-book  p-4'>
             <h1 className='text-black text-start neue-thin  mx-2 mr-20'>What do we do?</h1>
@@ -71,7 +72,7 @@ const toggleItemmm = () => {
     </div>
 {showItemm  && (
    <div>
-   <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto'>
+   <p className='neue-thin text-[20px] purple max-w-[330px] py-5 text-start mx-auto'>
    At Champions Global-Consulting, we provide customized coaching, mentoring, and consulting services.
     Our team works closely with clients to develop strategies that enhance performance, drive growth, 
     and achieve sustainable success across various industries.
@@ -79,10 +80,10 @@ const toggleItemmm = () => {
 </div>
  
  )}
-
+</div>
 {/* 1 card */}
 {/* 1 card */}
-
+<div className='bg-book w-[96vw] mx-auto max-w-md'>
 <div className={`${styles.flexCenter} flex mt-5`}> 
 <div className='text-start mx-auto p-2'>
         <button onClick={toggleItemmm} className='flex text-[20px] bg-book  p-4'>
@@ -99,34 +100,34 @@ const toggleItemmm = () => {
    </p> */}
    <div className='flex flex-row'>
 
-   <div className={`w-[48px] h-[48px] mt-5 mx-2 p-1 rounded-full ${styles.flexCenter}  text-white bg-black`}>  
+   <div className={`w-[48px] h-[48px] mt-5 mx-2 p-1 rounded-full ${styles.flexCenter}  text-white bg-yellow`}>  
      <h1 className='text-white galgo text-[24px] tracking-wide'> 01. </h1>
      </div> 
 
-       <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
-       <span className='neue-medium yellow font-bold'>Select a Service</span> - Choose from our available services and pricing plans listed on our website
+       <p className='neue-thin text-[20px] purple max-w-[320px] mt-5 text-start mx-auto '>
+       <span className='neue-medium text-black font-bold'>Select a Service</span> - Choose from our available services and pricing plans listed on our website
         </p>     
    </div>
    {/* </p> */}
    <div className='flex flex-row mt-2'>
 
-   <div className={`w-[48px] h-[48px] p-1 mx-2 mt-5 rounded-full ${styles.flexCenter}  text-white bg-black`}>  
+   <div className={`w-[48px] h-[48px] p-1 mx-2 mt-5 rounded-full ${styles.flexCenter}  text-white bg-yellow`}>  
      <h1 className='text-white galgo text-[24px] tracking-wide'> 02. </h1>
      </div> 
 
-       <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
-       <span className='neue-medium yellow font-bold'>Review Pricing</span> - Check the details and select the plan that best fits your needs.
+       <p className='neue-thin text-[20px] purple max-w-[320px] mt-5 text-start mx-auto '>
+       <span className='neue-medium text-black font-bold'>Review Pricing</span> - Check the details and select the plan that best fits your needs.
         </p>     
    </div>
    {/* </p> */}
    <div className='flex flex-row mt-5'>
 
-   <div className={`w-[48px] h-[48px] p-1 mx-2 rounded-full ${styles.flexCenter} mt-5  text-white bg-black`}>  
+   <div className={`w-[48px] h-[48px] p-1 mx-2 rounded-full ${styles.flexCenter} mt-5  text-white bg-yellow`}>  
      <h1 className='text-white galgo text-[24px] tracking-wide'> 03. </h1>
      </div> 
 
-       <p className='neue-thin text-[20px] text-white max-w-[320px] mt-5 text-start mx-auto '>
-       <span className='neue-medium yellow font-bold'>Make Payment</span> - Complete your booking by making a secure payment through our Paystack account on the website.
+       <p className='neue-thin text-[20px] purple max-w-[320px] mt-5 mb-5 text-start mx-auto '>
+       <span className='neue-medium text-black font-bold'>Make Payment</span> - Complete your booking by making a secure payment through our Paystack account on the website.
         </p>     
    </div>
 
@@ -134,7 +135,7 @@ const toggleItemmm = () => {
 </div>
  
  )}
-
+</div>
 {/* 1 card */}
 
 </div>

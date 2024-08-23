@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../style';
 import Social from './contact/Social';
 
+
 const Footer = () => {
   return (
     <section className={`${styles.flexCenter}  mx-auto text-center flex flex-col bg-gray-950 `}>
@@ -32,7 +33,9 @@ const Footer = () => {
       </div>
 
         {/* foot */}
+  
         <div className=' h-[2px] bg-purple mt-20 w-full'></div>
+     
         {/* foot */}
         <div className='text-white'>
        <p className='neue-thin text-[16px] mt-5 tracking-wide'> &copy; Championsglobalconsulting. All Rights Reserved 2024.</p>
