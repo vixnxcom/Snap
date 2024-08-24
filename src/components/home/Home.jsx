@@ -155,23 +155,23 @@ delivering tailored solutions that inspire growth, drive success, and foster sus
   
 </div>
 
-   <div className='bg-purple mt-10 '>
+   <div className='bg-white mt-10 '>
    <Animate>
-    <h2 className={`${styles.flexStart} galgo text-8xl text-white  tracking-wide mt-20  ` }>
-     <span className='rounded-[16px] h-[16px] w-[16px] bg-white mr-4 '></span> 
+    <h2 className={`${styles.flexStart} galgo text-8xl purple  tracking-wide mt-20  ` }>
+     <span className='rounded-[16px] h-[16px] w-[16px] bg-purple mr-4 '></span> 
        FAQs
      </h2>
      </Animate>
      
      <TextAnim>
-     <p className={`${styles.flexCenter} text-white tracking-wide  neue-thin text-[28px] `}>
+     <p className={`${styles.flexCenter} purple tracking-wide  neue-thin text-[28px] `}>
       Frequently asked questions</p>
       </TextAnim>
    
     <div className='mt-5'>
       <Faq />
     </div>
-    <div className='h-[100px] bg-purple'></div>
+    <div className='h-[100px] bg-white'></div>
    </div>
 
 

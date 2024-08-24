@@ -34,10 +34,10 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-[96vw]   max-w-xl  mx-auto overflow-hidden  ">
-      <div className=' card rounded-t-[24px] p-1 overflow-hidden shadow-lg'>
+    <div className="relative w-[96vw] bg-white   max-w-xl  mx-auto overflow-hidden shadow-lg rounded-t-[48px]">
+      <div className=' card rounded-t-[48px] p-1 overflow-hidden shadow-lg'>
      {/* new div */}
-     <div className=' bg-reviews p-2 rounded-[24px]    mx-auto'>
+     <div className=' bg-reviews p-2 rounded-[48px]    mx-auto'>
      {/* new div */}
       <div
         className="flex transition-transform duration-500 ease-in-out"
@@ -58,7 +58,7 @@ const Slider = () => {
       <div className="absolute  bottom-3 left-1/2 transform -translate-x-1/2 flex items-center space-x-6 gap-2">
         <button
           onClick={prevSlide}
-          className="bg-purple shadowc outline-none focus:outline-none text-black flex items-center justify-center mb-2 mt-2 rounded-full w-[80px] h-[48px] neue-thin"
+          className="bg-purple  outline-none focus:outline-none text-black flex items-center justify-center mb-2 mt-2 rounded-[24px] w-[80px] h-[48px] neue-thin "
         >
           <img src={whiteb} alt="Previous" className="w-18 h-16" />
         </button>
@@ -75,7 +75,7 @@ const Slider = () => {
         </div> */}
          <button
           onClick={nextSlide}
-          className="bg-purple shadowc text-black flex focus:outline-none  items-center justify-center mb-2 mt-2 rounded-full w-[80px] h-[48px] neue-thin"
+          className="bg-purple  text-black flex focus:outline-none  items-center justify-center mb-2 mt-2 rounded-[24px] w-[80px] h-[48px] neue-thin"
         >
           <img src={whitea} alt="Previous" className="w-18 h-16" />
         </button>
