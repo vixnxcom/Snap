@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='nav-section xl:w-[40%] md:w-[80%] sm:w-[88%] ss:w-[100%] z-[920] '>
+    <nav className='nav-section xl:w-[40%] md:w-[85%] sm:w-[96%] ss:w-[100%] z-[920] '>
       <div className='w-full flex py-4 justify-between items-center navbar navbarr bg-transparent'>
         {/* logo */}
         <div className='flex flex-row border-logo mx-2 '>

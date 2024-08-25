@@ -26,8 +26,8 @@ const Services = () => {
   return (
     <section className='w-full overflow-hidden bg-gray-950'>
       
-      <div className={`${styles.flexStart} bg-bookservice h-[500px] md:h-[800px] mt-28 `}>
-        <div className={`${styles.boxWidth} mt-10 mb-10`}>
+      <div className={`${styles.flexStart} bg-bookservice h-[520px] md:h-[800px]`}>
+        <div className={`${styles.boxWidth} mt-32 mb-10`}>
         < Headservice />
     </div>
     </div>

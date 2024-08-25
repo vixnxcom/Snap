@@ -39,7 +39,7 @@ const toggleItemmm = () => {
 
 {/* 1 card */}
 <div className='text-center align-items-center mx-auto justify-content-center '>
-<div className='bg-book w-[96vw] mx-auto max-w-md'>
+<div className='bg-book w-[96vw] mx-auto max-w-md shadow'>
     <div className={`${styles.flexCenter} flex `}> 
     <div className='text-start mx-auto p-2'>
         <button onClick={toggleItem} className='flex text-[20px] bg-book  p-4'>
@@ -60,7 +60,7 @@ const toggleItemmm = () => {
 </div>
 {/* 1 card */}
 {/* 1 card */}
-<div className='bg-book w-[96vw] mx-auto max-w-md'>
+<div className='bg-book w-[96vw] mx-auto max-w-md sadow'>
 <div className={`${styles.flexCenter} flex mt-5`}> 
 
 <div className='text-start mx-auto p-2'>
@@ -83,7 +83,7 @@ const toggleItemmm = () => {
 </div>
 {/* 1 card */}
 {/* 1 card */}
-<div className='bg-book w-[96vw] mx-auto max-w-md'>
+<div className='bg-book w-[96vw] mx-auto max-w-md shadow'>
 <div className={`${styles.flexCenter} flex mt-5`}> 
 <div className='text-start mx-auto p-2'>
         <button onClick={toggleItemmm} className='flex text-[20px] bg-book  p-4'>
