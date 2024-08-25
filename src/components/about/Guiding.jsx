@@ -23,14 +23,14 @@ const Guiding = () => {
      </div> 
 
      <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 purple` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-2 mx-2 purple` }>
    We are committed to providing high-quality services that are based on the latest 
    research and best practices.
         </h2>   
     </SideAnim>       
 
     </div>
-    <p className='text-[24px] neue-thin mt-2 p-2 text-black'>
+    <p className='text-[24px] neue-thin  p-2 text-black'>
      Our team members are experts in their fields, and they are 
     continually learning and staying up to date on the latest developments in their areas of 
       expertise.
@@ -51,13 +51,13 @@ const Guiding = () => {
      </div> 
 
    <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 text-black` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-2 mx-2 text-black` }>
     We believe in the importance of open communication and collaboration.
         </h2>
     </SideAnim>
 
     </div>
-    <p className='text-[24px] neue-thin mt-2 p-2 text-black '>
+    <p className='text-[24px] neue-thin  p-2 text-black '>
     We will 
    work closely with our clients to ensure that they are involved in the planning and 
    execution of their plan, and that they have the information and support they need to 
@@ -84,13 +84,13 @@ const Guiding = () => {
      </div> 
 
      <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-black tracking-wide mt-5 ` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-black tracking-wide mt-2 ` }>
    We are dedicated to the success of our clients
    </h2>    
     </SideAnim>        
 
     </div>
-    <p className='text-[24px] neue-thin mt-2 p-2 text-black mb-2 '>
+    <p className='text-[24px] neue-thin  p-2 text-black mb-2 '>
     We will go above and beyond to help 
 them achieve their goals, and we will provide ongoing support and guidance 
 throughout the duration of our engagement.

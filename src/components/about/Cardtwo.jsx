@@ -20,13 +20,13 @@ const Cardtwo = () => {
       </div> 
 
       <SideAnim>
-    <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide text-white mt-5 mx-2` }>
+    <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide text-white mt-2 mx-2` }>
     We are dedicated to maintaining the highest ethical standards.
          </h2>   
          </SideAnim>
 
      </div>
-     <p className='text-[24px] text-white neue-thin mt-2 p-2 mb-10 '>
+     <p className='text-[24px] text-white neue-thin  p-2 mb-10 '>
      We will always act 
 with integrity and respect, including upholding confidentiality, and we will never 
 engage in any practices that are unethical or harmful to our clients.

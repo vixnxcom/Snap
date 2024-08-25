@@ -15,13 +15,13 @@ const Newcard = () => {
      </div> 
 
      <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-5 mx-2 purple` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] tracking-wide mt-2 mx-2 purple` }>
    We believe in the importance of diversity and inclusion.
     </h2>
     </SideAnim>    
         
     </div>
-    <p className='text-[24px] neue-thin mt-2 p-2 text-black  '>
+    <p className='text-[24px] neue-thin  p-2 text-black  '>
     Our team is made up of 
 individuals with a wide range of backgrounds and experiences, and we welcome 
 clients from all walks of life.
