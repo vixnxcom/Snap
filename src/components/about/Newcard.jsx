@@ -7,7 +7,7 @@ const Newcard = () => {
     <section className={`${styles.flexStart} ${styles.paddingX} text-start `}>
          <div className='bg-white h-[8px] '></div>
     <div className=''>
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-white  '>
+   <div className=' md:w-[800px] xs:w-[470px] p-2 pbox track bg-white  '>
      {/* heading */}
      <div className='flex flex-col'>
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-purple`}>  

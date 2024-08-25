@@ -15,10 +15,10 @@ const Guiding = () => {
      {/* card 2 */}  
     {/* <div className='bg-white h-[8px] '></div> */}
     
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-white rounded-[48px]'> 
+   <div className=' md:w-[800px] xs:w-[470px] p-2 pbox track bg-white rounded-[48px]'> 
      {/* heading */}
-     <div className='flex flex-col'>
-     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} text-white bg-yellow`}>  
+     <div className='flex flex-col '>
+     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} text-white bg-yellow mt-5`}>  
      <h1 className='text-white galgo text-[32px] tracking-wide'> 02. </h1>
      </div> 
 
@@ -43,7 +43,7 @@ const Guiding = () => {
      {/* card 3 */}  
 
     
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track '>
+   <div className=' md:w-[800px] xs:w-[470px] p-2 pbox track '>
      {/* heading */}
      <div className='flex flex-col'>
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} border-[2px] text-white bg-white`}>  
@@ -76,7 +76,7 @@ const Guiding = () => {
         <div className='bg-purple h-[2px] '></div>
         </SideAnim>
         
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track'>
+   <div className=' md:w-[800px] xs:w-[470px] p-2 pbox track'>
      {/* heading */}
      <div className='flex flex-col'>
      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}  text-white bg-black`}>  
@@ -84,7 +84,7 @@ const Guiding = () => {
      </div> 
 
      <SideAnim>
-   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-black tracking-wide mt-2 ` }>
+   <h2 className={`${styles.flexStart} neue-medium text-[32px] text-black tracking-wide mt-2 mx-2` }>
    We are dedicated to the success of our clients
    </h2>    
     </SideAnim>        

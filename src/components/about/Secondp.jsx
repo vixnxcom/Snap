@@ -7,7 +7,7 @@ import SideAnim from '../SideAnim'
 const Secondp = () => {
   return (
    <section className={`${styles.paddingX}`}>
-    <div className=' md:w-[800px] xs:w-[470px] p-6 text-white  track'>
+    <div className=' md:w-[800px] xs:w-[470px] p-2 text-white  track'>
 
    <SideAnim>
     <h2 className='galgo text-8xl tracking-wide text-start mt-10'>

@@ -10,7 +10,7 @@ const Guidingtwo = () => {
      {/* card 5 */}  
   
      {/* <div className='h-[2px] bg-white'></div> */}
-   <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track bg-gray-950 rounded-[48px]'>
+   <div className=' md:w-[800px] xs:w-[470px] p-2 pbox track bg-gray-950 rounded-[48px]'>
    
      {/* heading */}
      <div className='flex flex-col'>

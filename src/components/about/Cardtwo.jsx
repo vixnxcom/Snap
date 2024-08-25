@@ -11,7 +11,7 @@ const Cardtwo = () => {
              {/* card 6 */}  
     <div className=' h-[8px]   '></div>
     
-    <div className=' md:w-[800px] xs:w-[470px] p-6 pbox track   '>
+    <div className=' md:w-[800px] xs:w-[470px] p-2 pbox track   '>
    
       {/* heading */}
       <div className='flex flex-col'>
