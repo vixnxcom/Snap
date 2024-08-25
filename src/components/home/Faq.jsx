@@ -60,7 +60,7 @@ const toggleItemmm = () => {
 </div>
 {/* 1 card */}
 {/* 1 card */}
-<div className='bg-book w-[96vw] mx-auto max-w-md sadow'>
+<div className='bg-book w-[96vw] mx-auto max-w-md shadow'>
 <div className={`${styles.flexCenter} flex mt-5`}> 
 
 <div className='text-start mx-auto p-2'>
