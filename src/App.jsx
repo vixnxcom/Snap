@@ -1,13 +1,22 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 import Pages from './components/pages/Pages'
+import Home from './components/Home'
 
-function App () {
-
-
+const App = () => {
   return (
-    <div>
-      <Pages />
+    <section className=' overflow-hidden w-full'>
+     <div>
+      <Navbar />
+
     </div>
+
+     {/* <div>
+      <Home />
+
+    </div> */}
+    </section>
+   
   )
 }
 
