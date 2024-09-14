@@ -7,7 +7,7 @@ const App = () => {
   return (
     <section className=' overflow-hidden w-full'>
      <div>
-      <Navbar />
+      <Pages />
 
     </div>
 

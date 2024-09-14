@@ -5,6 +5,9 @@ import Navbar from '../Navbar'
 import styles from '../../style'
 
 import Home from '../Home'
+import Button from '../Button'
+import Nav from '../Nav'
+import Menu from '../Menu'
 
 
 const Pages = () => {
@@ -13,7 +16,7 @@ const Pages = () => {
 <Router >
      <div className=' w-full overflow-hidden'> 
       <div className={`${styles.boxWidth} mx-auto`}>
-        <Navbar />
+        <Nav />
      </div>
      </div>
 
@@ -21,11 +24,14 @@ const Pages = () => {
 <Routes>
 
     <Route exact path ='/' element={<Home />} />  
+    <Route exact path ='/button' element={<Button />} />  
 
 
 </Routes>
 
-  
+<div className='mt-10'>
+    <Menu/>
+   </div>
 
 </Router> 
     </>

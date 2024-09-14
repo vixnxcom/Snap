@@ -57,11 +57,13 @@
 
  .body{
   width: 100vw;
-   height: 100vh;
+   height: 120vh;
   background:  var(--bg);
   font-family: neue-thin;
   overflow: hidden;
-  font-size: 2vw;
+  font-size: 3vw;
+  left: 40;
+
 }
 
 .hero-title{
@@ -90,7 +92,7 @@ height: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 2em;
+margin: 0.8em;
 z-index: 2;
 cursor: pointer;
 }
@@ -205,4 +207,16 @@ cursor: pointer;
 
 .secondary-menu{
 width: 50vw;
+}
+
+/* button */
+.buton{
+border-radius: 16px;
+width: 50vw;
+border: 1px solid #000;
+}
+
+.header{
+  font-size: 2vw;
+  left: 20px;
 }
