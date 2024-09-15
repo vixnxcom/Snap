@@ -61,7 +61,7 @@
   background:  var(--bg);
   font-family: neue-thin;
   overflow: hidden;
-  font-size: 3vw;
+  font-size: 5vw;
   left: 40;
 
 }
@@ -212,9 +212,9 @@ width: 50vw;
 /* button */
 .buton{
 border-radius: 16px;
-width: 80vw;
+width: 50vw;
 padding: 20px auto;
-border: 1px solid #000;
+border: 1px solid #000; 
 }
 
 .header{

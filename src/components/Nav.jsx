@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <body className='body '>
         <motion.div className='title' initial={{x: -250, y: -250}} animate={{x: 20, y: 20}} transition={{delay: 0.8 , duration: 1 }}>
-        <h1 className='headerr z-[999]'>
+        <h1 className='headerr z-[999] text-[48px]'>
         Pale
        </h1>
         </motion.div>

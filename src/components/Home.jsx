@@ -17,14 +17,14 @@ const Home = () => {
        color: 'red', 
      
        }}
-     className='text-black '>
+     className='text-black md:text-8xxl text-8xl'>
       The Age of Uninnocence
       </motion.h1>
 
    {/* link */}
    <motion.div className={`${styles.flexCenter}  buton text-[5vw]`}>
    <Link to='/button' >
-   <motion.button initial={{opacity: 0 ,}} animate={{ scale: 2,  opacity:1,  }} transition={{delay: 1.5, duration: 1}} >
+   <motion.button initial={{opacity: 0 ,}} animate={{ scale: 2.5,  opacity:1,  }} transition={{delay: 1.5, duration: 1}} >
     <h1 className='mt-4 mb-4'>
       Power uP
     </h1>
