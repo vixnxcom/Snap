@@ -42,9 +42,10 @@
 
 
   body{
-    background:none;
+    background:none;}
+  .bg-active{
+    background-color: #e5e3dc;
   }
-  
 .galgo{
   font-family: galgo;
 }
@@ -57,7 +58,7 @@
 
  .body{
   width: 100vw;
-   height: 120vh;
+   height: auto;
   background:  var(--bg);
   font-family: neue-thin;
   overflow: hidden;
