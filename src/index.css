@@ -212,7 +212,8 @@ width: 50vw;
 /* button */
 .buton{
 border-radius: 16px;
-width: 50vw;
+width: 80vw;
+padding: 20px auto;
 border: 1px solid #000;
 }
 

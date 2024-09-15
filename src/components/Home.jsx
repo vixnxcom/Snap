@@ -13,20 +13,21 @@ const Home = () => {
   <body className='hero-title flex flex-col'>
     <motion.h1
      animate={{ 
-      fontSize:50,
+     
        color: 'red', 
-       x: -20,
-        y: -50
+     
        }}
      className='text-black '>
       The Age of Uninnocence
       </motion.h1>
 
    {/* link */}
-   <motion.div className={`${styles.flexCenter} w-[50vw] buton text-[5vw]`}>
+   <motion.div className={`${styles.flexCenter}  buton text-[5vw]`}>
    <Link to='/button' >
-   <motion.button initial={{opacity: 0}} animate={{ scale: 1.5, fontSize:20, opacity:1,  }} >
-    Power uP
+   <motion.button initial={{opacity: 0 ,}} animate={{ scale: 2,  opacity:1,  }} transition={{delay: 1.5, duration: 1}} >
+    <h1 className='mt-4 mb-4'>
+      Power uP
+    </h1>
    </motion.button>
 
    </Link>

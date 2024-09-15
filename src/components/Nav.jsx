@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 const Nav = () => {
   return (
     <body className='body '>
-        <motion.div className='title' initial={{x: -250, y: -250}} animate={{x: 20, y: 20}}>
-        <h1 className='headerr'>
+        <motion.div className='title' initial={{x: -250, y: -250}} animate={{x: 20, y: 20}} transition={{delay: 0.8 , duration: 1 }}>
+        <h1 className='headerr z-[999]'>
         Pale
        </h1>
         </motion.div>
