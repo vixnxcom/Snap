@@ -23,7 +23,7 @@ const Home = () => {
       </motion.h1>
 
    {/* link */}
-   <motion.div className={`${styles.flexCenter}  buton text-[5vw] z-[900]`}>
+   <motion.div className={`${styles.flexCenter}  buton text-[5vw] z-[900]`} >
    <Link to='/button' >
    <motion.button initial={{opacity: 0 ,}} animate={{ scale: 2.5,  opacity:1,  }} transition={{delay: 1.5, duration: 1}} >
     <h1 className='mt-4 mb-4'>

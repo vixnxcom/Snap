@@ -8,6 +8,9 @@ import Home from '../Home'
 import Button from '../Button'
 import Nav from '../Nav'
 import Menu from '../Menu'
+import List from '../List'
+import Variants from '../Variants'
+import Buttonv from '../Buttonv'
 
 
 const Pages = () => {
@@ -23,15 +26,13 @@ const Pages = () => {
 
 <Routes>
 
-    <Route exact path ='/' element={<Home />} />  
+    <Route exact path ='/' element={<Buttonv/>} />  
     <Route exact path ='/button' element={<Button />} />  
 
 
 </Routes>
 
-<div className='mt-10'>
-    <Menu/>
-   </div>
+
 
 </Router> 
     </>

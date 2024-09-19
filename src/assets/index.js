@@ -48,10 +48,14 @@ import faceb from './faceb.png'
 import insta from './instagram.png'
 import linked from './linked.png'
 import twitter from './twitter.png'
+import kitty from './KITTY.png'
+import heart from './HEART.svg'
 
 
 
 export {
+    kitty,
+    heart,
    faceb,
     insta,
     linked,

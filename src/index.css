@@ -84,6 +84,7 @@ z-index: 0;
 }
 
 
+
 #toggle-btn{
 position: absolute;
 top: 0;
@@ -213,12 +214,42 @@ width: 50vw;
 /* button */
 .buton{
 border-radius: 16px;
-width: 50vw;
+width: 360px;
 padding: 20px auto;
-border: 1px solid #000; 
+border: 1px solid #000;
+margin: 2px auto; 
+
 }
 
 .header{
   font-size: 2vw;
   left: 20px;
+}
+
+.listt{
+  font-size: 4vw;
+ 
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.squarediv{
+  height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+ margin-top: 100px; 
+ transform: translateX(50%), translateY(50%); 
+}
+
+.square{
+  display: flex;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 40px;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+
 }

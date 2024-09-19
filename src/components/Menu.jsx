@@ -6,11 +6,12 @@ const Menu = () => {
     <motion.div className='live'
     initial={{ x:'-100vw'}}
     animate={{x: 0}}
-    transition={{delay: 2 , duration: 1 , type: 'spring', stiffness: 500 }}>
+    transition={{delay: 2 , duration: 1 , type: 'spring', stiffness: 500 }}
+     >
 
-      <h1 className='z-[999]'>
+      <motion.h1 className='z-[999]' whileHover={{scale: 1.5, color: 'red' , duration: 1, originX: 0}}>
         live viraciously...
-      </h1>
+      </motion.h1>
     </motion.div>
   )
 }
