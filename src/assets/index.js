@@ -49,11 +49,15 @@ import insta from './instagram.png'
 import linked from './linked.png'
 import twitter from './twitter.png'
 import kitty from './KITTY.png'
-import heart from './HEART.svg'
+import heart from './HEART.png'
+import happy from './happy.png'
+import fire from './FIRE.png'
 
 
 
 export {
+    happy,
+    fire,
     kitty,
     heart,
    faceb,

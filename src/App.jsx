@@ -7,15 +7,17 @@ import Buttonv from './components/Buttonv'
 import Personal from './components/Personal'
 import Svg from './components/Svg'
 import Kitty from './components/Kitty'
+import Happy from './components/Happy'
+import Fire from './components/Fire'
 
 const App = () => {
   return (
-    <section className=' overflow-hidden w-full'>
+    <section className=' overflow-hidden w-full bg-black'>
      <div>
       <Svg />
       <Kitty />
-      <Svg />
-      <Kitty />
+      <Happy />
+      <Fire />
 
     </div>
 

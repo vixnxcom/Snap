@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer'; // Import Intersection Observer
-import { heart } from '../assets';
+import { fire, heart, kitty } from '../assets';
 
 
 // Animation variants for scaling and opacity
@@ -29,7 +29,7 @@ const rotateVariants = {
   },
 };
 
-const SvgImage = () => {
+const Fire = () => {
   const { ref, inView } = useInView({
     triggerOnce: true, // Trigger animation only once
     threshold: 0.2,    // Adjust the threshold as needed
@@ -46,7 +46,7 @@ const SvgImage = () => {
           style={{ display: 'inline-block' }}
         >
           <motion.img
-            src={heart}
+            src={fire}
             alt="heart"
             style={{ width: '40%', height: '40%' }}
             variants={rotateVariants}
@@ -59,6 +59,7 @@ const SvgImage = () => {
   );
 };
 
-export default SvgImage;
+export default Fire;
+
 
 
