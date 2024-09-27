@@ -1,53 +1,4 @@
-import close from './close.png'
-import menu from './menu.png'
-import logo from './logo.png'
-import arrow from './arrow.png'
-import arroww from './arroww.png'
-import white from './arrowwhite.png'
-import ppl from './ppl1.png'
-import pic from './pic1.png'
-import client from './client.png'
-import community from './community.png'
-import globe from './globe.png'
-import improve from './improve.png'
-import success from './success.png'
-import thought from './thought.png'
-import less from './less.png'
-import lesss from './lesss.png'
-import more from './more.png'
-import moree from './moree.png'
-import emp from './emp.png'
-import ahmed from './ahmed.jpg'
-import brand from './brand.png'
-import guide from './office.png'
-import top from './top.png'
-import gif from './gif.gif'
-import book from './book.gif'
-import lead from './lead.png'
-import life from './life.png'
-import mind from './mind.png'
-import motive from './motive.png'
-import career from './career.png'
-import arrowhite from './white.png'
-import service from './service.png'
-import lamp from './lamp.png'
-import seat from './manseat.jpg'
-import intro from './intro.jpg'
-import bulb from './bulb.png'
-import ball from './ball.png'
-import whitea from './whitea.png'
-import whiteb from './whiteb.png'
-import fb from './fb.png'
-import ig from './ig.png'
-import lk from './lk.png'
-import x from './x.png'
-import yt from './yt.png'
-import wave from './wave.png'
-import poster from './poster.png'
-import faceb from './faceb.png'
-import insta from './instagram.png'
-import linked from './linked.png'
-import twitter from './twitter.png'
+
 import kitty from './KITTY.png'
 import heart from './HEART.png'
 import happy from './happy.png'
@@ -60,54 +11,6 @@ export {
     fire,
     kitty,
     heart,
-   faceb,
-    insta,
-    linked,
-    twitter,
-    poster,
-    moree,
-    lesss,
-    wave,
-    fb,
-    ig,
-    lk,
-    x,
-    yt,
-    whitea,
-    whiteb,
-    intro,
-    ball,
-    lamp,
-    seat,
-    bulb,
-    book,
-    service,
-    arrowhite,
-    motive,
-    career,
-    mind,
-    lead,
-    life,
-    top,
-    guide,
-    gif,
-    brand,
-    white,
-    ahmed,
-    arroww,
-    emp,
-    less,
-    more,
-    thought,
-    success,
-    improve,
-    globe,
-    community,
-client,
-    pic,
-    ppl,
-    arrow,
-    close,
-    menu,
-    logo,
+
+
 }

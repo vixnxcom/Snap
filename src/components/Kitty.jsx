@@ -36,8 +36,8 @@ const Kitty = () => {
   });
 
   return (
-    <section>
-      <div className='md:max-w-[40%] w-[80%] mt-20 mx-auto'>
+    <section className='z-[900]'>
+      <div className='md:max-w-[40%] w-[80%] mt-20 mx-auto z-[900]'>
         <motion.div
           ref={ref}
           initial="hidden"
