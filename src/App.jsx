@@ -1,20 +1,13 @@
 import React from 'react'
-
-
-
-import Group from './components/Group'
+import Image from './components/Image'
+import BookOpeningImage from './components/Image'
+import HeroImage from './components/Image'
 
 const App = () => {
   return (
-    <section className=''>
-
-
     <div>
-      <Group />
+      <HeroImage />
     </div>
-
-    </section>
-   
   )
 }
 

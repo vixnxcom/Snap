@@ -39,315 +39,37 @@
     src: url(./fonts/galgo/Galgo.ttf);
   }
 
-
-
-  body{
-    background:none;}
-  .bg-active{
-    background-color: #e5e3dc;
-  }
-.galgo{
-  font-family: galgo;
-}
-.neue-thin{
-  font-family: neue-thin;
-}
-.neue-medium{
-  font-family: neue-medium;
-}
-
- .body{
-  width: 100vw;
-   height: auto;
-  background:  var(--bg);
-  font-family: neue-thin;
-  overflow: hidden;
-  font-size: 5vw;
-  left: 40;
-
-}
-
-.hero-title{
- position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100vw;
-  text-transform: uppercase;
-    display: flex;
-text-align: center;
-align-items: center;
-font-family: galgo;
-letter-spacing: 3px;
-font-size: 12vw;
-z-index: 0;
-}
-
-
-
-#toggle-btn{
-position: absolute;
-top: 0;
-right: 0;
-width: 100px;
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0.8em;
-z-index: 2;
-cursor: pointer;
-}
-
-.btn-outline{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: 1px solid var(--overlay-bg);
-}
-
-.btn-outline-1{
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40% ;
-  animation: morph 4s linear infinite;
-}
-
-.btn-outline-2{
-  border-radius: 53% 47% 43% 57% / 51% 39% 61% 49% ;
-}
-
-
-@keyframes morph {
-0%{
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-}
-
-50% {
-  border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-}
-
-100%{
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-}
-}
-
-#hamburger {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  z-index: 2;
-}
-
-#hamburger span{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  display: inline-block;
-  width: 24px;
-  height: 1.25px;
-  background: var(--overlay-bg);
-  transition: transform 0.25s;
-}
-
-#hamburger span::before {
-  position: absolute;
-  right: 0;
-  display: inline-block;
-  content: "";
-  width: 18px;
-  height: 1.25px;
-  background: var(--overlay-bg);
-  transform: translateY(-4px);
-  transition: transform 0.25s;
-}
-
-#hamburger .active span { 
-  transform: rotate(45deg);
-}
-
-#hamburger .active span::before{
-  top: unset;
-  width: 24px;
-  transform: rotate(-90deg);
-}
-
-.menu{
-   position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
- flex-direction: row;
-  left: 20px;
-}
-
-  .menu > div {
-  height: 100%;
-  display: flex;
-}  
-
-.menu a {
-  position: relative;
-  top: 120px;
-   line-height: 70%; 
-  text-decoration: none;
-  /* color: var(--link-color); */
-  color: red;
-}
-
-.menu a span{
-  font-size: 20px;
-  margin-right: 2em;
-  font-family: galgo;
-}
-
-.menu-item{
-  position: relative;
-}
-
-.primary-menu{
-  width: 50vw;
-}
-
-.secondary-menu{
-width: 50vw;
-}
-
-/* button */
-.buton{
-border-radius: 16px;
-width: 360px;
-padding: 20px auto;
-border: 1px solid #000;
-margin: 2px auto; 
-
-}
-
-.header{
-  font-size: 2vw;
-  left: 20px;
-}
-
-.listt{
-  font-size: 4vw;
- 
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.squarediv{
-  height: 80vh;
-display: flex;
-justify-content: center;
-align-items: center;
- margin-top: 100px; 
- transform: translateX(50%), translateY(50%); 
-}
-
-.square{
-  display: flex;
-  position: relative;
-  height: 200px;
-  width: 200px;
-  border-radius: 40px;
-  background-color: aqua;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.svgg{
-  
-  
-    width: 100%;
-    max-width: 200px; /* Adjust this to a reasonable size for your site */
-    height: auto;
-  
-}
-
-
-.bodys {
-  width: 100vw;
-  height: 300vh;
-  overflow-x: hidden;
-  padding: 0;
-  margin: 0;
-  /* background: linear-gradient(180deg, #40f, #05f); */
-  background: #40f;
-}
-
-.wrapper {
-  width: 150px;
-  height: 150px;
-  position: fixed;
-  /* changiing wrapper from relative to fixed gives the page  a 100vh
-   where all the components animate as one */
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background: none;
-  border-radius: 30px;
-}
-
-
-.wrapperx {
-  width: 100px;
-  height: 100px;
-  position: relative;
-   /* changiing wrapper from relative to fixed gives the page  a 100vh
-   where all the components animate as one */
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-
-
-.item {
-  width: inherit;
-  height: inherit;
-  /* background: white; */
-  transform-origin: 50% 100%;
-}
-  /* framer default */
-  /* body {
-    --black: #000000;
-    --ash-black: #222;
-    --white: #fafafa;
-    --sky: #00ccff;
-    --green: #22dddd;
-    --blue: #1300ff;
-    --dusk: #6600ff;
-    --purple: #9900ff;
-    --pink: #ff0066;
-    --red: #fe0222;
-    --orange: #fd7702;
-    --yellow: #ffbb00;
-  
-    --background: var(--pink);
-    --accent: var(--white);
-  
-    margin: 0;
-    padding: 0;
-    background-color: var(--background);
-    color: var(--accent);
-    padding-bottom: 100px;
-    overflow: hidden;
-  } */
-
-  .pink{
-    background-color: #ff0066;
+  .image-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    position: relative;
   }
   
-  
-  
-  .box {
-    width: 100px;
-    height: 90px;
-    background: white;
+  .image-half {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url(assets/lady.png);
+    background-size: cover;
+    background-position: center;
+    transform-origin: center right;
   }
   
+  .image-half.right {
+    left: 50%;
+    transform-origin: center left;
+  }
+  
+  .image-half.left {
+    left: 0;
+  }
+  
+
+.bg-cover{
+  background-color: red;
+}
+
+.bg-center{
+  background-color: aliceblue;
+}
