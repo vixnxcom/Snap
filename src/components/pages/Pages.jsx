@@ -1,8 +1,9 @@
 import React, { Suspense } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Navbar from '../navbar'
+
 import styles from '../../style'
 import HeroImage from '../Image'
+import Navvbar from '../Navvbar'
 
 
 
@@ -13,7 +14,7 @@ const Pages = () => {
 <Router >
      <div className=' w-full overflow-hidden'> 
       <div className={`${styles.boxWidth} mx-auto`}>
-        <Navbar />
+        <Navvbar />
      </div>
      </div>
 
