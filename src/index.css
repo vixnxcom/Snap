@@ -73,3 +73,11 @@
 .bg-center{
   background-color: aliceblue;
 }
+
+.nav-section {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-bottom: 24px;
+
+}

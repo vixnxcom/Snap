@@ -39,10 +39,22 @@ const HeroImage = () => {
   }, []);
 
   return (
+    <section className="">
+  
     <div
       ref={containerRef}
       className="relative w-screen h-screen overflow-hidden bg-gray-900 flex items-center justify-center"
     >
+          {/* text */}
+        <div className="w-4 z-[800] mx-8 text-center">
+        <h1 className="text-white  text-[6vw] text-start mx-4">
+        The Future 
+      </h1>
+        <h1 className="text-white  text-[8vw]">
+         IN YOUR HAND
+      </h1>
+      </div>
+      {/* text */}
       {/* Left panel */}
       <div
         ref={leftRef}
@@ -61,6 +73,7 @@ const HeroImage = () => {
         className="w-full h-full object-cover scale-1.05"
       />
     </div>
+    </section>
   );
 };
 
