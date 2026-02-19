@@ -97,7 +97,7 @@ const HeroImage = () => {
         className="relative w-screen h-screen overflow-hidden bg-white flex "
       >
         {/* TEXT CONTAINER - Centered on screen */}
-        <div className="absolute z-[800]  flex flex-col mx-auto w-full px-4">
+        <div className="absolute z-[800]  flex flex-col mx-auto text-center w-full px-4">
           {/* FIRST LINE */}
           <h1 className="text-black impact text-[40px] md:text-[80px] absolute top-20">
             <span className="relative inline-flex items-center">
@@ -113,8 +113,8 @@ const HeroImage = () => {
           </h1>
 
           {/* SECOND LINE */}
-          <h1 className="text-black impact  text-[40px] md:text-[80px] whitespace-nowrap mt-4 absolute mt-40 top-80">
-            <span className="relative inline-flex items-center mt-40">
+          <h1 className="text-black -right-36 impact  text-[40px] md:text-[80px] whitespace-nowrap mt-4 absolute mt-40 top-80">
+            <span className="relative inline-flex items-center  mt-40">
            
                 <img
                   ref={rightIconRef}
