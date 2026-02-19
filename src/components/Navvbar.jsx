@@ -6,11 +6,11 @@ const Navvbar = () => {
    <div className='absolute top-4 left-2 flex flex-row text-white '>
     {/* logo */}
   <div className='w-40'>
-    <h1 className='text-black neue'>
+    <h1 className='text-white neue'>
         Snuk - The Edge
     </h1>
     </div>
-    <button className='text-black neue'>
+    <button className='text-white neue'>
        <p>open</p>
     </button>
     {/* logo */}

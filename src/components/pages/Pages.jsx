@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import styles from '../../style'
 import HeroImage from '../Image'
 import Navvbar from '../Navvbar'
+import Home from '../../home/Home'
 
 
 
@@ -21,7 +22,7 @@ const Pages = () => {
 
 <Routes>
 
-    <Route exact path ='/' element={<HeroImage />} />  
+    <Route exact path ='/' element={<Home/>} />  
     
 </Routes>
 

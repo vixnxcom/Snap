@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { bot, cam1, cube, eyes, time } from "../assets";
+import Button from "../home/Button";
 
 const HeroImage = () => {
   const containerRef = useRef(null);
@@ -94,12 +95,12 @@ const HeroImage = () => {
     <section>
       <div
         ref={containerRef}
-        className="relative w-screen h-screen overflow-hidden bg-white flex "
+        className=" h-screen w-full  overflow-hidden bg-white flex relative"
       >
         {/* TEXT CONTAINER - Centered on screen */}
         <div className="absolute z-[800]  flex flex-col mx-auto text-center w-full px-4">
           {/* FIRST LINE */}
-          <h1 className="text-black impact text-[40px] md:text-[80px] absolute top-20">
+          <h1 className="text-white impact text-[40px] md:text-[80px] absolute top-20">
             <span className="relative inline-flex items-center">
               THE FUTURE
               {/* LEFT ICON - positioned next to text */}
@@ -113,8 +114,9 @@ const HeroImage = () => {
           </h1>
 
           {/* SECOND LINE */}
-          <h1 className="text-black -right-36 impact  text-[40px] md:text-[80px] whitespace-nowrap mt-4 absolute mt-40 top-80">
-            <span className="relative inline-flex items-center  mt-40">
+          <h1 className="text-white -right-20 impact  text-[40px] md:text-[80px] whitespace-nowrap mt-4 absolute
+           mt-48 top-40">
+            <span className="relative inline-flex items-center ">
            
                 <img
                   ref={rightIconRef}
@@ -128,14 +130,18 @@ const HeroImage = () => {
             </span>
             
           </h1>
-            <h1 className="text-black impact  text-[44px] md:text-[80px] whitespace-nowrap mt-4 mt-48 absolute top-80">
-               <span className="mt-40 top-20 relative inline-flex items-center">
+            <h1 className="text-white impact  mb-0 text-[44px] md:text-[80px]
+             whitespace-nowrap mt-4 mt-40 absolute top-80">
+               <span className=" relative inline-flex items-center">
                 HANDS
                </span>
                 {/* RIGHT ICON - positioned next to text */}
-              
+           
               </h1>
+             
         </div>
+
+ 
 
         {/* Left panel */}
         <div
@@ -150,12 +156,14 @@ const HeroImage = () => {
         ></div>
 
         {/* Hero Image */}
-         <img
+        <div className="w-full h-full mt-20 md:mt-40 mx-auto justify-center flex text-center items-center">
+          <img
           ref={imageRef}
           src={cam1}
           alt="Hero"
-          className="w-50 h-50 object-contain"
+          className="w-full h-full object-contain md:object-cover"
         /> 
+         </div>
       </div>
     </section>
   );
