@@ -38,7 +38,22 @@
     font-family: galgo;
     src: url(./fonts/galgo/Galgo.ttf);
   }
+@font-face {
+    font-family: impact;
+    src: url(./fonts/impact.ttf);
+  }
 
+
+  .proxima{
+    font-family: proxima;
+  }
+.impact{
+  font-family: impact;
+  letter-spacing: 2px;
+}
+.neue{
+  font-family: neue-medium;
+}
   .image-container {
     width: 300px;
     height: 200px;
