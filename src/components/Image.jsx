@@ -122,7 +122,7 @@ const HeroImage = () => {
                   ref={rightIconRef}
                   src={cube}
                   alt=""
-                  className=" w-24 h-24 will-change-transform inline-block"
+                  className="mr-4 w-24 h-24 will-change-transform inline-block"
                 />
                    IN YOUR 
             

@@ -3,9 +3,10 @@ import React from 'react'
 const Button = () => {
   return (
    
-        <div className='bg-black text-white py-2 px-4 w-[480px]  mx-auto'>
- <div className='neue mx-auto' >
-<p >Join the waitlist</p>
+        <div className='bg-black text-white py-2 px-4 w-full  mx-auto'>
+ <div className=' text-center ' >
+    <h1 className='impact'>Become a part of something Great </h1>
+<p className='neue '> - Join the Waitlist Today</p>
  </div>
             
         </div>

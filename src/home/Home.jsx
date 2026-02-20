@@ -4,6 +4,7 @@ import HeroImage from '../components/Image'
 import Button from './Button'
 import { bot } from '../assets'
 import HeroText from './HeroText'
+import Customers from './Customers'
 
 const Home = () => (
     <section className='w-full overflow-hidden'>
@@ -27,6 +28,12 @@ const Home = () => (
             </div>
            <div className='h-[50vh] w-[50vw] bg-home'></div>
         </div>
+
+         <div className={`${styles.flexStart} h-[100vh] flex flex-col `}>
+            <div className={`${styles.boxWidth}`}>
+          <Customers />
+            </div>
+            </div>
     </section>
 )
 
