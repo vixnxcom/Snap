@@ -5,11 +5,13 @@ import Button from './Button'
 import { bot } from '../assets'
 import HeroText from './HeroText'
 import Customers from './Customers'
+import Flash from './Flash'
+import SnapshotCarousel from './Flash'
 
 const Home = () => (
     <section className='w-full overflow-hidden'>
 
-        <div className={`${styles.flexStart} h-[100vh] flex flex-col `}>
+        <div className={`${styles.flexStart} h-[100vh] flex flex-col bg-hero`}>
             <div className={`${styles.boxWidth}`}>
                 <HeroImage />
        
@@ -19,14 +21,19 @@ const Home = () => (
      </div> 
         </div>
 
-    
+{/*     
      
         <div className='grid grid-cols-2 w-[100vw] mt-10 bg-black overflow-hidden'>
           
             <div>
    <HeroText /> 
             </div>
-           <div className='h-[50vh] w-[50vw] bg-home'></div>
+           <div className='h-[50vh] w-[50vw] bg-heme'></div>
+        </div> */}
+     <div className={`${styles.flexStart}  bg-black`}>
+            <div className={`${styles.boxWidth} mt-20`}>
+            <SnapshotCarousel />
+        </div>
         </div>
 
          <div className={`${styles.flexStart} h-[100vh] flex flex-col `}>

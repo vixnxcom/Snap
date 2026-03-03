@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { bot, cam1, cube, eyes, time } from "../assets";
+import { bot, cam1, cube, eyes, lady, time } from "../assets";
 import Button from "../home/Button";
 
 const HeroImage = () => {
@@ -93,15 +93,17 @@ const HeroImage = () => {
 
   return (
     <section>
+       <p className="text-white">used by professionals</p>
       <div
         ref={containerRef}
-        className=" h-screen w-full  overflow-hidden bg-white flex relative"
+        className=" h-screen w-full  overflow-hidden bg-hero flex relative"
       >
+       
         {/* TEXT CONTAINER - Centered on screen */}
         <div className="absolute z-[800]  flex flex-col mx-auto text-center w-full px-4">
           {/* FIRST LINE */}
-          <h1 className="text-white impact text-[40px] md:text-[80px] absolute top-20">
-            <span className="relative inline-flex items-center">
+          <h1 className=" impact text-[40px] md:text-[80px] absolute top-20"  style={{ color: "#f5f1eb", }} >
+            <span className="relative inline-flex items-center text-shadow-lg" >
               THE FUTURE
               {/* LEFT ICON - positioned next to text */}
               <img
@@ -114,15 +116,15 @@ const HeroImage = () => {
           </h1>
 
           {/* SECOND LINE */}
-          <h1 className="text-white -right-20 impact  text-[40px] md:text-[80px] whitespace-nowrap mt-4 absolute
-           mt-48 top-40">
+          <h1 className=" -right-20 impact  text-[40px] md:text-[80px] whitespace-nowrap mt-4 absolute 
+           mt-48 top-40"   style={{ color: "#f5f1eb", }}>
             <span className="relative inline-flex items-center ">
            
                 <img
                   ref={rightIconRef}
                   src={cube}
                   alt=""
-                  className="mr-4 w-24 h-24 will-change-transform inline-block"
+                  className="mr-4 w-24 h-24 will-change-transform text-shadow-lg inline-block"
                 />
                    IN YOUR 
             
@@ -159,7 +161,7 @@ const HeroImage = () => {
         <div className="w-full h-full mt-20 md:mt-40 mx-auto justify-center flex text-center items-center">
           <img
           ref={imageRef}
-          src={cam1}
+          src={lady}
           alt="Hero"
           className="w-full h-full object-contain md:object-cover"
         /> 

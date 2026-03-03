@@ -96,9 +96,23 @@
   margin-bottom: 24px;
 
 }
-.bg-home{
+/* .bg-home{
   background-image: url(assets/StockCake-Hovering_Camera_Drone-751994-standard.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+} */
+
+
+.bg-hero{
+
+background: linear-gradient(180deg, #1B1313 52.87%, #210505 73.84%, #700303 100%);
+
 }
+
+.bg-home{/* Rectangle 44 */
+
+
+  background: #181313 }
+.cherry{
+  background-color: #700303 }
