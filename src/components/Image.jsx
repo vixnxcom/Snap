@@ -108,7 +108,7 @@ const HeroImage = () => {
               {/* LEFT ICON - positioned next to text */}
               <img
                 ref={leftIconRef}
-                src={eyes}
+         
                 alt=""
                 className="ml-4 w-24 h-24 will-change-transform inline-block"
               />
@@ -120,12 +120,12 @@ const HeroImage = () => {
            mt-48 top-40"   style={{ color: "#f5f1eb", }}>
             <span className="relative inline-flex items-center ">
            
-                <img
+                 <img
                   ref={rightIconRef}
-                  src={cube}
+                
                   alt=""
                   className="mr-4 w-24 h-24 will-change-transform text-shadow-lg inline-block"
-                />
+                /> 
                    IN YOUR 
             
 
