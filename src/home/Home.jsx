@@ -11,6 +11,7 @@ import ScrollImageReveal from './TextScroll'
 import ScrollImageEffect from './TextScroll'
 import MinimalScrollImage from './TextScroll'
 import PreciseScrollImage from './TextScroll'
+import BrandMarquee from './Customers'
 
 const Home = () => (
     <section className='w-full overflow-hidden'>
@@ -48,7 +49,7 @@ const Home = () => (
 
          <div className={`${styles.flexStart} min-h-screen `}>
             <div className={`${styles.boxWidth}`}>
-          <Customers />
+          <BrandMarquee />
             </div>
             </div>
     </section>
