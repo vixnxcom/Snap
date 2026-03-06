@@ -13,7 +13,7 @@ const slides = [
   {
     id: 2,
     label: "02 / PROCESS",
-    heading: "Prespective",
+    heading: "Perspective",
     sub: "Patience woven into fabric. No shortcuts, no substitutes.",
     img: cam1,
   },
@@ -43,15 +43,48 @@ const slides = [
 export default function SnapshotCarousel() {
   const [current, setCurrent] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [displayImage, setDisplayImage] = useState(slides[0].img);
 
   const imgRef = useRef(null);
   const flashRef = useRef(null);
   const labelRef = useRef(null);
   const headingRef = useRef(null);
   const subRef = useRef(null);
-  const counterRef = useRef(null);
   const progressRef = useRef(null);
   const autoRef = useRef(null);
+  const shuffleIntervalRef = useRef(null);
+  const isShufflingRef = useRef(false);
+
+  // Function to get random image from slides
+  const getRandomImage = () => {
+    const randomIndex = Math.floor(Math.random() * slides.length);
+    return slides[randomIndex].img;
+  };
+
+  // Function to start shuffling images
+  const startShuffle = () => {
+    if (isShufflingRef.current) return;
+    isShufflingRef.current = true;
+    
+    // Clear any existing interval
+    if (shuffleIntervalRef.current) {
+      clearInterval(shuffleIntervalRef.current);
+    }
+    
+    // Start shuffling images rapidly - update React state instead of direct DOM
+    shuffleIntervalRef.current = setInterval(() => {
+      setDisplayImage(getRandomImage());
+    }, 60); // Change image every 60ms during shuffle
+  };
+
+  // Function to stop shuffling
+  const stopShuffle = () => {
+    if (shuffleIntervalRef.current) {
+      clearInterval(shuffleIntervalRef.current);
+      shuffleIntervalRef.current = null;
+    }
+    isShufflingRef.current = false;
+  };
 
   const triggerTransition = (nextIndex) => {
     if (isAnimating) return;
@@ -60,6 +93,8 @@ export default function SnapshotCarousel() {
     const tl = gsap.timeline({
       onComplete: () => {
         setCurrent(nextIndex);
+        setDisplayImage(slides[nextIndex].img);
+        stopShuffle();
         setIsAnimating(false);
       },
     });
@@ -68,58 +103,64 @@ export default function SnapshotCarousel() {
     tl.to([labelRef.current, headingRef.current, subRef.current], {
       y: -24,
       opacity: 0,
-      duration: 0.35,
-      stagger: 0.05,
+      duration: 0.3,
+      stagger: 0.03,
       ease: "power2.in",
+      onComplete: () => {
+        // Ensure text is completely hidden before shuffle starts
+        gsap.set([labelRef.current, headingRef.current, subRef.current], { opacity: 0 });
+      }
     });
+
+    // Start shuffling images during the flash effect
+    tl.call(startShuffle, [], "+=0.1");
 
     // Snapshot flash effect — rapid brightness + contrast flicker
     tl.to(
       imgRef.current,
-      { filter: "brightness(2.5) contrast(0.3)", duration: 0.07, ease: "none" },
-      "<+0.2"
+      { filter: "brightness(2.5) contrast(0.3)", duration: 0.06, ease: "none" },
+      "<"
     )
-      .to(imgRef.current, {
-        filter: "brightness(0.1) contrast(2)",
-        duration: 0.06,
-        ease: "none",
-      })
-      .to(imgRef.current, {
-        filter: "brightness(3) contrast(0.2)",
-        duration: 0.05,
-        ease: "none",
-      })
-      .to(imgRef.current, {
-        filter: "brightness(0) contrast(1)",
-        duration: 0.08,
-        ease: "none",
-      });
+    .to(imgRef.current, {
+      filter: "brightness(0.1) contrast(2)",
+      duration: 0.05,
+      ease: "none",
+    })
+    .to(imgRef.current, {
+      filter: "brightness(3) contrast(0.2)",
+      duration: 0.04,
+      ease: "none",
+    })
+    .to(imgRef.current, {
+      filter: "brightness(0) contrast(1)",
+      duration: 0.05,
+      ease: "none",
+    });
 
     // White flash overlay
     tl.to(
       flashRef.current,
-      { opacity: 1, duration: 0.06, ease: "none" },
+      { opacity: 1, duration: 0.05, ease: "none" },
       "<"
-    ).to(flashRef.current, { opacity: 0, duration: 0.25, ease: "power2.out" });
+    ).to(flashRef.current, { opacity: 0, duration: 0.2, ease: "power2.out" });
 
-    // Image scale glitch on exit
+    // Image scale glitch
     tl.to(
       imgRef.current,
       {
-        scale: 1.06,
-        x: gsap.utils.random(-8, 8),
-        y: gsap.utils.random(-4, 4),
-        duration: 0.18,
+        scale: 1.04,
+        x: gsap.utils.random(-6, 6),
+        y: gsap.utils.random(-3, 3),
+        duration: 0.15,
         ease: "none",
       },
       "<-0.1"
     );
 
-    // Swap image (driven by setCurrent in onComplete, but we pre-update src for smoothness)
+    // Stop shuffle and set final image
     tl.call(() => {
-      if (imgRef.current) {
-        imgRef.current.src = slides[nextIndex].img;
-      }
+      stopShuffle();
+      setDisplayImage(slides[nextIndex].img);
     });
 
     // Image settle
@@ -128,29 +169,35 @@ export default function SnapshotCarousel() {
       x: 0,
       y: 0,
       filter: "brightness(1) contrast(1)",
-      duration: 0.5,
+      duration: 0.4,
       ease: "power3.out",
     });
 
-    // Text enter
+    // Text enter with new slide's text
     tl.fromTo(
       [labelRef.current, headingRef.current, subRef.current],
-      { y: 32, opacity: 0 },
+      { y: 24, opacity: 0 },
       {
         y: 0,
         opacity: 1,
-        duration: 0.55,
-        stagger: 0.07,
+        duration: 0.5,
+        stagger: 0.05,
         ease: "power3.out",
+        onStart: () => {
+          // Ensure text elements have the correct content
+          if (labelRef.current) labelRef.current.innerText = slides[nextIndex].label;
+          if (headingRef.current) headingRef.current.innerText = slides[nextIndex].heading;
+          if (subRef.current) subRef.current.innerText = slides[nextIndex].sub;
+        }
       },
-      "<+0.1"
+      "+=0.1"
     );
 
     // Progress bar
     tl.fromTo(
       progressRef.current,
       { scaleX: 0 },
-      { scaleX: 1, duration: 3.5, ease: "none" },
+      { scaleX: 1, duration: 10, ease: "none" },
       "+=0.1"
     );
   };
@@ -160,21 +207,48 @@ export default function SnapshotCarousel() {
     triggerTransition(index);
     autoRef.current = setTimeout(() => {
       goTo((index + 1) % slides.length);
-    }, 5000);
+    }, 10000);
   };
 
+  // Clean up on unmount
   useEffect(() => {
-    // Initial entrance
+    return () => {
+      stopShuffle();
+      clearTimeout(autoRef.current);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Set initial text content
+    if (labelRef.current) labelRef.current.innerText = slides[0].label;
+    if (headingRef.current) headingRef.current.innerText = slides[0].heading;
+    if (subRef.current) subRef.current.innerText = slides[0].sub;
+    
+    // Initial entrance animations
     gsap.fromTo(
       [labelRef.current, headingRef.current, subRef.current],
       { y: 40, opacity: 0 },
       { y: 0, opacity: 1, duration: 0.8, stagger: 0.1, ease: "power3.out", delay: 0.3 }
     );
-    gsap.fromTo(imgRef.current, { scale: 1.08, opacity: 0 }, { scale: 1, opacity: 1, duration: 1, ease: "power3.out", delay: 0.2 });
-    gsap.fromTo(progressRef.current, { scaleX: 0 }, { scaleX: 1, duration: 3.5, ease: "none", delay: 0.8 });
+    
+    gsap.fromTo(
+      imgRef.current, 
+      { scale: 1.08, opacity: 0 }, 
+      { scale: 1, opacity: 1, duration: 1, ease: "power3.out", delay: 0.2 }
+    );
+    
+    gsap.fromTo(
+      progressRef.current, 
+      { scaleX: 0 }, 
+      { scaleX: 1, duration: 10, ease: "none", delay: 0.8 }
+    );
 
-    autoRef.current = setTimeout(() => goTo(1), 5000);
-    return () => clearTimeout(autoRef.current);
+    autoRef.current = setTimeout(() => goTo(1), 10000);
+    
+    return () => {
+      clearTimeout(autoRef.current);
+      stopShuffle();
+    };
   }, []);
 
   const slide = slides[current];
@@ -198,15 +272,17 @@ export default function SnapshotCarousel() {
         }}
       />
 
-      {/* Main grid - Now truly 50/50 on large screens */}
+      {/* Main grid */}
       <div className="relative z-20 w-full h-screen flex flex-col lg:flex-row">
         
-        {/* LEFT — Text panel - Takes 50% on large screens */}
+        {/* LEFT — Text panel */}
         <div className="w-full lg:w-1/2 h-full flex items-center justify-end lg:pr-12 xl:pr-24 order-2 lg:order-1">
           <div className="max-w-lg w-full px-8 lg:px-0">
             {/* Label */}
             <div ref={labelRef} className="mb-8">
-              {/* Label content if needed */}
+              <span className="text-sm tracking-widest" style={{ color: "#700303" }}>
+                {slide.label}
+              </span>
             </div>
 
             {/* Heading */}
@@ -245,7 +321,7 @@ export default function SnapshotCarousel() {
           </div>
         </div>
 
-        {/* RIGHT — Photo panel - Takes 50% on large screens */}
+        {/* RIGHT — Photo panel */}
         <div className="w-full lg:w-1/2 h-full flex items-center bg-hero justify-start lg:pl-12 xl:pl-24 order-1 lg:order-2">
           <div className="relative w-full max-w-lg">
             {/* Photo frame */}
@@ -254,7 +330,6 @@ export default function SnapshotCarousel() {
               style={{
                 width: "100%",
                 aspectRatio: "3 / 4",
-             
                 boxShadow: "0 40px 120px rgba(0,0,0,0.7), inset 0 0 0 1px #2a2720",
               }}
             >
@@ -265,13 +340,13 @@ export default function SnapshotCarousel() {
                 style={{ background: "#fff", opacity: 0 }}
               />
 
-              {/* Image */}
+              {/* Image - using displayImage state for shuffling */}
               <img
                 ref={imgRef}
-                src={slide.img}
+                src={displayImage}
                 alt={slide.heading}
-                className="w-full h-full object-cover "
-                style={{ display: "block" , background: "#700303" }}
+                className="w-full h-full object-cover"
+                style={{ display: "block", background: "#700303" }}
               />
 
               {/* Vignette */}
@@ -283,7 +358,7 @@ export default function SnapshotCarousel() {
                 }}
               />
 
-              {/* Corner marks — film frame aesthetic */}
+              {/* Corner marks */}
               {[
                 "top-0 left-0",
                 "top-0 right-0",

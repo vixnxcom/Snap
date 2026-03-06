@@ -9,12 +9,13 @@ import eyes from './dome.jpg'
 import cube from './small.jpg'
 import drew from './drew.jpg'
 import ibeyi from './ibeyi.jpg'
+import doct from './doct.jpg'
 
 
 
 
 export {
- time, ibeyi,
+ time, ibeyi, doct,
 lady,
 bot,
 cam1,

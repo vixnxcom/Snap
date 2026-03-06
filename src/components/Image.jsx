@@ -96,15 +96,17 @@ const HeroImage = () => {
        <p className="text-white">used by professionals</p>
       <div
         ref={containerRef}
-        className=" h-screen w-full  overflow-hidden bg-hero flex relative"
+        className=" h-screen w-full  overflow-hidden bg-white flex relative"
       >
        
         {/* TEXT CONTAINER - Centered on screen */}
         <div className="absolute z-[800]  flex flex-col mx-auto text-center w-full px-4">
           {/* FIRST LINE */}
-          <h1 className=" impact text-[40px] md:text-[80px] absolute top-20"  style={{ color: "#f5f1eb", }} >
+          <h1 className=" impact text-[80px] md:text-[80px] absolute top-20 text-black" >
+            <span className="relative inline-flex items-center text-shadow-lg" > THE </span>
+              
             <span className="relative inline-flex items-center text-shadow-lg" >
-              THE FUTURE
+              FUTURE
               {/* LEFT ICON - positioned next to text */}
               <img
                 ref={leftIconRef}
@@ -116,8 +118,8 @@ const HeroImage = () => {
           </h1>
 
           {/* SECOND LINE */}
-          <h1 className=" -right-20 impact  text-[40px] md:text-[80px] whitespace-nowrap mt-4 absolute 
-           mt-48 top-40"   style={{ color: "#f5f1eb", }}>
+          <h1 className=" right-8 impact  text-[80px] md:text-[80px] whitespace-nowrap mt-4 absolute text-black
+           mt-48 top-40" >
             <span className="relative inline-flex items-center ">
            
                  <img
@@ -132,9 +134,9 @@ const HeroImage = () => {
             </span>
             
           </h1>
-            <h1 className="text-white impact  mb-0 text-[44px] md:text-[80px]
+            <h1 className="text-white impact  mb-0 text-[80px] md:text-[80px]
              whitespace-nowrap mt-4 mt-40 absolute top-80">
-               <span className=" relative inline-flex items-center">
+               <span className=" relative inline-flex items-center text-black">
                 HANDS
                </span>
                 {/* RIGHT ICON - positioned next to text */}

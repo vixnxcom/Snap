@@ -7,11 +7,15 @@ import HeroText from './HeroText'
 import Customers from './Customers'
 import Flash from './Flash'
 import SnapshotCarousel from './Flash'
+import ScrollImageReveal from './TextScroll'
+import ScrollImageEffect from './TextScroll'
+import MinimalScrollImage from './TextScroll'
+import PreciseScrollImage from './TextScroll'
 
 const Home = () => (
     <section className='w-full overflow-hidden'>
 
-        <div className={`${styles.flexStart} h-[100vh] flex flex-col bg-hero`}>
+        <div className={`${styles.flexStart} h-[100vh] flex flex-col bg-white`}>
             <div className={`${styles.boxWidth}`}>
                 <HeroImage />
        
@@ -36,7 +40,13 @@ const Home = () => (
         </div>
         </div>
 
-         <div className={`${styles.flexStart} h-[100vh] flex flex-col `}>
+         <div className={`${styles.flexStart} min-h-screen`}>
+            <div className={`${styles.boxWidth}`}>
+          <ScrollImageEffect />
+            </div>
+            </div>
+
+         <div className={`${styles.flexStart} min-h-screen `}>
             <div className={`${styles.boxWidth}`}>
           <Customers />
             </div>
