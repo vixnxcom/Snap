@@ -5,35 +5,30 @@ import { bot, cam1, drew, ibeyi, jump } from "../assets";
 const slides = [
   {
     id: 1,
-    label: "01 / ORIGINS",
     heading: "Born To Be Wild",
     sub: "Where cold air meets obsession, and craft becomes ritual.",
     img: bot,
   },
   {
     id: 2,
-    label: "02 / PROCESS",
     heading: "Perspective",
     sub: "Patience woven into fabric. No shortcuts, no substitutes.",
     img: cam1,
   },
   {
     id: 3,
-    label: "03 / MATERIAL",
     heading: "Less Work.",
     sub: "The finest materials sourced from places most will never see.",
     img: ibeyi,
   },
   {
     id: 4,
-    label: "04 / FORM",
     heading: "Dive Deep",
     sub: "Silhouette as language. Shape as intention.",
     img: jump,
   },
   {
     id: 5,
-    label: "05 / LEGACY",
     heading: "Time Capsule",
     sub: "Time is the final editor. Only the essential remains.",
     img: drew,
@@ -47,7 +42,6 @@ export default function SnapshotCarousel() {
 
   const imgRef = useRef(null);
   const flashRef = useRef(null);
-  const labelRef = useRef(null);
   const headingRef = useRef(null);
   const subRef = useRef(null);
   const progressRef = useRef(null);
@@ -100,7 +94,7 @@ export default function SnapshotCarousel() {
     });
 
     // Text exit
-    tl.to([labelRef.current, headingRef.current, subRef.current], {
+    tl.to([headingRef.current, subRef.current], {
       y: -24,
       opacity: 0,
       duration: 0.3,
@@ -108,7 +102,7 @@ export default function SnapshotCarousel() {
       ease: "power2.in",
       onComplete: () => {
         // Ensure text is completely hidden before shuffle starts
-        gsap.set([labelRef.current, headingRef.current, subRef.current], { opacity: 0 });
+        gsap.set([headingRef.current, subRef.current], { opacity: 0 });
       }
     });
 
@@ -175,7 +169,7 @@ export default function SnapshotCarousel() {
 
     // Text enter with new slide's text
     tl.fromTo(
-      [labelRef.current, headingRef.current, subRef.current],
+      [headingRef.current, subRef.current],
       { y: 24, opacity: 0 },
       {
         y: 0,
@@ -185,7 +179,6 @@ export default function SnapshotCarousel() {
         ease: "power3.out",
         onStart: () => {
           // Ensure text elements have the correct content
-          if (labelRef.current) labelRef.current.innerText = slides[nextIndex].label;
           if (headingRef.current) headingRef.current.innerText = slides[nextIndex].heading;
           if (subRef.current) subRef.current.innerText = slides[nextIndex].sub;
         }
@@ -220,15 +213,20 @@ export default function SnapshotCarousel() {
 
   useEffect(() => {
     // Set initial text content
-    if (labelRef.current) labelRef.current.innerText = slides[0].label;
     if (headingRef.current) headingRef.current.innerText = slides[0].heading;
     if (subRef.current) subRef.current.innerText = slides[0].sub;
     
     // Initial entrance animations
     gsap.fromTo(
-      [labelRef.current, headingRef.current, subRef.current],
+      headingRef.current,
       { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.8, stagger: 0.1, ease: "power3.out", delay: 0.3 }
+      { y: 0, opacity: 1, duration: 0.8, ease: "power3.out", delay: 0.3 }
+    );
+    
+    gsap.fromTo(
+      subRef.current,
+      { y: 40, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.8, ease: "power3.out", delay: 0.4 }
     );
     
     gsap.fromTo(
@@ -278,13 +276,6 @@ export default function SnapshotCarousel() {
         {/* LEFT — Text panel */}
         <div className="w-full lg:w-1/2 h-full flex items-center justify-end lg:pr-12 xl:pr-24 order-2 lg:order-1">
           <div className="max-w-lg w-full px-8 lg:px-0">
-            {/* Label */}
-            <div ref={labelRef} className="mb-8">
-              <span className="text-sm tracking-widest" style={{ color: "#700303" }}>
-                {slide.label}
-              </span>
-            </div>
-
             {/* Heading */}
             <h1
               ref={headingRef}

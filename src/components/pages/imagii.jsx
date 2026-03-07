@@ -99,42 +99,52 @@ const HeroImage = () => {
         className=" h-screen w-full  overflow-hidden bg-white flex relative"
       >
        
-       {/* TEXT CONTAINER */}
-<div className="absolute inset-0 z-[800] pointer-events-none">
+        {/* TEXT CONTAINER - Centered on screen */}
+        <div className="absolute z-[800]  flex flex-col mx-auto text-center w-full px-4">
+          {/* FIRST LINE */}
+          <h1 className=" impact text-[80px] md:text-[80px] absolute top-20 text-black" >
+            <span className="relative inline-flex items-center text-shadow-lg" > THE </span>
+              
+            <span className="relative inline-flex items-center text-shadow-lg" >
+              FUTURE
+              {/* LEFT ICON - positioned next to text */}
+              <img
+                ref={leftIconRef}
+         
+                alt=""
+                className="ml-4 w-24 h-24 will-change-transform inline-block"
+              />
+            </span>
+          </h1>
 
-  {/* TOP LEFT */}
-  <div className="absolute top-20 left-4 mt-5 md:left-20">
-    <h1 className="impact text-[80px] text-black leading-none">
-      THE
-    </h1>
+          {/* SECOND LINE */}
+          <h1 className=" right-8 impact  text-[80px] md:text-[80px] whitespace-nowrap mt-4 absolute text-black
+           mt-48 top-40" >
+            <span className="relative inline-flex items-center ">
+           
+                 <img
+                  ref={rightIconRef}
+                
+                  alt=""
+                  className="mr-4 w-24 h-24 will-change-transform text-shadow-lg inline-block"
+                /> 
+                   IN YOUR 
+            
 
-    <h1 className="impact text-[80px] text-black flex items-center leading-none">
-      FUTURE
-      <img
-        ref={leftIconRef}
-        alt=""
-        className="ml-4 border border-8 w-24 h-24 will-change-transform"
-      />
-    </h1>
-  </div>
+            </span>
+            
+          </h1>
+            <h1 className="text-white impact  mb-0 text-[80px] md:text-[80px]
+             whitespace-nowrap mt-4 mt-40 absolute top-80">
+               <span className=" relative inline-flex items-center text-black">
+                HANDS
+               </span>
+                {/* RIGHT ICON - positioned next to text */}
+           
+              </h1>
+             
+        </div>
 
-  {/* BOTTOM RIGHT */}
-  <div className="absolute bottom-20 right-10 text-left">
-    <h1 className="impact text-[80px] text-black flex items-center justify-center ml-8 md:ml-20 leading-none">
-      <img
-        ref={rightIconRef}
-        alt=""
-        className=" w-24 h-24 will-change-transform border border-8 mr-4"
-      />
-      IN YOUR
-    </h1> 
-
-    <h1 className="impact text-[80px] text-black flex items-center leading-none ml-14 md:ml-32">
-      HANDS
-    </h1>
-  </div>
-
-</div>
  
 
         {/* Left panel */}

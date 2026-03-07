@@ -21,7 +21,7 @@ const Home = () => (
                 <HeroImage />
        
             </div>
-                  <div className=' '>
+                  <div className=' bg-black'>
          <Button />
      </div> 
         </div>

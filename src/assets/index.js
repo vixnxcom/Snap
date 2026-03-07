@@ -10,12 +10,15 @@ import cube from './small.jpg'
 import drew from './drew.jpg'
 import ibeyi from './ibeyi.jpg'
 import doct from './doct.jpg'
+import vogue from './vogue.png'
+import eye from './eye.jpg'
+import motion from './motion.webp'
 
 
 
 
 export {
- time, ibeyi, doct,
+ time, ibeyi, doct, vogue, eye, motion,
 lady,
 bot,
 cam1,
