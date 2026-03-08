@@ -13,6 +13,7 @@ import MinimalScrollImage from './TextScroll'
 import PreciseScrollImage from './TextScroll'
 import BrandMarquee from './Customers'
 import About from './About'
+import Secondp from './Secondp'
 
 const Home = () => (
     <section className='w-full overflow-hidden'>
@@ -58,6 +59,9 @@ const Home = () => (
             <div className={`${styles.boxWidth} mt-10`}>
           <About />
             </div>
+            </div>
+            <div className='bg-black h-[100vh]'>
+                <Secondp />
             </div>
     </section>
 )
