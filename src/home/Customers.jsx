@@ -86,6 +86,7 @@ const BrandMarquee = () => {
 
   return (
     <div className="w-full max-w-6xl mx-auto py-12 overflow-hidden bg-transparent">
+      <h1 className='impact  mb-20 text-5xl text-left  px-4 md:px-0' style={{ color:'#d3d3d3'}}>BRAND COLLABORATIONS </h1>
       {/* Top row */}
       <div className="mb-8 overflow-hidden">
         <div

@@ -11,7 +11,9 @@ import drew from './drew.jpg'
 import ibeyi from './ibeyi.jpg'
 import doct from './doct.jpg'
 import vogue from './vogue.png'
+import star from './star.png'
 import eye from './eye.jpg'
+import run from './run.jpg'
 import motion from './motion.webp'
 import honda from './honda.svg'
 
@@ -19,8 +21,8 @@ import honda from './honda.svg'
 
 
 export {
- time, ibeyi, doct, vogue, eye, motion,honda,
-lady,
+ time, ibeyi, doct, vogue, eye, motion,honda, star,
+lady, run,
 bot,
 cam1,
 eyes, cube, jump, drew,
