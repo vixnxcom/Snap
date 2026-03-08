@@ -275,7 +275,7 @@ export default function SnapshotCarousel() {
         
         {/* LEFT — Text panel */}
         <div className="w-full lg:w-1/2 h-full flex items-center justify-end lg:pr-12 xl:pr-24 order-2 lg:order-1">
-          <div className="max-w-lg w-full px-8 lg:px-0">
+          <div className="max-w-lg w-full px-4 lg:px-0">
             {/* Heading */}
             <h1
               ref={headingRef}

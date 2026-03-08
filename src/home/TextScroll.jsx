@@ -80,7 +80,7 @@ const ScrollImageEffect = () => {
       className="relative h-[100vh] bg-white overflow-hidden"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-center">
-        <p className="impact text-[80px]">Capture Every Moment in 3D</p>
+        <p className="impact text-[80px] uppercase">Capture Every Moment in 3D</p>
       </div>
       
       {/* Image container with vertical sliding effect */}

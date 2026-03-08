@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
-import { vogue } from "../assets";
+import { vogue, honda } from "../assets";
 
 /**
- * BrandMarquee - A linear moving animation of 6 brand names arranged in 2 rows x 3 columns.
+ * BrandMarquee - A linear moving animation of 10 brand names arranged in 2 rows x 5 columns.
  * Uses Tailwind CSS for styling and GSAP for seamless infinite scroll.
  */
 const BrandMarquee = () => {
@@ -11,14 +11,18 @@ const BrandMarquee = () => {
   const topRowRef = useRef(null);
   const bottomRowRef = useRef(null);
 
-  // Brand data: 6 brands with names and optional images
+  // Brand data: 10 brands with names and optional images
   const brands = [
     { name: "VOGUE", img: vogue },
-    { name: "GUCCI", img: null }, // Replace with actual imports
+    { name: "HONDA", img: honda },
     { name: "PRADA", img: null },
     { name: "CHANEL", img: null },
     { name: "DIOR", img: null },
     { name: "LOUIS VUITTON", img: null },
+    { name: "VERSACE", img: null },
+    { name: "BALENCIAGA", img: null },
+    { name: "SAINT LAURENT", img: null },
+    { name: "FENDI", img: null },
   ];
 
   useEffect(() => {
@@ -49,7 +53,7 @@ const BrandMarquee = () => {
     // Top row: move left
     gsap.to(topRow, {
       x: () => `-${getAnimationDistance(topRow)}px`,
-      duration: 20,
+      duration: 25,
       ease: "none",
       repeat: -1,
       modifiers: {
@@ -60,7 +64,7 @@ const BrandMarquee = () => {
     // Bottom row: move right
     gsap.to(bottomRow, {
       x: () => `+${getAnimationDistance(bottomRow)}px`,
-      duration: 25,
+      duration: 30,
       ease: "none",
       repeat: -1,
       modifiers: {
@@ -80,22 +84,8 @@ const BrandMarquee = () => {
     };
   }, []);
 
-  // Render function for brand items
-  const renderBrandItem = (brand, index, rowType) => (
-    <div
-      key={`${rowType}-${index}`}
-      className="w-32 h-20 flex items-center justify-center bg-white rounded-xl shadow-md border border-gray-200 text-gray-800 font-semibold text-lg transition-transform hover:scale-105 hover:shadow-lg"
-    >
-      {brand.img ? (
-        <img src={brand.img} alt={brand.name} className="max-w-full max-h-full object-contain" />
-      ) : (
-        brand.name
-      )}
-    </div>
-  );
-
   return (
-    <div className="w-full max-w-4xl mx-auto py-12 overflow-hidden bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl shadow-inner">
+    <div className="w-full max-w-6xl mx-auto py-12 overflow-hidden bg-transparent">
       {/* Top row */}
       <div className="mb-8 overflow-hidden">
         <div
@@ -103,7 +93,22 @@ const BrandMarquee = () => {
           className="flex gap-8 will-change-transform"
           style={{ width: "fit-content" }}
         >
-          {brands.map((brand, idx) => renderBrandItem(brand, idx, "top"))}
+          {brands.map((brand, idx) => (
+            <div
+              key={`top-${idx}`}
+              className="w-32 h-20 flex items-center justify-center bg-transparent text-white font-semibold text-lg transition-transform hover:scale-105 border-b-2 border-transparent hover:border-gray-400"
+            >
+              {brand.img ? (
+                <img 
+                  src={brand.img} 
+                  alt={brand.name} 
+                  className="max-w-full max-h-full object-contain brightness-0 invert" 
+                />
+              ) : (
+                brand.name
+              )}
+            </div>
+          ))}
         </div>
       </div>
 
@@ -117,10 +122,14 @@ const BrandMarquee = () => {
           {brands.map((brand, idx) => (
             <div
               key={`bottom-${idx}`}
-              className="w-32 h-20 flex items-center justify-center bg-indigo-50 rounded-xl shadow-md border border-indigo-200 text-indigo-800 font-semibold text-lg transition-transform hover:scale-105 hover:shadow-lg"
+              className="w-32 h-20 flex items-center justify-center bg-transparent text-white font-semibold text-lg transition-transform hover:scale-105 border-b-2 border-transparent hover:border-gray-400"
             >
               {brand.img ? (
-                <img src={brand.img} alt={brand.name} className="max-w-full max-h-full object-contain" />
+                <img 
+                  src={brand.img} 
+                  alt={brand.name} 
+                  className="max-w-full max-h-full object-contain brightness-0 invert" 
+                />
               ) : (
                 brand.name
               )}

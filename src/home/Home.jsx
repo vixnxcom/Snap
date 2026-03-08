@@ -19,13 +19,14 @@ const Home = () => (
         <div className={`${styles.flexStart} h-[100vh] flex flex-col bg-white`}>
             <div className={`${styles.boxWidth}`}>
                 <HeroImage />
-       
-            </div>
-                  <div className=' bg-black'>
-         <Button />
-     </div> 
+    
         </div>
-
+        </div>
+   
+      
+                  <div className=' bg-black h-[54vh]'>
+                         <Button />
+                        </div> 
 {/*     
      
         <div className='grid grid-cols-2 w-[100vw] mt-10 bg-black overflow-hidden'>
@@ -47,7 +48,7 @@ const Home = () => (
             </div>
             </div>
 
-         <div className={`${styles.flexStart} min-h-screen `}>
+         <div className={`${styles.flexStart} min-h-screen bg-black`}>
             <div className={`${styles.boxWidth}`}>
           <BrandMarquee />
             </div>

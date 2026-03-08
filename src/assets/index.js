@@ -13,12 +13,13 @@ import doct from './doct.jpg'
 import vogue from './vogue.png'
 import eye from './eye.jpg'
 import motion from './motion.webp'
+import honda from './honda.svg'
 
 
 
 
 export {
- time, ibeyi, doct, vogue, eye, motion,
+ time, ibeyi, doct, vogue, eye, motion,honda,
 lady,
 bot,
 cam1,
