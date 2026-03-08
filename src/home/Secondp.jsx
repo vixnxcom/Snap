@@ -12,10 +12,10 @@ const Secondp = () => {
 
       </p>
       <p className=' mt-5 impact text-5xl ' style={{color:'#d3d3d3'}}>
-It is a tool for <span className='text-blue-400'>expression</span>.
+It is a tool for <span className='text-blue-800 uppercase'>expression</span>.
       </p>
       <p className=' mt-10 impact text-5xl text-right px-4' style={{color:'#d3d3d3'}}>
-It is a window into <span className='text-yellow-400'>innovation</span>.
+It is a window into <span className='text-yellow-500 uppercase'>innovation</span>.
       </p>
     </div>
     </div>
