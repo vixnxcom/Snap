@@ -272,7 +272,7 @@ const CardStack = () => {
       
      
               
-       <div className="min-h-screen bg-white mt-20 py-20 px-8">
+       <div className="min-h-screen bg-white mt-20 py-5 mx-auto">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
     {images.map((image, index) => (
       <div
@@ -290,13 +290,13 @@ const CardStack = () => {
 
         {/* Title overlay */}
         <div className="absolute bottom-0 left-0 right-0 p-6 bg-black/50">
-          <h3 className="text-white text-5xl impact mb-2 drop-shadow-lg">
+          <h3 className="text-white text-5xl impact mb-2 w-[250px] drop-shadow-lg">
             {image.title}
           </h3>
        
-          <button className="mt-4 px-6 py-2 bg-white text-gray-900 rounded-full font-semibold hover:bg-opacity-90 transform hover:scale-105 transition-all">
+          {/* <button className="mt-4 px-6 py-2 bg-white text-gray-900 rounded-full font-semibold hover:bg-opacity-90 transform hover:scale-105 transition-all">
             Explore
-          </button>
+          </button> */}
         </div>
         
         {/* Card number badge */}
