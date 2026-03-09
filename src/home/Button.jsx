@@ -17,19 +17,19 @@ const Button = () => {
  <div className='text-white flex flex-col '>
   <h1 className='impact text-[40px]'>7000 
     </h1>
-    <p className='neue text-[20px]'>Pieces Sold</p>
+    <p className='neue text-[24px]'>Pieces Sold</p>
  </div>
             
  <div className=' text-white flex flex-col'>
   <h1 className='impact text-[40px]'> 50
      </h1>
-     <p className='neue text-[20px] '> Brand Collaborations</p>
+     <p className='neue text-[24px] '> Partnerships</p>
  </div>
             
  <div className=' text-white flex flex-col mt-5'>
   <h1 className='impact text-[40px]'> 10
     </h1>
-     <p className='neue text-[20px] '>Countries</p>
+     <p className='neue text-[24px] '>Countries</p>
  </div>
  
             

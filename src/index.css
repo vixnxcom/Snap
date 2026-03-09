@@ -102,7 +102,11 @@
   background-position: center;
   background-repeat: no-repeat;
 } */
-
+.bg-about{
+  background-image: url(assets/run.webp);
+  background-size: cover;
+  background-position: center;
+}
 
 .bg-hero{
 

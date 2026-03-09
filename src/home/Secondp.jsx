@@ -1,25 +1,64 @@
-import React from 'react'
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+
+const paragraphs = [
+  "It is a tool for <span class='text-blue-800'>expression</span>.",
+  "It is a window into <span class='text-gray-500'>innovation</span>."
+];
 
 const Secondp = () => {
+  const containerRef = useRef(null);
+  const paragraphRefs = useRef([]);
+
+  useEffect(() => {
+    // Set initial positions vertically
+    gsap.set(paragraphRefs.current[0], { y: "0%" });
+    gsap.set(paragraphRefs.current[1], { y: "100%" });
+
+    const tl = gsap.timeline({ 
+      repeat: -1,
+      defaults: { duration: 1, ease: "power2.inOut" } 
+    });
+
+    // First cycle: paragraph 0 goes up, paragraph 1 comes up from bottom
+    tl.to(paragraphRefs.current[0], { y: "-100%" })
+      .to(paragraphRefs.current[1], { y: "0%" }, "<")
+      .to({}, { duration: 2 })
+      
+      // Second cycle: paragraph 1 goes up, paragraph 0 comes up from bottom
+      .to(paragraphRefs.current[1], { y: "-100%" })
+      .to(paragraphRefs.current[0], { y: "0%" }, "<")
+      .to({}, { duration: 2 });
+
+  }, []);
+
   return (
-    <div className='max-w-6xl px-4 md:px-16'>
-          <div className='h-[40px] bg-black'></div>
-        <div className=''>
-          
-      <p className='impact neue text-[20px]  ' style={{color:'#d3d3d3'}}>
-        We believe eyewear is more than just something you wear on your face.
-
-
-      </p>
-      <p className=' mt-5 impact text-5xl ' style={{color:'#d3d3d3'}}>
-It is a tool for <span className='text-blue-800 uppercase'>expression</span>.
-      </p>
-      <p className=' mt-10 impact text-5xl text-right px-4' style={{color:'#d3d3d3'}}>
-It is a window into <span className='text-yellow-500 uppercase'>innovation</span>.
-      </p>
+    <div className="flex justify-center items-center" style={{ height: '250px' }}>
+      <div 
+        ref={containerRef}
+        className="h-[200px] overflow-hidden w-full max-w-[1200px] relative"
+      >
+        <div className="relative w-full h-full">
+          {paragraphs.map((text, index) => (
+            <div
+              key={index}
+              ref={(el) => (paragraphRefs.current[index] = el)}
+              className="absolute w-full flex justify-center"
+              style={{ 
+                left: 0,
+                top: 0
+              }}
+            >
+              <p
+                className="impact text-5xl md:text-[80px] uppercase text-center"
+                dangerouslySetInnerHTML={{ __html: text }}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Secondp
+export default Secondp;

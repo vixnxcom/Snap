@@ -14,6 +14,8 @@ import PreciseScrollImage from './TextScroll'
 import BrandMarquee from './Customers'
 import About from './About'
 import Secondp from './Secondp'
+import ImageEdit from './ImageEdit'
+import CardStack from './Card'
 
 const Home = () => (
     <section className='w-full overflow-hidden'>
@@ -55,13 +57,19 @@ const Home = () => (
           <BrandMarquee />
             </div>
             </div>
-         <div className={`${styles.flexStart} min-h-screen  `} style={{background:'#d3d3d3'}}>
+         <div className={`${styles.flexStart}  bg-white `}>
             <div className={`${styles.boxWidth} mt-10`}>
           <About />
             </div>
             </div>
-            <div className='bg-black h-[100vh]'>
+            <div className='bg-about'>
+                <ImageEdit/>
+            </div>
+            <div className=''>
                 <Secondp />
+            </div>
+            <div className='bg-black'>
+                <CardStack />
             </div>
     </section>
 )
