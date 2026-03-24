@@ -36,7 +36,7 @@ const Secondp = () => {
     <div className="flex justify-center items-center" style={{ height: '250px' }}>
       <div 
         ref={containerRef}
-        className="h-[200px] overflow-hidden w-full max-w-[1200px] relative"
+        className="h-[100px] overflow-hidden w-full max-w-[1200px] relative"
       >
         <div className="relative w-full h-full">
           {paragraphs.map((text, index) => (

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
-import { vogue, honda } from "../assets";
+import { vogue, honda, bal } from "../assets";
 
 /**
  * BrandMarquee - A linear moving animation of 10 brand names arranged in 2 rows x 5 columns.
@@ -15,12 +15,12 @@ const BrandMarquee = () => {
   const brands = [
     { name: "VOGUE", img: vogue },
     { name: "HONDA", img: honda },
-    { name: "PRADA", img: null },
+    { name: "BALENCIAGA", img: bal },
     { name: "CHANEL", img: null },
     { name: "DIOR", img: null },
     { name: "LOUIS VUITTON", img: null },
     { name: "VERSACE", img: null },
-    { name: "BALENCIAGA", img: null },
+    { name: "BALENCIAGA", img: bal },
     { name: "SAINT LAURENT", img: null },
     { name: "FENDI", img: null },
   ];

@@ -12,6 +12,7 @@ import ibeyi from './ibeyi.jpg'
 import doct from './doct.jpg'
 import vogue from './vogue.png'
 import star from './star.png'
+import bal from './bal.png'
 import eye from './eye.jpg'
 
 import trend from './trend.jpg'
@@ -29,7 +30,7 @@ import earth from './earth.webp'
 
 export {
  time, ibeyi, doct, vogue, eye, motion,honda, star, aug,
-lady, run, trend, art, earth, icon, street,
+lady, run, trend, art, earth, icon, street, bal,
 bot,
 cam1,
 eyes, cube, jump, drew,

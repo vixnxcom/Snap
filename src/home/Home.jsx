@@ -65,7 +65,7 @@ const Home = () => (
             <div className='bg-about'>
                 <ImageEdit/>
             </div>
-            <div className=''>
+            <div className='h-[80vw] md:h-[40vw] justify-center items-center flex'>
                 <Secondp />
             </div>
             <div className='bg-black'>

@@ -5,7 +5,7 @@ const Navvbar = () => {
    <nav className='nav-section w-full z-[999]  '>
    <div className='absolute top-4 left-2 flex flex-row text-white '>
     {/* logo */}
-  <div className='w-40'>
+  <div className='w-40 px-4 md:px-16'>
     <h1 className='text-black neue'>
         Snuk - The Edge
     </h1>
