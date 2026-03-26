@@ -336,7 +336,7 @@ const CardStack = () => {
             <div
               key={index}
               ref={(el) => (bottomCardsRef.current[index] = el)}
-              className="relative w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-200 transform hover:scale-105 transition-all duration-500 group bg-white"
+              className="relative w-full  rounded-2xl overflow-hidden shadow-2xl border border-gray-200 transform hover:scale-105 transition-all duration-500 group bg-white"
               style={{
                 transformStyle: "preserve-3d",
                 backfaceVisibility: "hidden",
