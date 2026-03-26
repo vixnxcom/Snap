@@ -9,7 +9,7 @@ const About = () => {
     <h1 className='impact text-5xl text-left'>ABOUT US </h1>
 
  </div>
-    <div className='px-4 md:px-16 mt-10'>
+    <div className='px-4 md:px-16 mb-10 mt-10'>
 
       <p className='neue text-[24px] max-w-[370px] md:max-w-6xl'>
         <span className='text-black text-5xl impact'> SNUK </span>

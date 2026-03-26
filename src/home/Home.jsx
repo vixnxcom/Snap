@@ -71,6 +71,9 @@ const Home = () => (
             <div className='bg-black'>
                 <CardStack />
             </div>
+            <div className='bg-black h-screen'>
+            
+            </div>
     </section>
 )
 

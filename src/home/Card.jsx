@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { art, aug, earth, icon, street, trend,   } from "../assets";
+import { art, aug, earth, icon, street, trend } from "../assets";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -9,10 +9,12 @@ const CardStack = () => {
   const containerRef = useRef(null);
   const cardsRef = useRef([]);
   const stackRef = useRef(null);
+  const bottomCardsRef = useRef([]);
+  const bottomSectionRef = useRef(null);
 
   const images = [
     {
-       url: trend,
+      url: trend,
       title: "Trend Fusion",
       location: "Swiss Alps",
       elevation: "4,478m"
@@ -31,14 +33,13 @@ const CardStack = () => {
     },
     {
       url: aug,
-     title: "Smart Frames",
+      title: "Smart Frames",
       location: "Himalayas",
       elevation: "6,812m"
     },
     {
       url: icon,
-      
-       title: "Augmented Vision",
+      title: "Augmented Vision",
       location: "Black Forest",
       elevation: "1,493m"
     },
@@ -109,7 +110,6 @@ const CardStack = () => {
       duration: 1.2,
       ease: "back.out(1.2)",
       onUpdate: function() {
-        // Ensure titles remain visible during animation
         cards.forEach((card, idx) => {
           const titleEl = card.querySelector('.card-title');
           if (titleEl) {
@@ -133,7 +133,6 @@ const CardStack = () => {
       duration: 1,
       ease: "elastic.out(1, 0.5)",
       onComplete: () => {
-        // Ensure all titles are visible after separation
         cards.forEach(card => {
           const titleEl = card.querySelector('.card-title');
           const locationEl = card.querySelector('.card-location');
@@ -155,7 +154,6 @@ const CardStack = () => {
       end: "bottom top",
       onEnter: () => {
         cards.forEach((card, i) => {
-          // Floating animation for cards
           gsap.to(card, {
             y: `+=${15 + i * 2}`,
             rotation: `${(i % 2 === 0) ? 2 : -2}`,
@@ -165,7 +163,6 @@ const CardStack = () => {
             ease: "sine.inOut"
           });
           
-          // Subtle pulse animation for titles
           const titleEl = card.querySelector('.card-title');
           if (titleEl) {
             gsap.to(titleEl, {
@@ -189,6 +186,67 @@ const CardStack = () => {
       }
     });
 
+    // Bottom section solitaire card flip animation
+    const bottomCards = bottomCardsRef.current;
+    
+    // Initially set cards to be hidden (flipped face down)
+    gsap.set(bottomCards, {
+      rotationY: -90,
+      opacity: 0,
+      scale: 0.8,
+      transformOrigin: "center center",
+      filter: "blur(4px)",
+      backgroundColor: "#ffffff" // Add white background to prevent transparency
+    });
+
+    // Create scroll trigger for bottom cards flip animation
+    ScrollTrigger.create({
+      trigger: bottomSectionRef.current,
+      start: "top 80%",
+      end: "bottom 20%",
+      onEnter: () => {
+        // Animate each card to flip into view like solitaire
+        bottomCards.forEach((card, index) => {
+          gsap.to(card, {
+            rotationY: 0,
+            opacity: 1,
+            scale: 1,
+            filter: "blur(0px)",
+            duration: 0.8,
+            delay: index * 0.15,
+            ease: "back.out(1.2)",
+            transformOrigin: "center center",
+            onStart: () => {
+              gsap.fromTo(card, 
+                { y: -20 },
+                { 
+                  y: 0, 
+                  duration: 0.5, 
+                  delay: index * 0.15,
+                  ease: "bounce.out" 
+                }
+              );
+            }
+          });
+        });
+      },
+      onLeaveBack: () => {
+        // Flip cards back when scrolling up
+        bottomCards.forEach((card, index) => {
+          gsap.to(card, {
+            rotationY: -90,
+            opacity: 0,
+            scale: 0.8,
+            filter: "blur(4px)",
+            duration: 0.6,
+            delay: index * 0.05,
+            ease: "power2.in"
+          });
+        });
+      },
+      once: false
+    });
+
     return () => {
       ScrollTrigger.getAll().forEach(st => st.kill());
     };
@@ -197,13 +255,10 @@ const CardStack = () => {
   return (
     <div className="relative bg-black">
       {/* Intro section */}
-      <div className=" flex  flex-col items-center justify-center text-white">
-             <div className=' text-center px-4 md:px-16' style={{
-                color: "#d3d3d3",}} >
-    <h1 className='impact text-5xl text-left mt-10'>OUR BAG </h1>
-
- </div>
-        {/* <p className="text-xl text-gray-300">Scroll to explore the stack</p> */}
+      <div className="flex flex-col items-center justify-center text-white">
+        <div className='text-center px-4 md:px-16' style={{ color: "#d3d3d3" }}>
+          <h1 className='impact text-5xl text-left mt-10'>OUR BAG</h1>
+        </div>
         <div className="absolute bottom-10 animate-bounce">
           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7-7-7m14-6l-7 7-7-7" />
@@ -228,7 +283,9 @@ const CardStack = () => {
               className="absolute top-0 left-0 w-full h-full rounded-2xl overflow-hidden shadow-2xl cursor-pointer group"
               style={{
                 transformOrigin: "center center",
-                boxShadow: "0 20px 40px rgba(0,0,0,0.4)"
+                boxShadow: "0 20px 40px rgba(0,0,0,0.4)",
+                transformStyle: "preserve-3d",
+                backgroundColor: "#ffffff" // Add white background to cards
               }}
             >
               <img 
@@ -237,26 +294,25 @@ const CardStack = () => {
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               
-              {/* Always visible title overlay - improved visibility */}
+              {/* Always visible title overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent">
-                {/* Title section - always visible */}
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  {/* <h3 className="card-title text-white text-3xl font-bold mb-1 drop-shadow-lg">
+                  <h3 className="text-white text-3xl font-bold mb-1 drop-shadow-lg">
                     {image.title}
-                  </h3> */}
+                  </h3>
                   <div className="flex items-center gap-4 text-white/90">
-                    {/* <span className="card-location flex items-center gap-1">
+                    <span className="flex items-center gap-1">
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                       </svg>
                       {image.location}
-                    </span> */}
-                    {/* <span className="card-elevation flex items-center gap-1">
+                    </span>
+                    <span className="flex items-center gap-1">
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M5.293 7.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L6.707 7.707a1 1 0 01-1.414 0z" clipRule="evenodd" />
                       </svg>
                       {image.elevation}
-                    </span> */}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -270,43 +326,48 @@ const CardStack = () => {
         </div>
       </div>
       
-     
-              
-       <div className="min-h-screen bg-white mt-20 py-5 mx-auto">
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-    {images.map((image, index) => (
-      <div
-        key={index}
-        className="relative w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-200 transform hover:scale-105 transition-all duration-500 group bg-white"
+      {/* Bottom section with solitaire flip animation */}
+      <div 
+        ref={bottomSectionRef}
+        className="min-h-screen bg-white py-20 mx-auto"
       >
-        {/* Image container with aspect ratio */}
-        <div className="w-full max-h-84 p-2 bg-gray-50 flex items-center justify-center">
-          <img 
-            src={image.url} 
-            alt={image.title}
-            className="w-full h-full object-contain"
-          />
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              ref={(el) => (bottomCardsRef.current[index] = el)}
+              className="relative w-full rounded-2xl overflow-hidden shadow-2xl border border-gray-200 transform hover:scale-105 transition-all duration-500 group bg-white"
+              style={{
+                transformStyle: "preserve-3d",
+                backfaceVisibility: "hidden",
+                backgroundColor: "#ffffff" // Ensure white background
+              }}
+            >
+              {/* Image container with aspect ratio */}
+              <div className="w-full h-84 p-2 bg-gray-50 flex items-center justify-center">
+                <img 
+                  src={image.url} 
+                  alt={image.title}
+                  className="w-full h-full object-contain"
+                />
+              </div>
 
-        {/* Title overlay */}
-        <div className="absolute bottom-0 left-0 right-0 p-6 bg-black/50">
-          <h3 className="text-white text-5xl impact mb-2 w-[250px] drop-shadow-lg">
-            {image.title}
-          </h3>
-       
-          {/* <button className="mt-4 px-6 py-2 bg-white text-gray-900 rounded-full font-semibold hover:bg-opacity-90 transform hover:scale-105 transition-all">
-            Explore
-          </button> */}
-        </div>
-        
-        {/* Card number badge */}
-        <div className="absolute top-4 right-4 w-10 h-10 bg-white/80 rounded-full flex items-center justify-center text-black font-bold border border-gray-300">
-          {index + 1}
+              {/* Title overlay */}
+              <div className="absolute h-50 bottom-0 left-0 right-0 p-6 bg-black/70">
+                <h3 className="text-white text-5xl impact mb-2 w-[200px] drop-shadow-lg">
+                  {image.title}
+                </h3>
+              </div>
+              
+              {/* Card number badge */}
+              <div className="absolute top-4 right-4 w-10 h-10 bg-white/80 rounded-full
+               flex items-center justify-center text-black font-bold border border-gray-300">
+                {index + 1}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    ))}
-  </div>
-</div>
     </div>
   );
 };
