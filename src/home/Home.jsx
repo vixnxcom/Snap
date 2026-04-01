@@ -16,6 +16,7 @@ import About from './About'
 import Secondp from './Secondp'
 import ImageEdit from './ImageEdit'
 import CardStack from './Card'
+import { Approach } from './Approach'
 
 const Home = () => (
     <section className='w-full overflow-hidden'>
@@ -68,6 +69,14 @@ const Home = () => (
             <div className='h-[80vw] md:h-[40vw] justify-center items-center flex'>
                 <Secondp />
             </div>
+
+          <div className={`${styles.flexStart}  `}  style={{
+        background: "#0d0d0d" }}>  
+            <div className={`${styles.boxWidth} mt-10`}>
+                <Approach />
+            </div>
+            </div>
+
             <div className='bg-black'>
                 <CardStack />
             </div>

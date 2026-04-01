@@ -9,7 +9,7 @@ const Button = () => {
  <div className=' text-center md:px-16 flex flex-row gap-5' style={{
                 color: "#d3d3d3",}} >
           
-    <h1 className='impact text-5xl text-left px-4 md:px-0'>IN NUMBERS WE TRUST </h1>
+    <h1 className='impact text-5xl text-left px-4 md:px-0'>iN NUMBERS WE TRUST </h1>
    
  </div>
 

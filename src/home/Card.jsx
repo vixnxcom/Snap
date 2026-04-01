@@ -257,7 +257,7 @@ const CardStack = () => {
       {/* Intro section */}
       <div className="flex flex-col items-center justify-center text-white">
         <div className='text-center px-4 md:px-16' style={{ color: "#d3d3d3" }}>
-          <h1 className='impact text-5xl text-left mt-10'>OUR BAG</h1>
+          <h1 className='impact text-5xl text-left mt-10'>dESIGN MooD BoARD</h1>
         </div>
         <div className="absolute bottom-10 animate-bounce">
           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
