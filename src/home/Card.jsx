@@ -280,7 +280,7 @@ const CardStack = () => {
             <div
               key={index}
               ref={(el) => (cardsRef.current[index] = el)}
-              className="absolute top-0 left-0 w-full h-full rounded-2xl overflow-hidden shadow-2xl cursor-pointer group"
+              className="absolute top-0 left-0 w-full h-full  overflow-hidden shadow-2xl cursor-pointer group"
               style={{
                 transformOrigin: "center center",
                 boxShadow: "0 20px 40px rgba(0,0,0,0.4)",
@@ -318,7 +318,7 @@ const CardStack = () => {
               </div>
               
               {/* Card number badge */}
-              <div className="absolute top-4 right-4 w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center text-white font-bold border border-white/30">
+              <div className="absolute top-4 right-4 w-10 h-10 bg-black impact backdrop-blur-md rounded-full flex items-center justify-center text-white font-bold border border-white/30">
                 {index + 1}
               </div>
             </div>
@@ -336,7 +336,7 @@ const CardStack = () => {
             <div
               key={index}
               ref={(el) => (bottomCardsRef.current[index] = el)}
-              className="relative w-full  rounded-2xl overflow-hidden shadow-2xl border border-gray-200 transform hover:scale-105 transition-all duration-500 group bg-white"
+              className="relative w-full   overflow-hidden shadow-2xl border border-gray-200 transform hover:scale-105 transition-all duration-500 group bg-white"
               style={{
                 transformStyle: "preserve-3d",
                 backfaceVisibility: "hidden",

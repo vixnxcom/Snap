@@ -24,12 +24,13 @@ import aug from './aug.jpg'
 import icon from './icon.jpg'
 import street from './street.jpg'
 import earth from './earth.webp'
+import cat from './cat.mp4'
 
 
 
 
 export {
- time, ibeyi, doct, vogue, eye, motion,honda, star, aug,
+ time, ibeyi, doct, vogue, eye, motion,honda, star, aug, cat,
 lady, run, trend, art, earth, icon, street, bal,
 bot,
 cam1,

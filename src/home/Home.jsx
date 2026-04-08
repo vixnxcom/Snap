@@ -17,6 +17,7 @@ import Secondp from './Secondp'
 import ImageEdit from './ImageEdit'
 import CardStack from './Card'
 import { Approach } from './Approach'
+import Video from './Video'
 
 const Home = () => (
     <section className='w-full overflow-hidden'>
@@ -32,6 +33,11 @@ const Home = () => (
                   <div className=' bg-black h-[65vh]'>
                          <Button />
                         </div> 
+                         <div className={`${styles.flexStart}  bg-black`}>
+            <div className={`${styles.boxWidth}`}>
+          <BrandMarquee />
+            </div>
+            </div> 
 {/*     
      
         <div className='grid grid-cols-2 w-[100vw] mt-10 bg-black overflow-hidden'>
@@ -52,17 +58,17 @@ const Home = () => (
           <ScrollImageEffect />
             </div>
             </div>
-
-         <div className={`${styles.flexStart}  bg-black`}>
-            <div className={`${styles.boxWidth}`}>
-          <BrandMarquee />
-            </div>
-            </div>
-         <div className={`${styles.flexStart}  bg-white `}>
-            <div className={`${styles.boxWidth} mt-10`}>
+ <div className={`${styles.flexStart}  bg-white `}>
+            <div className={`${styles.boxWidth} `}>
           <About />
             </div>
             </div>
+            <div className='bg-about'>
+                 <Video />
+            </div>
+         
+        
+            
             <div className='bg-about'>
                 <ImageEdit/>
             </div>
@@ -70,14 +76,14 @@ const Home = () => (
                 <Secondp />
             </div>
 
-          <div className={`${styles.flexStart}  `}  style={{
+          <div className={`${styles.flexCenter}  `}  style={{
         background: "#0d0d0d" }}>  
-            <div className={`${styles.boxWidth} mt-10`}>
+            <div className={`${styles.boxWidth} mt-20`}>
                 <Approach />
             </div>
             </div>
-
-            <div className='bg-black'>
+<div className='bg-black h-[80px]'></div>
+            <div className='bg-black '>
                 <CardStack />
             </div>
             <div className='bg-black h-screen'>

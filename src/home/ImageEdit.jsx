@@ -28,20 +28,20 @@ const ImageEdit = () => {
   }, [])
 
   return (
-    <div className='h-[90vh]'> 
+    <div className='h-[20vh]'> 
       <div className='justify-center items-center flex text-center'>
         <img 
           ref={imageRef}
           src={run} 
           alt="" 
-          className='w-80 mx-auto mt-20'
+          className='w-80 mx-auto mt-8'
         />
       </div>
-      <div className=''>
-        <p className='impact neue text-[24px] mt-5 text-white text-center '>
+      {/* <div className=''>
+        <p className='impact neue text-[24px] mt-5 text-black text-center '>
           We believe eyewear is more than just something you wear on your face.
         </p>
-      </div> 
+      </div>  */}
     </div>
   )
 }

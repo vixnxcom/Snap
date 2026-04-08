@@ -103,7 +103,7 @@
   background-repeat: no-repeat;
 } */
 .bg-about{
-  background-image: url(assets/run.webp);
+  background-image: url(assets/cat.mp4);
   background-size: cover;
   background-position: center;
 }
@@ -120,3 +120,22 @@ background: linear-gradient(180deg, #1B1313 52.87%, #210505 73.84%, #700303 100%
   background: #181313 }
 .cherry{
   background-color: #700303 }
+
+  .bg-human{
+  background-image: url(assets/human.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .bg-utility{
+  background-image: url(assets/utility.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .bg-engr{
+  background-image: url(assets/engr.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
